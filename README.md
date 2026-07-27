@@ -18,14 +18,12 @@ The six final methods are:
 5. **MemoryBank**
 6. **LightMem**
 
-Hybrid RAG, LongMemEval, SubtleMemory, and the excluded 550 MAB questions are not part of the final paper protocol.
-
 ### Answer backbones
 
 - **Primary model:** Cerebras `gpt-oss-120b`, used for all six methods on LoCoMo-700 and MAB-150.
 - **Cross-backbone models:** Cerebras `zai-glm-4.7` and `gemma-4-31b`, each evaluated with all six methods on the complete LoCoMo-700 manifest.
 
-The earlier Qwen/Llama subset experiment is superseded and is not reported. No answer backbone is fine-tuned. Generation is deterministic (`temperature=0`), and GLM reasoning is disabled for the cross-backbone protocol.
+No answer backbone is fine-tuned. Generation is deterministic (`temperature=0`), and GLM reasoning is disabled for the cross-backbone protocol.
 
 All retrieval-based methods use the same bounded-evidence adapter: at most 20 candidate memories, 768-token passages with 96-token overlap, at most eight selected passages, an 8,000-token evidence cap, and at most three passages per source memory. Long Context is the structural exception because chronological history is its defining input; it truncates deterministically at 20,000 UTF-8 bytes.
 
