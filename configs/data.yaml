@@ -1,0 +1,21 @@
+{
+  "locomo": {
+    "path": "data/locomo/locomo10.json",
+    "search_paths": [
+      "data/locomo/locomo10.json",
+      "data/locomo/*.json",
+      "datasets/locomo/*.json"
+    ],
+    "skip_multimodal_generation": true
+  },
+  "longmemeval": {
+    "path": "data/longmemeval/longmemeval_s_cleaned.json",
+    "target_size": 100,
+    "manifest": "data/manifests/longmemeval_primary100.json"
+  },
+  "memoryagentbench": {
+    "path": "data/memory_agent_bench/Test_Time_Learning-00000-of-00001.parquet",
+    "task_family": "test_time_learning",
+    "manifest": "data/manifests/memoryagentbench_ttl.json"
+  }
+}

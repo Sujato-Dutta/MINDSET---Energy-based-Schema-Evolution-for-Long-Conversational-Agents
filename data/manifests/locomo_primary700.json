@@ -1,0 +1,4937 @@
+{
+  "category_distribution": {
+    "1": 151,
+    "2": 151,
+    "3": 96,
+    "4": 151,
+    "5": 151
+  },
+  "conversation_distribution": {
+    "conv-26": 70,
+    "conv-30": 70,
+    "conv-41": 70,
+    "conv-42": 70,
+    "conv-43": 70,
+    "conv-44": 70,
+    "conv-47": 70,
+    "conv-48": 70,
+    "conv-49": 70,
+    "conv-50": 70
+  },
+  "count": 700,
+  "dataset": "locomo",
+  "manifest_version": "locomo-primary700-v1",
+  "prerequisite_manifest_sha256": {
+    "locomo_cross_model120.json": "9f638cc0ad63368434e42eec58932311f0b83c5c11dd7af6b30742e328e1a638",
+    "locomo_kill120.json": "47914a0f0e734f0cd975eba7274b392cebcb253fccf127b12178e9ed181bc390",
+    "locomo_repeatability100.json": "6b2b82723a0d91b13c577288674360063b4163604a77e960ddd46f0f0c8e8a30"
+  },
+  "records": [
+    {
+      "category": 3,
+      "id": "conv-26:q0002",
+      "question_index": 2,
+      "question_sha256": "a23bf35eea31573780dcde5f871d18508783b6a99c91956662be3d681bf003af",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0003",
+      "question_index": 3,
+      "question_sha256": "3d81469db48234b833ca03ce04cda98f08030c66b582d3d59aa803d6a153f8e0",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0004",
+      "question_index": 4,
+      "question_sha256": "557073e870d0eab54bd19b0b8eae378ddeee639da133935d995abb398a709edd",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0006",
+      "question_index": 6,
+      "question_sha256": "fe8c6f5262f6e7aa6f3a900e78f2866c68ea1e0afa9c6b7e32d20edc667a4847",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0007",
+      "question_index": 7,
+      "question_sha256": "5fbde5177c4780f6f6593b4bf6ecec9e4532562bb6e682b9cf6c2d4ed3801c83",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0008",
+      "question_index": 8,
+      "question_sha256": "d5fd1bd333d67d29a425943045d6d1b7a56fe9590c5d7558c364dc6c2ec863ba",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0009",
+      "question_index": 9,
+      "question_sha256": "d90ae240d0711e982ce7d574e4c8482dc6993f1cc8aec2b357918173509380fc",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0011",
+      "question_index": 11,
+      "question_sha256": "3fdc12c30baf5719dfa614846c2ebc30f970fed0b1b3c04c4fe0bc2f5f50199a",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0013",
+      "question_index": 13,
+      "question_sha256": "3afcaf578eccc1dc08213531d8fe58ebc6e6cf24de71bf73837e5dbcb6d7e961",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 3,
+      "id": "conv-26:q0014",
+      "question_index": 14,
+      "question_sha256": "8537ab6fd33e3f981c7fc96d3a7e9d131cfc1d12c54f9458649873c245108b5e",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0015",
+      "question_index": 15,
+      "question_sha256": "638838d7d352ab65f7844000b6085b1c2710d2935a28a0be5042272b91768b9e",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0018",
+      "question_index": 18,
+      "question_sha256": "765f6e4993922f9181af74f07805e24af18ed5d7a06f24892750a9804a45bd96",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0019",
+      "question_index": 19,
+      "question_sha256": "bc3b102df54554cc5f1329b73055a2ec2f411b0126b8f40a052fe44cd357d1cc",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 3,
+      "id": "conv-26:q0022",
+      "question_index": 22,
+      "question_sha256": "904d29cd1c012d13458b865cb5df22ffc2b1234470c7440f9cbd198b6cfa6fca",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0023",
+      "question_index": 23,
+      "question_sha256": "6b641b2d7bff65940667035737d4c6ffe80a9571e6f21625962dee3d1f3ff2ed",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0024",
+      "question_index": 24,
+      "question_sha256": "044fd5260e5d88db4bae5633b6b04cdb9cde281f0c51f03b9198646b2ebf2cfa",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 3,
+      "id": "conv-26:q0027",
+      "question_index": 27,
+      "question_sha256": "32605aea92dcf18bd33c9a54d7bbecd8dd56b335fd0bd9fae65110f357616af0",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0028",
+      "question_index": 28,
+      "question_sha256": "c14b2cbfad638c9ae74592d9198d20338ddf9df67d9bd28cf437e638691d60b2",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 3,
+      "id": "conv-26:q0030",
+      "question_index": 30,
+      "question_sha256": "6c5efcd9efa6777c3a3990d270313185298c19fd1b5e02de710a841f5294449b",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0031",
+      "question_index": 31,
+      "question_sha256": "a0a269264e486dd17b904289dded7f90b1f77fa68878a27ffcf957f5dc6a8563",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0032",
+      "question_index": 32,
+      "question_sha256": "c26b7a216dfc7eacc85248cb275a25ec02964b1e0a40a550c014e7dbdc43b7a8",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0033",
+      "question_index": 33,
+      "question_sha256": "46df9a32c68bda07d28e4b3d23f462cfc0a0839af1de47f130d74aac7afea8b3",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0034",
+      "question_index": 34,
+      "question_sha256": "d8b7ee09a7506ac08a0a8cca068837ec88103e14ab79876ec16ff7583b5989c3",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0036",
+      "question_index": 36,
+      "question_sha256": "4a4dff6db569c8808faebfe333960f95528754e99b8a782b88cbd4e18c5abb28",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0038",
+      "question_index": 38,
+      "question_sha256": "2a3564492522411a962db7af457c3ac0140789f546db184579a27f98aedaaf46",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0040",
+      "question_index": 40,
+      "question_sha256": "9997c8eb396b91fee17c62787be16a3385a717722394d7aa6b8ec1a976319c8a",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 3,
+      "id": "conv-26:q0042",
+      "question_index": 42,
+      "question_sha256": "43ab1d1387937c9833a68417daeae616a8ac101c2473f6079464b448e0e5d42c",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0043",
+      "question_index": 43,
+      "question_sha256": "f0eb252c4dd6207a9d88614acdc5a60e433b8782c320e58ffe8813f4260dc7cc",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0045",
+      "question_index": 45,
+      "question_sha256": "0cf74b246075580c58dfe265ff06e299f367b0dfb06a8c627c13f86d6d4ca747",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 3,
+      "id": "conv-26:q0046",
+      "question_index": 46,
+      "question_sha256": "83884e02763814448090abbe8222f547e96eabd6bb02b5c57f931e6d2f567500",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0047",
+      "question_index": 47,
+      "question_sha256": "233b4848b05cd26a7466b186758a4ae94502cca64b2079fbce63519e4d1af461",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0048",
+      "question_index": 48,
+      "question_sha256": "938c4fa2967d93b9d25be60528b0a23aa2100218a77585a0d5c438b03c78514b",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 3,
+      "id": "conv-26:q0050",
+      "question_index": 50,
+      "question_sha256": "840997a674c073d816c1af15e084e46351a96173cc5cb773b8a366a00caa2de7",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0051",
+      "question_index": 51,
+      "question_sha256": "685c15344758bdd5f674597ebbe97583f5189ea45a4699b29d6c81a46b70daec",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0052",
+      "question_index": 52,
+      "question_sha256": "51987f741d3e6db653474cad498821cf83d257df2c2b6da3a723f4e43ccc55c4",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0054",
+      "question_index": 54,
+      "question_sha256": "5bca5d9a8b0f0eb9de4bd727f23ed35356c43ef42a1c22efd7fa170b5ea2e06c",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0056",
+      "question_index": 56,
+      "question_sha256": "b4ecda73e6e886e4a4bd4bdcc6682dce88d75af4aa2b5d21461584627f604d48",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 3,
+      "id": "conv-26:q0059",
+      "question_index": 59,
+      "question_sha256": "3ad06b077dbc9c86af7e399a1183e8f682ee01645168ef569683573cb88c2573",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0060",
+      "question_index": 60,
+      "question_sha256": "52f2f42dc8b34e7b5abeb4125304197e15bfa4cba8290da92540d7df67080de8",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0061",
+      "question_index": 61,
+      "question_sha256": "675992a75fab3473caa5dbd7c3aa644d9e8950428eb8c9df78e35bf16a21d51e",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0062",
+      "question_index": 62,
+      "question_sha256": "e3e984063443ec75f845d47586bbe19a1d50dac5b3efbe06eb2503cfaccb06ca",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 3,
+      "id": "conv-26:q0064",
+      "question_index": 64,
+      "question_sha256": "084b07697efeeb0d1253a3b9809a823187b5fe7c9278c76061061f0e10794242",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0065",
+      "question_index": 65,
+      "question_sha256": "c2bfa70cf53b4be7198cf044969a8a19bf33668ec7015cd35b85f583c30abff2",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0066",
+      "question_index": 66,
+      "question_sha256": "8f7a1de51c994745c8514f59a5cd3b86a9e9651da7e3956b398cecda839c6faf",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0067",
+      "question_index": 67,
+      "question_sha256": "bc51ebc3a22ac45166a79d18bcf7c494097f792b2d5849bb8fc436c98d5fe074",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0068",
+      "question_index": 68,
+      "question_sha256": "eecb342854595209128381c4f9fc011251be546dd38fe0ceec1cc238783458b6",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 3,
+      "id": "conv-26:q0069",
+      "question_index": 69,
+      "question_sha256": "e15696858b9179d2193f0526f143603a0c08053ff3c30f37db1255d06046b3e4",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0070",
+      "question_index": 70,
+      "question_sha256": "19baa3db7eddf1e59b1286196c00957ea060c6ca78c83290e11e39f09a3daae2",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0071",
+      "question_index": 71,
+      "question_sha256": "ab72046c19a275009fb99bc9acb1b7012bb0f47d6e0387621f065cb80a39c83e",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-26:q0072",
+      "question_index": 72,
+      "question_sha256": "0997c75acacd8d326c3f25a9496306801d9d66d996a3ad8a33cc9fba4d7b3ca4",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0075",
+      "question_index": 75,
+      "question_sha256": "be4506eebb73eb703dac7731dda4b568c313b0907170acc3cf38716243fa3c78",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0076",
+      "question_index": 76,
+      "question_sha256": "35126c78fd0adf11412f6ae97aa310b08c473a46a07ad62f9ee496b1f179d1cb",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 3,
+      "id": "conv-26:q0077",
+      "question_index": 77,
+      "question_sha256": "c197640b25acabc9a636b4cd8161243a894a133fe067a348f75ca47b04e37582",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 1,
+      "id": "conv-26:q0078",
+      "question_index": 78,
+      "question_sha256": "3f5fc50e394db8b4c0c2cd80750cce88aa083946695d4be2c66fa6ae94695baf",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 3,
+      "id": "conv-26:q0081",
+      "question_index": 81,
+      "question_sha256": "7de284759823725780582b4d0ec889d00eca1ee81a5977b7c6aa337a595a0fe4",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 4,
+      "id": "conv-26:q0085",
+      "question_index": 85,
+      "question_sha256": "15dfec6c21821508e0619144fd291230d6156e4a662b9064a64b3254932aa7da",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 4,
+      "id": "conv-26:q0091",
+      "question_index": 91,
+      "question_sha256": "b993aab6b14575c2259d4950c064ec3630e9331dca16f3a82d6a448389295603",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 4,
+      "id": "conv-26:q0111",
+      "question_index": 111,
+      "question_sha256": "6e259d52295c4b9d1769dbfa45728984d26226f4bee7189010d195b992b0baef",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 4,
+      "id": "conv-26:q0115",
+      "question_index": 115,
+      "question_sha256": "daf3367005ed8e1b596bd3d62148fd102309fe8e15954ad038d2d2e9372cb9ee",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 4,
+      "id": "conv-26:q0116",
+      "question_index": 116,
+      "question_sha256": "1b548849675076f6fcf11e042f3eb7e802ebcdfca4fde40a01a89c3b6147a943",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 4,
+      "id": "conv-26:q0119",
+      "question_index": 119,
+      "question_sha256": "7dfa93bcdc956164bdea299df52e0f3a2dc59609ae369fb60dfb80bedce70297",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 4,
+      "id": "conv-26:q0143",
+      "question_index": 143,
+      "question_sha256": "d4774af24423f4e931187e41cd89e754f1fee4f077e39a488a18a46bafa5bb96",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 4,
+      "id": "conv-26:q0149",
+      "question_index": 149,
+      "question_sha256": "82dbe388af5d6490b51f2bf447db7193be88257e7e166ce2f0cab8fc2f5fada6",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 5,
+      "id": "conv-26:q0152",
+      "question_index": 152,
+      "question_sha256": "27b4847984de1d6c9dde59d26f076fd6f729ed02020feb2ba8bea5a54afae319",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 5,
+      "id": "conv-26:q0154",
+      "question_index": 154,
+      "question_sha256": "7198ca3c58f86fbe310ec8dd9a1474fb74be4be29ef2034963b9c0a743c0bdc3",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 5,
+      "id": "conv-26:q0159",
+      "question_index": 159,
+      "question_sha256": "cce5b8200c9fd93f458ccfe08b1009d119a6f9ed8e9d05dbc3741aad38a5e5c0",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 5,
+      "id": "conv-26:q0160",
+      "question_index": 160,
+      "question_sha256": "8ca74f2daede06ded15902e2a1ce67e993431f106a283b29fe69b73b6cfdd94c",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 5,
+      "id": "conv-26:q0166",
+      "question_index": 166,
+      "question_sha256": "a33966033225e59795ee79336e1bdf8eeaca8148a44b1a925b340b5bc8753d8b",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 5,
+      "id": "conv-26:q0190",
+      "question_index": 190,
+      "question_sha256": "9219e4896b28406c4bf714b599a256fde9f535d172f728ad6ad13e5695a2d247",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 5,
+      "id": "conv-26:q0191",
+      "question_index": 191,
+      "question_sha256": "1bb086a1f0a59209c44b1d6a9af9283fd622f090ca8727ee752ead2e51eef1aa",
+      "sample_id": "conv-26"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0000",
+      "question_index": 0,
+      "question_sha256": "2f4b554f59f69ed4a5c0bb5f8c1518b1aa2742808d39e75570f4427bfdb4253b",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0001",
+      "question_index": 1,
+      "question_sha256": "bc83b622fcd3232f6f621662b74ed4468e477a907c56cb3343c3f232cb0f7fdf",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0002",
+      "question_index": 2,
+      "question_sha256": "0240df981473fa7558701a45cb0fd51a5be7a5c4cd516bd8106d96e88bc5daea",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 1,
+      "id": "conv-30:q0003",
+      "question_index": 3,
+      "question_sha256": "c10a1bb24a95cb6cc477adf7d1274b23f5e3461e68599012a4bddd585e089c09",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0004",
+      "question_index": 4,
+      "question_sha256": "ca6e41de27d3a80381da176496cb2b1e3551ffde0a3864e91bdaf5285e859ce4",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 1,
+      "id": "conv-30:q0005",
+      "question_index": 5,
+      "question_sha256": "61fcaa8fec56eab803238ca61f8d09803745ff9c4ef9d55fec8065004345541d",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0006",
+      "question_index": 6,
+      "question_sha256": "7c7b890be8699a81fdb3c63086727f512f3feb78e72fd8652ef4718abcebf05c",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0007",
+      "question_index": 7,
+      "question_sha256": "841dec2f73a84d95d27cbc66c1e54977fdd9fe93ad3a1f62b80d5ab174d30d74",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0008",
+      "question_index": 8,
+      "question_sha256": "4d1b02d233b2abc85e330901ee7b542e516d14e2125cdf40f116ed0cb8cb687d",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 1,
+      "id": "conv-30:q0009",
+      "question_index": 9,
+      "question_sha256": "a7a775869dbbe77bc43dacf0cf379797fedcfaf3341caa08af29b892b3044647",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0010",
+      "question_index": 10,
+      "question_sha256": "1d59c8b367113fa6131f572207025a30e868611c827faa2937bd71a41ca8a366",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0011",
+      "question_index": 11,
+      "question_sha256": "d044fa394c59e8a806ab97254a7b3912067592f2b65343f6a6605b4d066f3234",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0012",
+      "question_index": 12,
+      "question_sha256": "8ad262a32cf602a60165184a137d5fb15bad34d8f46af7f9ec9bff28e79130c7",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0013",
+      "question_index": 13,
+      "question_sha256": "f8bd05c36ee5e702d78a147a076d62951ff6446571462c028d211f68aeac9365",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0014",
+      "question_index": 14,
+      "question_sha256": "1553b70a470a00e6790c24ef33662660409e820d2ba8e0bf96ca1d33a8cf8aa9",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0015",
+      "question_index": 15,
+      "question_sha256": "0fc5d8409a174fd9b291501b19c4a8f552f49a89364e8ae20ac460b1dcbe7b29",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0016",
+      "question_index": 16,
+      "question_sha256": "4ad56978cc0fefbbce640ed68c3563e2b2305ddaa36f7085384cc274e66087b7",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 1,
+      "id": "conv-30:q0017",
+      "question_index": 17,
+      "question_sha256": "f7870f4eb9ccc42db74965a9769078b02d55a039a1ef67252eb740438c798fa9",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 1,
+      "id": "conv-30:q0018",
+      "question_index": 18,
+      "question_sha256": "961d158acb8920205b316f11fa20321cf5e2324ef7b9dec217f4e3c1b8a9e201",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0019",
+      "question_index": 19,
+      "question_sha256": "6176d9aee0eaeff7bf4527d05d68673df4fe1c45d95d4c9c8be9418740778e5f",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0020",
+      "question_index": 20,
+      "question_sha256": "137df540b77a451110df6e0b4f5e22a023175c71a6484278bcbfcdc92298d6c4",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0021",
+      "question_index": 21,
+      "question_sha256": "b9e16172e1d85a5d3cbe2a9e0be164ef96c96084ad08f7e76886a78a6d6f1de2",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0022",
+      "question_index": 22,
+      "question_sha256": "9d97250abcd8e14a1ca4ed02422ab2c2d16520aa7a28e664f9a9bb49e49982b2",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 1,
+      "id": "conv-30:q0023",
+      "question_index": 23,
+      "question_sha256": "6b5a6c14f4ae17457c44a098b5652af0f8a319036bf9466d1f06c8acfda8cd02",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 1,
+      "id": "conv-30:q0024",
+      "question_index": 24,
+      "question_sha256": "199ff8db3d6a0e9a15374e59d70533e8e257d722b85bf41de8a7467fa801fba6",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 1,
+      "id": "conv-30:q0025",
+      "question_index": 25,
+      "question_sha256": "b7abedf0004ea6ef45b51c75216c29b6b0bcd781fc4147db3581ca5e3c9b6c96",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0026",
+      "question_index": 26,
+      "question_sha256": "06568f389534674bdc87e070d1a67d50a50f322b852d64e7424ee0050326d81b",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 1,
+      "id": "conv-30:q0027",
+      "question_index": 27,
+      "question_sha256": "6c5aad3c2a0a6998284574aea2683daef362d4275e21e8ab8356ec8e8a3e676a",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0028",
+      "question_index": 28,
+      "question_sha256": "123110426af5741458b7c1a195b27f44100a6e7262ab3c5b9587f5bf2999dbac",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 1,
+      "id": "conv-30:q0029",
+      "question_index": 29,
+      "question_sha256": "23fdf5607e89deffa03e669e7ce10d2915dcb8a18c15dae4abeba57f792c253a",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0030",
+      "question_index": 30,
+      "question_sha256": "666043c2a5db653bfa2583df127d0eabbcfad4147a28d72cd8df54adb01f369d",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 1,
+      "id": "conv-30:q0031",
+      "question_index": 31,
+      "question_sha256": "4564b9561607095ea56eb267b56fcff4381b3c4d09c6b16ff1469518e222b893",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0032",
+      "question_index": 32,
+      "question_sha256": "358a4f859710c8769599fd3a5d5178827f76cf6d07d466cbb4935b8017b4b295",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0033",
+      "question_index": 33,
+      "question_sha256": "fe52baf7ab100e5e7e6aff84417a45262f0bbeb5b90719c510c9cffca159e6b5",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0034",
+      "question_index": 34,
+      "question_sha256": "929f379efa2d95e8982ad7246d22924ea19b42d195a338dfb0eecd40f5f41deb",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0035",
+      "question_index": 35,
+      "question_sha256": "fc8d1e0d6fdbfb72a63e30f7ea13ba402095dd4ce9fcdfd4cac70c69a4555cc2",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0036",
+      "question_index": 36,
+      "question_sha256": "82c73dfd801dde55bb879f148cc4f30539bcfd94c92690840de7c9fba4df0dbb",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0037",
+      "question_index": 37,
+      "question_sha256": "3581f0d2519d309ca12d4564094ef0045fc198b074e2f502c77f07cc1ef36057",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-30:q0038",
+      "question_index": 38,
+      "question_sha256": "a70d37dd31980cfd9a4ff2a5615c1d2b6c940c275e74b23fc4cf19d91907e1df",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0039",
+      "question_index": 39,
+      "question_sha256": "16fe2abbf7dfd8fe8f2ea0e0b54e0e49156d0e9af71037b7fbadf791064ad0ad",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0041",
+      "question_index": 41,
+      "question_sha256": "e3c1b9d670003f4d0dc36d0339d32208acc3f3f74479396aa0b98e8a826cd9a4",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0043",
+      "question_index": 43,
+      "question_sha256": "5f1a502854539c5fb79e9c781ed56138fcbc5f22409a1ea76026cb05e55b5245",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0044",
+      "question_index": 44,
+      "question_sha256": "21dc840360067cf44f44f8f4d43dc02b7daa86db4af35c047847f40b46bacd19",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0045",
+      "question_index": 45,
+      "question_sha256": "bb4c017a4d5b8c5958bee09b3ff8fdac01cd419b89b1ae1351e0c584f5144571",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0046",
+      "question_index": 46,
+      "question_sha256": "a9a85df45165ffad2aee549bc754d38008ec16509a35d3f5ee259d492c7ed0db",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0048",
+      "question_index": 48,
+      "question_sha256": "835df9c46f78988f418dc32d739163c2c85bcfa220cbe09e595ac9bae8296dee",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0050",
+      "question_index": 50,
+      "question_sha256": "338e1eaa86c3becf7826adfb1a86c03649b36b9bc723ce16639ca2d2dace0b1e",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0051",
+      "question_index": 51,
+      "question_sha256": "b937790132b56f871069dc855417f1f2e4a8b7805cd2b3ac61360628dda6d69f",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0054",
+      "question_index": 54,
+      "question_sha256": "d9fa28fbb62aad504f88a8efa78796b443fc002178f64d895287c6af8524fcac",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0055",
+      "question_index": 55,
+      "question_sha256": "a2f276d7999361ca20175c94b0d4a06547c24cc8601ae7a74dac0e8f2ca43a0f",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0057",
+      "question_index": 57,
+      "question_sha256": "6fb0b858a86568140d947a3eb1685c724d1ba096cfa14716358c24be0efb58e3",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0058",
+      "question_index": 58,
+      "question_sha256": "1584576b9120ddb4af362fa1891a2d8fa7a913b2469d6174913424ee935bcde2",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0059",
+      "question_index": 59,
+      "question_sha256": "00244857bf1862557a35376785e7147516473a322eba90ab7da1174aac9a5fb9",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0060",
+      "question_index": 60,
+      "question_sha256": "e6ee714ef4afe431397522da9f1ef7f48a9b966bc841c559619e9b0bf92de91e",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0063",
+      "question_index": 63,
+      "question_sha256": "3c44921b73972d49c6afcfdfd227fc096443262ca756774585767dd41093825a",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0064",
+      "question_index": 64,
+      "question_sha256": "28c13ebc844ddb5c7196ac9fd74309567b9b0cfde1026791075e51067928b92b",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0066",
+      "question_index": 66,
+      "question_sha256": "0863ce5c56c986361d1661ef2c3744d277bec9bbb6c85db20159517e747a83e5",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0070",
+      "question_index": 70,
+      "question_sha256": "82ca2a8181e88505b997ca81e43dcba3de060710a708120445967c4b505868cd",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0071",
+      "question_index": 71,
+      "question_sha256": "53213f8a43836de931ddc947c60c981b7661ae8a483e9d2a6840eada929b9213",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0075",
+      "question_index": 75,
+      "question_sha256": "f27bd896311e521c23b3f0ccf17634a82889426852646bef56dee5ccc13654f2",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0076",
+      "question_index": 76,
+      "question_sha256": "280fd11b4358f37ec190ac4f895dfe1fc5cef1d765b442b8d10ba5b1b3ef7406",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0077",
+      "question_index": 77,
+      "question_sha256": "322ecf920adeaee117428da9d52f3ed4ec2106db186ecbdfdb26d82a698f381f",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0078",
+      "question_index": 78,
+      "question_sha256": "63c6b144ad9caef3b3a64aa6b6fd1f48fc8625fdc34aae1d8ede996fe57256c1",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0080",
+      "question_index": 80,
+      "question_sha256": "36767346c6ec2805eb80ceb2ef2e2f664cecab89fc233523365ac12daa525be4",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 4,
+      "id": "conv-30:q0081",
+      "question_index": 81,
+      "question_sha256": "de3bdb847945a288b9454bbe37fe849f50584924e15a237d448432d25e2cbef2",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 5,
+      "id": "conv-30:q0087",
+      "question_index": 87,
+      "question_sha256": "5a561b8ceb704d16ea37c15caafad4da5b4a617fde8cc90f9da86f7245680c64",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 5,
+      "id": "conv-30:q0088",
+      "question_index": 88,
+      "question_sha256": "d92c77df1cf0205b95f88f47da5b00e33070c63985f5d35e61ccf5651d50df5c",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 5,
+      "id": "conv-30:q0090",
+      "question_index": 90,
+      "question_sha256": "d378056a0bf56b666244fb4cc97a458e3e2d6325b6229d11718bef1569dd5f94",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 5,
+      "id": "conv-30:q0095",
+      "question_index": 95,
+      "question_sha256": "90b0979b8c79085a460963a8790afcbcbe295a9b371689f6976f9c5b6251213d",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 5,
+      "id": "conv-30:q0100",
+      "question_index": 100,
+      "question_sha256": "982f3d60f152b31e43a649c5b0730e8139ed3b92737d9cd0efbec0e8ce618664",
+      "sample_id": "conv-30"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0000",
+      "question_index": 0,
+      "question_sha256": "62c47e0d61485f7124f92d2d383cdbf05ad65ff95f942b27ead36bacf548c9a2",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0001",
+      "question_index": 1,
+      "question_sha256": "cb8484e8f62f5ffe4d4b8b53b3ad385c91eeeaba6371412a0bee880d49949484",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0002",
+      "question_index": 2,
+      "question_sha256": "6d19412c589817768529a9340d088fc0f1b82b12c72d51ac018d5797b85f4bde",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0003",
+      "question_index": 3,
+      "question_sha256": "d4159fd00b28554e4eb9bab42c8e83c8eae3def1f9af85d34ad57223fee6ef09",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0004",
+      "question_index": 4,
+      "question_sha256": "d027373f679fd150e44e19bba9f9b81a32794e17a4efe64e31f23c98558b1f81",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0006",
+      "question_index": 6,
+      "question_sha256": "1cb0e4bf11aa6c1f754d919a9cfb2081fdaf20a9690f9df21cb39ecf6a3231d5",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0007",
+      "question_index": 7,
+      "question_sha256": "af309471f9dfd21c54219b96befe1a61d55959693c9cd780308e43440094a57a",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 3,
+      "id": "conv-41:q0008",
+      "question_index": 8,
+      "question_sha256": "695c69d0840d067ab9d176da3d4db37e2ef30a4dd22c21543821bc6675f22eba",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0009",
+      "question_index": 9,
+      "question_sha256": "9e9816075713987040ee5ab5fc9154c3babf0e9616f63e892d1ebe514fb99f31",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0010",
+      "question_index": 10,
+      "question_sha256": "66f45c45a4282f9a783161179db4a343d8ed2b71157797847503917473e9888e",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0011",
+      "question_index": 11,
+      "question_sha256": "ac31c5e5b721c31f9b037393221ecb689e9e512e1423ba079ec8ce501f6a1349",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0012",
+      "question_index": 12,
+      "question_sha256": "7f9179e7cfb2d0553b785e59b0940d047fb62f06635a20c0b46785be36b3069f",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0013",
+      "question_index": 13,
+      "question_sha256": "367b7ba3cab5263bc66733d364bb66c8bb9ebd44c581d544504a7bd82bf2a00d",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 3,
+      "id": "conv-41:q0014",
+      "question_index": 14,
+      "question_sha256": "2c5e3423dd25fd8c0f68eeba4b2a646e7a8a5243b8eed6da9150fcac412345ce",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0015",
+      "question_index": 15,
+      "question_sha256": "c9db754336bd8a97b657f6111ebabb03d6432ec673432a685973325aa4d389b0",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0016",
+      "question_index": 16,
+      "question_sha256": "5ca38662b2c846fbff079559ac94c1b4e2933e990768d185f1ce7f3a908ad50d",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 3,
+      "id": "conv-41:q0017",
+      "question_index": 17,
+      "question_sha256": "b42058741993e9596871a26a16e26047bba982de5eb47cda9036f526e16c4a24",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0018",
+      "question_index": 18,
+      "question_sha256": "0437a24cf863488d9dad4a5e5135efc6dc1f5b0e27594fa638ea8fc4c979d37d",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0019",
+      "question_index": 19,
+      "question_sha256": "7c28911b859af395e16c75e3665de6fee466f2bda0ae59e5da25190e9abb5e0a",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0020",
+      "question_index": 20,
+      "question_sha256": "8632906d06a0bac1e402a7fe3555dcb3a560376965bffdaa70dd782f849834bf",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0021",
+      "question_index": 21,
+      "question_sha256": "0cb942693737627c2c6fdc8f3ffad60892aae69dc3f6170ae44798213532a3a8",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0022",
+      "question_index": 22,
+      "question_sha256": "295f65598638807072d0812cc508586895186bbccf3767de31e4cbcf671cacf4",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0023",
+      "question_index": 23,
+      "question_sha256": "a8b2856d5853d592b56f67e704ebb911d9a281e24795da3a4050219eb29519fd",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0025",
+      "question_index": 25,
+      "question_sha256": "19d4b640cb32176e2e995a2336a9dba47854a922798c545adc2eafab3d85a5c0",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0026",
+      "question_index": 26,
+      "question_sha256": "ebaba5c76c0425e7a1b2fa5150075e4978df5342e19e4dae73d597998dabd1b0",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0027",
+      "question_index": 27,
+      "question_sha256": "113620e496bba91671ee67ef36953fd3a531b7334b953f1ea85eb826e2f0e0ed",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0028",
+      "question_index": 28,
+      "question_sha256": "0635f4f0d3a0bd0bbbd18cd1716370b5ce049aacbf2953b188eb911876486ed8",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0030",
+      "question_index": 30,
+      "question_sha256": "4d0741237b4a585447accd42f3980d9c0042d00f3facec8602a1faef603ee2d4",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0031",
+      "question_index": 31,
+      "question_sha256": "b54616e497682a3c46f577e0a6651641ea6c1f8c22537a1fb8b02e94e6ff9e5f",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0032",
+      "question_index": 32,
+      "question_sha256": "5a4325fa3d51cefad0a47f8a2dfa4b7f893b0049fe6b551404577b13060358f0",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0034",
+      "question_index": 34,
+      "question_sha256": "95c2875891cdd98fa1094ea368658b8153d07950f6c974347a7e6c7e56f09559",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0035",
+      "question_index": 35,
+      "question_sha256": "4945d97718d5a358643a7f05008a26c4ea45d5c710b1f8d45366d1f73511875d",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0036",
+      "question_index": 36,
+      "question_sha256": "6caa7863dc9affbd20b4f4dbf3cfca8462cdce028a7535f02c30f2248770b495",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0037",
+      "question_index": 37,
+      "question_sha256": "8c3621d590a982e3fd5826ca25feabd109562e02692d0bafd583a7ee372aaa3d",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 3,
+      "id": "conv-41:q0039",
+      "question_index": 39,
+      "question_sha256": "783c43208a4a5235b6ee640aa86aaaa3fa61e7c2df1f81d3fd95fe91cc4edc9c",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0040",
+      "question_index": 40,
+      "question_sha256": "de56c30f1e7ef7304be2bcd88baaf331913cfaba099571e00c9d76a54aed8096",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 3,
+      "id": "conv-41:q0041",
+      "question_index": 41,
+      "question_sha256": "406a638a12901569f7dfdbb32eff02137b8dfdb02d48611808470d3612ebc050",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0042",
+      "question_index": 42,
+      "question_sha256": "eacdf9d390df0636d1fad74a0749d796b5d49d3fed030096fe22bce21e41cf83",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0043",
+      "question_index": 43,
+      "question_sha256": "cd594c70804f77b01661e9be32d64f1a171eb5abbaab9e027a20b40c1780c130",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0044",
+      "question_index": 44,
+      "question_sha256": "8a352d3ef7eeee0ebf5d676e91ad4db989591354a4d827107d6e5aa8c1bfe8f6",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 3,
+      "id": "conv-41:q0045",
+      "question_index": 45,
+      "question_sha256": "4d91c0482b9f7127d9eae667140dab458f71d6bfea8cc4aa73be944879572724",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0046",
+      "question_index": 46,
+      "question_sha256": "f3dbc3705912d44188438d04dc2b3d57bdd090da9e058ca7b2170895a273c506",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0047",
+      "question_index": 47,
+      "question_sha256": "e4749e83cacc063331a117f5910acbec23adce70ae5fc98144c3673c304d0d0e",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0049",
+      "question_index": 49,
+      "question_sha256": "e9c565030ebba5988169bdbc9ed6e8e5aa3c5e561351d5134be8ec4362b09078",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 3,
+      "id": "conv-41:q0050",
+      "question_index": 50,
+      "question_sha256": "c833b83a2a5342b3a1a606187bf62a504a8d1ea498a5c1bc5387a5d6a610804f",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0051",
+      "question_index": 51,
+      "question_sha256": "ca766a04d5d07b73636c2c0d06805aae294c436afb62da3db640a72af3be8ec0",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0052",
+      "question_index": 52,
+      "question_sha256": "ec5a5fdbd735231a7592f31bd0badb62b14e64ef87746ad74c1db555680d03cf",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0053",
+      "question_index": 53,
+      "question_sha256": "2c7c3c66eeaa3c3e2d6068f2dc5ca2b133a14a02a2838a35e7982d34bd312a4c",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0055",
+      "question_index": 55,
+      "question_sha256": "18b6781c4c772ed1629f6c22cf001379c5f95e979ac21e9bf626599018c4461c",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0057",
+      "question_index": 57,
+      "question_sha256": "42868d22fce8215288c067bf222f5df65ef6cb89841c38627a83311b30ebb689",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0058",
+      "question_index": 58,
+      "question_sha256": "03b694ecb8174b8b266549e8d2ed3054ddf70c073bbdfe506bdcc12b5985d08c",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 2,
+      "id": "conv-41:q0059",
+      "question_index": 59,
+      "question_sha256": "3907690ed0c47a093eefa8ee0495370f1a32fe362ce0a2086f4581f2cdea585b",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0060",
+      "question_index": 60,
+      "question_sha256": "b9ac6eb30a6cfbf05e8431e5c99c858d49fca09293cc46a1394c9e204cb2d97f",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 1,
+      "id": "conv-41:q0062",
+      "question_index": 62,
+      "question_sha256": "82d2a716ccb4d4adae4a9d0a32bb316bb74d3899c3a1efd1bdda1e59598a8561",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 3,
+      "id": "conv-41:q0064",
+      "question_index": 64,
+      "question_sha256": "32cecbb257184b49d257bd582f0813652e142668660b623f1d3095b61d070d98",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 4,
+      "id": "conv-41:q0085",
+      "question_index": 85,
+      "question_sha256": "887b266a98a30f9f9996c7f121ff2aed238dec39e90187ccffffb559a8977068",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 4,
+      "id": "conv-41:q0087",
+      "question_index": 87,
+      "question_sha256": "0c103bea77bb79c0267d8cc46f4e8be98e2b8e4feec908cf1105020d3e56bf52",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 4,
+      "id": "conv-41:q0090",
+      "question_index": 90,
+      "question_sha256": "7ec04a85003bad2f3a33d6b4452466385a92778294eee51e8bbc9ffd216b06d3",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 4,
+      "id": "conv-41:q0115",
+      "question_index": 115,
+      "question_sha256": "fb830dbe93ed5927e1501e528e6e3b65a14f930eae76a3a034cd92546d8b0f24",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 4,
+      "id": "conv-41:q0136",
+      "question_index": 136,
+      "question_sha256": "65f3265d0ef19af9a1119d090669cc200ce5238b72fbe20f3cd5b3c995713d41",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 4,
+      "id": "conv-41:q0140",
+      "question_index": 140,
+      "question_sha256": "41ddcf4e36f58764435f44cb950af33d36e908bf85502b7b2e1326ce6648f9ea",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 4,
+      "id": "conv-41:q0148",
+      "question_index": 148,
+      "question_sha256": "0e2dcb5d92f99746d589329b1f6020ac13b1043e9ec2e07149cf1499fea59fff",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 5,
+      "id": "conv-41:q0164",
+      "question_index": 164,
+      "question_sha256": "35f295d35e25521766195a550494b34bfec873921b12f329d25ce236cd6bbe8e",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 5,
+      "id": "conv-41:q0167",
+      "question_index": 167,
+      "question_sha256": "60d5f5c933b10fdb4a6d21273148e147c1aa1d0112a27ec8981338a844fdef98",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 5,
+      "id": "conv-41:q0168",
+      "question_index": 168,
+      "question_sha256": "3e9d7fde492ca18f7be101589748fb7de0968ae54377a5932b7d953be4c2c5e4",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 5,
+      "id": "conv-41:q0169",
+      "question_index": 169,
+      "question_sha256": "5a073d0459bfcad70ca40504fa6abbe2c4669636705d972a451b8db7cd209c0f",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 5,
+      "id": "conv-41:q0177",
+      "question_index": 177,
+      "question_sha256": "79635f4170a0fa4d0df286dede1f06e1804cc2cba7a75a8a7a166bff2060cd53",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 5,
+      "id": "conv-41:q0179",
+      "question_index": 179,
+      "question_sha256": "850ffa10a7f5cce268565179da2219910c9b37095f0ca00c1bd9a8e8ba7d78cb",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 5,
+      "id": "conv-41:q0182",
+      "question_index": 182,
+      "question_sha256": "0fdddc62495433b60fb90e49626520ac9a927b9a62d290bcd9391ac43483c049",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 5,
+      "id": "conv-41:q0192",
+      "question_index": 192,
+      "question_sha256": "6638fda0327ce648b31f96c7808671c4d1f6029ac7fd39af5c6d2ba532ec6e86",
+      "sample_id": "conv-41"
+    },
+    {
+      "category": 3,
+      "id": "conv-42:q0000",
+      "question_index": 0,
+      "question_sha256": "6a715426ecddb362d8f89044b088e80cf613440b7073fb4be2679a24be6d0ac3",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0001",
+      "question_index": 1,
+      "question_sha256": "58d445627c6d910c20cf171f339c7128e2dcd96aa9f7c8ea39d370708a61fb8d",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 2,
+      "id": "conv-42:q0002",
+      "question_index": 2,
+      "question_sha256": "62635e49085195be5e22147f9553d935483e40228c734f967039e96931c0f4f0",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 3,
+      "id": "conv-42:q0004",
+      "question_index": 4,
+      "question_sha256": "7c66ee020c1f0d74f04b12d538092d08dea84f94eafb744ca2ad1364fb1bc5ff",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0005",
+      "question_index": 5,
+      "question_sha256": "d32c8f3d61b49c98ff6c1c26aecaaedde007ab95b2f998e2e899c5c69f0af9e6",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0010",
+      "question_index": 10,
+      "question_sha256": "47be6ce645da07092f48f672d4b80dfcc76630010b71885fd92ada6e6cdcaa7d",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0011",
+      "question_index": 11,
+      "question_sha256": "b28c6e76318f68bc096d8fc8c3584f284048269da260a9c04c55bf28c4623c71",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 3,
+      "id": "conv-42:q0012",
+      "question_index": 12,
+      "question_sha256": "614a4972813b15ad1256a864ba0ca36fa3d4e2959608276f9e09545f2169d144",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 3,
+      "id": "conv-42:q0014",
+      "question_index": 14,
+      "question_sha256": "de041199bce3eba8c888e05743fda5e509f06770b2f9c257ac198a6ccd8ea836",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 2,
+      "id": "conv-42:q0018",
+      "question_index": 18,
+      "question_sha256": "fbd57fabc0986d22c9a9b8a3e90317bd088680eb7210aec63a0b80fe4d5fdfd6",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 2,
+      "id": "conv-42:q0021",
+      "question_index": 21,
+      "question_sha256": "6a9cf6330279e1a76062871864630c5e91f61a96fdef0297209fb604f90f36db",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0023",
+      "question_index": 23,
+      "question_sha256": "e6cb0f4b8cdd114b9d893306041388749e4759de3df535384fb9097556c73970",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0027",
+      "question_index": 27,
+      "question_sha256": "f88a5b94454b44a8302067abdc571f75f2898797a2b851119f661ad947e71523",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 2,
+      "id": "conv-42:q0029",
+      "question_index": 29,
+      "question_sha256": "45e807f489370cff4b063db071107cbba502afdd04f1172d4070582d8fc3391d",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0030",
+      "question_index": 30,
+      "question_sha256": "599e592d1d455288b4c19f2398837d5d9417e1332e244c6bab5102aa85752a66",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 2,
+      "id": "conv-42:q0031",
+      "question_index": 31,
+      "question_sha256": "2df68f193fb5aa218b64013a8dcee26ee3e12db5dccb2770d7945808f30b711d",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0034",
+      "question_index": 34,
+      "question_sha256": "1679dc0ffe3c5104dc985db51e03582f84074a98f0b3746c38891448cbfb1c33",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 2,
+      "id": "conv-42:q0041",
+      "question_index": 41,
+      "question_sha256": "a9b589f47d9022b466c402e2f6d8a7cf1c6a72fef1ad1e3ba0be168bc76d1694",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0047",
+      "question_index": 47,
+      "question_sha256": "0810350a7faf696bb394aafcf32a0fba24ce4dc7b13acd841af5911c5fe76f57",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0049",
+      "question_index": 49,
+      "question_sha256": "adf0c4457b1e625cacc0dc9b471951e6629e6333b65620aaa8672aa88ec9c4ca",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0050",
+      "question_index": 50,
+      "question_sha256": "ff5e74b24b574bd314a2bde67f019f3ecce46d87af868f8129c5678f91e2bb63",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0052",
+      "question_index": 52,
+      "question_sha256": "727a19015b67bbb521e82a06c595ec20b0fcad04d0df446d16318466a26ac194",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0053",
+      "question_index": 53,
+      "question_sha256": "8ea1641e4c7a4e265be47a9558a70dc38a425ef0ba616aed80df8898cc74f7d0",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 2,
+      "id": "conv-42:q0054",
+      "question_index": 54,
+      "question_sha256": "de17ef7570d38b47586c7a2a9a989ac2c8a2e3d5ae5379ec9a68cdd407e8069a",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0055",
+      "question_index": 55,
+      "question_sha256": "d53b6954a008e8b38c9b9d5538422d41531a90fed9e554d9e489a5ff23dff925",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0056",
+      "question_index": 56,
+      "question_sha256": "e8bbefdde78fbb764f77491aa70c0e25bf30cf3e79f3a764a7f94719ba715aef",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0058",
+      "question_index": 58,
+      "question_sha256": "21eff128baf58a4929e82dac2faafaf2ad62ba8606a49f9c5126abb2db1afc7c",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0059",
+      "question_index": 59,
+      "question_sha256": "9f92b1257e68ef6e26fe127715a19482cda98660c2bd616f88a68ba953eb82bb",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 3,
+      "id": "conv-42:q0060",
+      "question_index": 60,
+      "question_sha256": "8ad48234dca99cbd6165a38826a89baab8a712ef75c3468ac57c1871f1010e92",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0061",
+      "question_index": 61,
+      "question_sha256": "873417bd31dd81c8a14777cbf18979db93540a55f9939c2db99bf97d072398b3",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0063",
+      "question_index": 63,
+      "question_sha256": "0e008af6775c35e55f91d8e5b18a2d628fed8258ae6fe142db2534dc5baab935",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 3,
+      "id": "conv-42:q0066",
+      "question_index": 66,
+      "question_sha256": "166e0381a0b3c73a6db3091c6996e53c6a73804b5c47dc18bae1ca77ad04e321",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0067",
+      "question_index": 67,
+      "question_sha256": "d677c848d204bb2ffc1fafd6cb09c855f31dfa088a242c19655fb419f489f5f1",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 3,
+      "id": "conv-42:q0068",
+      "question_index": 68,
+      "question_sha256": "1b23c53655334f6a53e80961ff674a89a5a2cdcb7e75089036c45a197cdad93a",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0069",
+      "question_index": 69,
+      "question_sha256": "da4dcda9f418831b7498b096892a2c869b6c133e60b416490533597ad866d0cf",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0070",
+      "question_index": 70,
+      "question_sha256": "8823201d40882348f1c32c20d7f7381ea9757047fb9a8b5642cac6355d8362a2",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 3,
+      "id": "conv-42:q0073",
+      "question_index": 73,
+      "question_sha256": "bdc96a6676cece6d609b5fb624f27e06a31bc18fbe722ba110a1d7d020a3c3e9",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0074",
+      "question_index": 74,
+      "question_sha256": "0704334eb6de44b409534a48ea6e56a675465b3dee8de6779873115ae3d901ee",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0075",
+      "question_index": 75,
+      "question_sha256": "2e3cc5f41be8fe603126d6256e0d74bb7d435dc8a43028c8894ad26e03f79c83",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0076",
+      "question_index": 76,
+      "question_sha256": "4e657426ee58082270ed60f9e5f17c7316264677b4638a513de50c8814187276",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 2,
+      "id": "conv-42:q0077",
+      "question_index": 77,
+      "question_sha256": "a52a9be1161761ac18adccd9266b96e5a47b58b27d552c4f68ba7610e69f9522",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0078",
+      "question_index": 78,
+      "question_sha256": "c9bbf38d70ebb1c81e62f17acfeed1e61c03f895df4fa29d83c0371ed2840022",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0079",
+      "question_index": 79,
+      "question_sha256": "5c849786eb736a862d9b3f7914df452237d73d200ed9f75821431edb77fda1e9",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0080",
+      "question_index": 80,
+      "question_sha256": "e643e27596d69ebcd7e9cf8c6ccf042cf74436d275b7e43f25c0e3b8a04ebc60",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0081",
+      "question_index": 81,
+      "question_sha256": "51d48c1305114ac78adc66f1c590f4e708931a530e7539b4e1b101f934c65be5",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0082",
+      "question_index": 82,
+      "question_sha256": "526fbe9a13086ba419926aae548532b40a87532fcfec14498f3a52987fd9acd5",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-42:q0083",
+      "question_index": 83,
+      "question_sha256": "8959381655231f5445ef20c59ab040ca787a729478e57a53405547e4d64f0600",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 3,
+      "id": "conv-42:q0084",
+      "question_index": 84,
+      "question_sha256": "03fa1dcea1768322ca00d0f34cfa66d0fe1cf7e51601a90c681722035add2a12",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 3,
+      "id": "conv-42:q0085",
+      "question_index": 85,
+      "question_sha256": "fdb66867b733f4735ec454491d789407b0cb0b02ca07a4e826e6efc19b6a3e51",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 2,
+      "id": "conv-42:q0086",
+      "question_index": 86,
+      "question_sha256": "49213f981cdd184f790dc25cf14959ca8f6796a24473585efbd7b1c483d72013",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 3,
+      "id": "conv-42:q0087",
+      "question_index": 87,
+      "question_sha256": "39bebd296e1fabd83d262e74d2918afc8669980be9b17fb1d83b648f4d851dfd",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 4,
+      "id": "conv-42:q0118",
+      "question_index": 118,
+      "question_sha256": "2883a3ce0aac31246830bf9bc2ae17e5ed9be18fbd028960b0461c2ed23dbef3",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 4,
+      "id": "conv-42:q0119",
+      "question_index": 119,
+      "question_sha256": "b77f1898a36f3bb6c5304f513f8bcc08af28a3c10654770170e25be297c9290d",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 4,
+      "id": "conv-42:q0142",
+      "question_index": 142,
+      "question_sha256": "39f2a255c5a70dd3985db376c64eed867fca432437118e28a60172d85b045f27",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 4,
+      "id": "conv-42:q0149",
+      "question_index": 149,
+      "question_sha256": "2f7ef117026e64f95ae796ff08c30988b84bc1ed14aa4e7112965436a92d76e9",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 4,
+      "id": "conv-42:q0186",
+      "question_index": 186,
+      "question_sha256": "af31914191aa8f52e1de9344473f0ea406ee5990fa5ad98b5a9c4c3b4bbb486d",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 4,
+      "id": "conv-42:q0194",
+      "question_index": 194,
+      "question_sha256": "0609ee054991999b667c0c803ad266c908691e30da039361a9a26509e9aa999a",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0200",
+      "question_index": 200,
+      "question_sha256": "785491e5335d7deb5b344340b9b03e0883b68d7aae36c506c6c4ddbb1fa38074",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0202",
+      "question_index": 202,
+      "question_sha256": "3e5c51ae0e36ab99bae3ebab8c7a80455ee1dde35343914b71359e81c458f55f",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0211",
+      "question_index": 211,
+      "question_sha256": "c64b03b48e3c173ce0424497d0b3711859932d94f5bf6a6f23568235f4a395f9",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0216",
+      "question_index": 216,
+      "question_sha256": "5c561a89f2c37411ec0a12be81086ee1a4d0e53c4ca94d16f81b1305da3425e8",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0221",
+      "question_index": 221,
+      "question_sha256": "0deb16cdbd97f3232f5d01d631567b1ab94b97a31c3482e967e7990ff729e5bc",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0222",
+      "question_index": 222,
+      "question_sha256": "363db7afcfbfc3dcdd4b251943bf12e18fd14b22d6e28f6d2f89815d133356ee",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0223",
+      "question_index": 223,
+      "question_sha256": "81a1f3fa1ec6e139ec70241250e0ebc4b1966190d4b4f51a357cf5ae23a9c448",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0226",
+      "question_index": 226,
+      "question_sha256": "35c1f57ce7a38a46941ab144b83ac3de6bd0e5f07bd1ec05808561bd8ca068a2",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0232",
+      "question_index": 232,
+      "question_sha256": "cb1e9ef19df4e9e6c2a7ea6c933ae56a6a792167ccca1bdb6dcfa41faa0addb0",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0237",
+      "question_index": 237,
+      "question_sha256": "f29f4f17bc7ede95ac06e5f56052586fa7962ec78dbe3e8706f7e13e1e176f04",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0244",
+      "question_index": 244,
+      "question_sha256": "7a26a2586b33c70c09cfaf68b1ea2b4fa173d387379435da55ed084a231bc16b",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0251",
+      "question_index": 251,
+      "question_sha256": "7247e3cde01cbed01fca33ec5555d188968a99189c9f636d763c93460d9ac1e2",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 5,
+      "id": "conv-42:q0252",
+      "question_index": 252,
+      "question_sha256": "a3d048118830dbddf30b520ab0f9a6d6d057a0ac8b22673cee0188ea522a94ea",
+      "sample_id": "conv-42"
+    },
+    {
+      "category": 1,
+      "id": "conv-43:q0000",
+      "question_index": 0,
+      "question_sha256": "97cc3ffeccb8104cecb5e1270d0e7d7a239a7888f65abc3161c2bb2374927754",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0003",
+      "question_index": 3,
+      "question_sha256": "3d2859c266e3613ab3eda6b95d141d6df99519bd04f7ea250306e88939837197",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 1,
+      "id": "conv-43:q0004",
+      "question_index": 4,
+      "question_sha256": "1f1abafa47cf1d92c0ccb2b0fcd5fcf7aac07052762842abb5b426bcd03232b6",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0005",
+      "question_index": 5,
+      "question_sha256": "94bd8fcdb3e3741816060c8380b409432dc7420e19d11a617dc58f982d5f48b1",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0006",
+      "question_index": 6,
+      "question_sha256": "ff4f39380f61258073287f0b0ea61e2bd7b7c5c439205e5ebc15cd668591b45a",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0008",
+      "question_index": 8,
+      "question_sha256": "e42f4de4dd884f5216da55ba7017515a91f4ce701830b0a301644cc7bf282a65",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0010",
+      "question_index": 10,
+      "question_sha256": "b511af5a71b077dba6e2b0bd9326717d8fbdba7b560dbdb4e9a09a0c596f7d90",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0012",
+      "question_index": 12,
+      "question_sha256": "254bdc5bcca3faf652df4466e569093d7ac783547918fa421592cbc5e57aadf0",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0015",
+      "question_index": 15,
+      "question_sha256": "0c4228a4e29c538684a34e075cd0a3ec30866d0fb2181c135ca04794b514c608",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0016",
+      "question_index": 16,
+      "question_sha256": "4d7e1c8d6da038313e28754b14957d88ca29904c4561de87c3290b767100d9e5",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0019",
+      "question_index": 19,
+      "question_sha256": "eda852934002b4088467d1dc196439c733aaff5ce57afea1323dd37898dbf3ae",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0020",
+      "question_index": 20,
+      "question_sha256": "1395f5fdecc27bdd4e28cffe5fbf50ed76d98a1b018150dd63b3ea0b690c0bb4",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0022",
+      "question_index": 22,
+      "question_sha256": "3067f3aed47314af2064ab88fb1566853a63fce9affe6c047d03268139e26188",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0023",
+      "question_index": 23,
+      "question_sha256": "b5442f261058af6609767779dae81031155a655784773feac3bcb92191bdb615",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0024",
+      "question_index": 24,
+      "question_sha256": "f8f477c1739e91c29ae98a18bf3cd5694f0a5894b4d49cd032bc7979a0cf03c3",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0027",
+      "question_index": 27,
+      "question_sha256": "efc6567518b29000cf329b5eb30696373404ef6b2992d2c40263ab088fc30657",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0028",
+      "question_index": 28,
+      "question_sha256": "94c0c6b2cdf71db716fae726ec351265e6274bcaca8d9a446295320a5e43e0e0",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0031",
+      "question_index": 31,
+      "question_sha256": "a48edac97108135322af15486be7cb977366e5ccb41013c536aa1191831efc63",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0032",
+      "question_index": 32,
+      "question_sha256": "07690d642b3e8b9b4495fd1833eb0e20ce4dd9d68e5208bb925c543cd2a66ab6",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0033",
+      "question_index": 33,
+      "question_sha256": "8b9ff6c2546d540bb1f34d5e36d044dff7721921650a8614c1a3ff94de7cb964",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0034",
+      "question_index": 34,
+      "question_sha256": "528e3549047d060bf4df3ae17e64ec8cd633292bbfe32a1a5194982d7753bb58",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 1,
+      "id": "conv-43:q0036",
+      "question_index": 36,
+      "question_sha256": "1e8d594276616f7584a6c0afcd83387cfb4877cc433baf83eb9025ea0577be08",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0037",
+      "question_index": 37,
+      "question_sha256": "6ffd0716ba34417f8f183106f67c7c2a1b3fd4bc75899a586e4781375dc8933f",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0039",
+      "question_index": 39,
+      "question_sha256": "41a9b3f8a1fd586f7bd3095d9e87ddb95b86753d327a8ad196dc5caee86f96dc",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0040",
+      "question_index": 40,
+      "question_sha256": "65ef1b64bdc256ea49b7da1157c22aa1a47fb09fc9a225db6f6ba89a7c65900a",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 1,
+      "id": "conv-43:q0042",
+      "question_index": 42,
+      "question_sha256": "0c0e0f6e945ed32f9da69b753822a4503a607992118d691c317c621324bd9c43",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0044",
+      "question_index": 44,
+      "question_sha256": "339d0e8c521105d806f568b928b51c91b43ff440871d191fd2821be5e9ed4247",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0045",
+      "question_index": 45,
+      "question_sha256": "3a718b7f0c8b402fe1c2ab2a30d87d1ec2af1e6bbdfe61fb0ceae996d53978bb",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0046",
+      "question_index": 46,
+      "question_sha256": "2da897a90ea202939f6afa7fd9200288f1ff39d017fe594652166fe63afd7638",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0047",
+      "question_index": 47,
+      "question_sha256": "84cd5abb9d845eb6ed3d79b91ebbbf832d6d95d051588ffffab3ce43a1c9cf04",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 1,
+      "id": "conv-43:q0048",
+      "question_index": 48,
+      "question_sha256": "118ed9e2b934373159fdde47b7223511edf1d11e81009d2310f2518af4cdcfda",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 1,
+      "id": "conv-43:q0049",
+      "question_index": 49,
+      "question_sha256": "ba655fc6ede644d8a1353c149c3af5aada15882a31f717dbc49f83e502f5da6a",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0051",
+      "question_index": 51,
+      "question_sha256": "546ee01422401e5ee5e9d7100fd3f9291896575c79b3d916f12b333430291bef",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0053",
+      "question_index": 53,
+      "question_sha256": "ceab3aaa8036779df4d69c3c5f673d4b8d8442cfcd7984a2205e45a534a63043",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0054",
+      "question_index": 54,
+      "question_sha256": "6ba5b03ce7f27ba39a673a652f263b8c7d8928a3383916f1cdd8984ae5439f20",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0055",
+      "question_index": 55,
+      "question_sha256": "408af1a01127c0d91c271a74193c00e5d918cc8e41081b8f0d072426fd46b654",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0056",
+      "question_index": 56,
+      "question_sha256": "98cf70c4fa0e426f588ab5ccb172ddaa8ae0eeeb9bf0724d373b83760b756929",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 1,
+      "id": "conv-43:q0057",
+      "question_index": 57,
+      "question_sha256": "a4c53c863dc1f8af009127cb3ad08aa43256a36bcd3d25e19337e0072f2bcbea",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0058",
+      "question_index": 58,
+      "question_sha256": "89f38637209d92aaa556b589b347fab9d9878745f96eae9fc3a6c646fc8184ce",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0060",
+      "question_index": 60,
+      "question_sha256": "2665c1de1adfe810c397cc8c234b871479414814b72ceedeb7d0d8f5168f70f1",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 1,
+      "id": "conv-43:q0061",
+      "question_index": 61,
+      "question_sha256": "2818fbb54b6526848535e12532b4cf3d0d36541290f6b2fbea5ee94194d30168",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0063",
+      "question_index": 63,
+      "question_sha256": "6a2a275b9bc0d7cb88c4a3d70684465328ac6f1c5bb56cdb58a814aef35cb454",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0064",
+      "question_index": 64,
+      "question_sha256": "704e466cb5a99b18f206b11fa5a88877b9630cbaf96a509528aa85bf888ecdae",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0066",
+      "question_index": 66,
+      "question_sha256": "ef0f5970d6860745b2b66175799b400fa57e7138471ef9b33e1aeca8fa82a583",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0067",
+      "question_index": 67,
+      "question_sha256": "d5ad67d76c877721818a29ae95a08cea2e70384dbe33ae39eb95bfcfa86b5106",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0068",
+      "question_index": 68,
+      "question_sha256": "ea5e447ff729a8f08ddc7015ee11a454b31d53a921a1c00f017b775da76f90bf",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-43:q0069",
+      "question_index": 69,
+      "question_sha256": "a73ed53b6465ee7869d103e920cc5ac01336dd5038708e82caf5d92d12a02dae",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 3,
+      "id": "conv-43:q0070",
+      "question_index": 70,
+      "question_sha256": "143b0bbd27bbb58bd948bbfa3572cf83f8069f9d02bdeb9c3650bf6590f228a5",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0085",
+      "question_index": 85,
+      "question_sha256": "8c02d00e0b9e07a32500b4b2bd066e022d0a33984885aea7684f5430049f58a7",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0088",
+      "question_index": 88,
+      "question_sha256": "bdd0c1ba54c01aaf65478bdef1ed5a8feda182fc2a6fe73698985689701c8288",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0093",
+      "question_index": 93,
+      "question_sha256": "0acd86ef639b263a990cd8ba3bed0f8fb864a80e80e70c2d5c54910f9c16dbc6",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0095",
+      "question_index": 95,
+      "question_sha256": "e2f8d12efbbd6121c423d594817b21f00810b447f9fade0f60884c54cee26e7a",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0100",
+      "question_index": 100,
+      "question_sha256": "c1ef01c9d86bde36c7b57a50d375a9da43dc01e538adbe35e6c7038fd83b8461",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0101",
+      "question_index": 101,
+      "question_sha256": "3a1d09b40c1a04d6fc8a3d67a6c31f3f5ba52ee9fe95da2ebf15087885cfdbb0",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0103",
+      "question_index": 103,
+      "question_sha256": "388dbb0d40824b40c7c82f3c2499f60cb3ca5d121fdefd078eeb066efdaa8e8f",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0106",
+      "question_index": 106,
+      "question_sha256": "e55489cdca69eb22bde78cd8aeb27e61d7b642d72fa82a7c37b7a122e0fa633c",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0109",
+      "question_index": 109,
+      "question_sha256": "359f1d3ead6ff4633c469ac36eb236a015b63318a54177d7ed884356050e7d3a",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0115",
+      "question_index": 115,
+      "question_sha256": "a931d539f17d6bd6a49ed92064d0383fcf877bf05c5a39dc68a974135fb93dca",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0129",
+      "question_index": 129,
+      "question_sha256": "72df9bed1eabf0399781eefaf2a6851cf5531a550a260e5e3080726fabec55c9",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0134",
+      "question_index": 134,
+      "question_sha256": "85637d443f3d5c151d8cb94dbdf26afdc4a6d29074f55a8fbbabc75503a0c9f6",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0151",
+      "question_index": 151,
+      "question_sha256": "0760d0827cb7ec699e39625778dcee0e0aafc1e53180b15072d57ae63ddc3a02",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 4,
+      "id": "conv-43:q0165",
+      "question_index": 165,
+      "question_sha256": "5ec7af7a560304780dcde13420b3d0e6122a598bc78b1a1517a19540b830f8a1",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 5,
+      "id": "conv-43:q0185",
+      "question_index": 185,
+      "question_sha256": "5164009e31ee5ab1905b4868dbf33a852bfc62fae2dfabb1b68e778e010909a3",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 5,
+      "id": "conv-43:q0192",
+      "question_index": 192,
+      "question_sha256": "2b987b49928f16549d8cdd3ed8d497c8735557ee58a23b61055eb82f37a94f21",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 5,
+      "id": "conv-43:q0199",
+      "question_index": 199,
+      "question_sha256": "112942ef3fd98a15383e1d2ca3930a89429c6a5219bf7d4aea41e0d5625b23e2",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 5,
+      "id": "conv-43:q0205",
+      "question_index": 205,
+      "question_sha256": "643671467cd15dd1bf63842a6080651acee0fee97532fddbbfb37e03a2c80a07",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 5,
+      "id": "conv-43:q0217",
+      "question_index": 217,
+      "question_sha256": "052cf9a4193097607b2332fd3ea038201785acc32bec36784384f9466c3ff8bd",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 5,
+      "id": "conv-43:q0231",
+      "question_index": 231,
+      "question_sha256": "a1f7e16ce2bb4a98bf8f19aec7921ccd0f4367819f0a0f6077312cffbc2a8d9a",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 5,
+      "id": "conv-43:q0238",
+      "question_index": 238,
+      "question_sha256": "c7cd9f0a983b6579752c308542cf89ff753da8700e9195a6ce005b975839effd",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 5,
+      "id": "conv-43:q0239",
+      "question_index": 239,
+      "question_sha256": "5614793bdd9a43511d8db9a1bed6dca5593443d43f4f1244cd9ea365bc81f5cb",
+      "sample_id": "conv-43"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0000",
+      "question_index": 0,
+      "question_sha256": "55f57356669597f69d87aee3f321e1f8426164d0e6a7f90dcbc5f3e1df54831e",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0001",
+      "question_index": 1,
+      "question_sha256": "7ba8c132c0c6fbd78ed9363056bba7eec5921bc03623732ef49d6ac3cd671335",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 1,
+      "id": "conv-44:q0003",
+      "question_index": 3,
+      "question_sha256": "3679d81b57251443edfcba71c25b6476275df26b99ef94d32bb69f4c177f0852",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0004",
+      "question_index": 4,
+      "question_sha256": "47222fcc2ac7649f8d83c2df8f04d7eba0ed1a6bfe25a8e8f35f78b68c2438e8",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0005",
+      "question_index": 5,
+      "question_sha256": "1b03a9a0327bc7db52955bb584d8496dd344d00af6d04a4fe9fbbe5d3bf1a841",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0006",
+      "question_index": 6,
+      "question_sha256": "1e75b410f5e52274f8c106f195ffb2aef0dab52e1929f3ee2e1dc97ed216943f",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0007",
+      "question_index": 7,
+      "question_sha256": "8bbaa0814d2dbbd0efc61f7aad3ffdf1773a42e1de3ed6f33338340309e9524e",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0008",
+      "question_index": 8,
+      "question_sha256": "ffbc139efe2e234c03412f0c3ed1461213c8ad982716a699a620b73a383d9c81",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0010",
+      "question_index": 10,
+      "question_sha256": "db0440657b3d49a821b5b0ae7593c69dc441b3dc54ffd32700096ad0a89ff5f1",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0011",
+      "question_index": 11,
+      "question_sha256": "9a11b072bbd67ac05e7c218baa2d2fd9fb5c46ab80a1f485c731d08c5e5e154d",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0013",
+      "question_index": 13,
+      "question_sha256": "f8b98c5744ae1dd228c9cc211df6200f43862f7c65b79d01d99e86ba67defd2d",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0016",
+      "question_index": 16,
+      "question_sha256": "ee9148d920e72ad853afb15171765bd51d32228a691157a50f3efcf36e437cf1",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 1,
+      "id": "conv-44:q0017",
+      "question_index": 17,
+      "question_sha256": "bda1016dde5907d13cff98becccf62d647c67cdd422a218b2bf9651e58082ee4",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 3,
+      "id": "conv-44:q0019",
+      "question_index": 19,
+      "question_sha256": "cc5960d5ccce599a3acbd7f6e5792ff930fa702ddb32b5e62609a6c32c7382c1",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 3,
+      "id": "conv-44:q0020",
+      "question_index": 20,
+      "question_sha256": "323f7f96513f16bd3c8c443c389239a7cbd1c398680446468602ad32cc74d4bb",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0022",
+      "question_index": 22,
+      "question_sha256": "ecdd5901db2719369a066a8974c93032e0ed179c04b09b9166258ad712d448f1",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0025",
+      "question_index": 25,
+      "question_sha256": "16e4a394c52632ffdba6c46d75fc3a11002383264ade8bcf2c35c1c3362f6360",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0030",
+      "question_index": 30,
+      "question_sha256": "f16a2878541c17096878b91b933c9e3f97bb6362a81a9c89927f8054e42cb33c",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 3,
+      "id": "conv-44:q0033",
+      "question_index": 33,
+      "question_sha256": "a3379c77941cb45d40f5f2720003670545cb51ee1e0195b446d906f4fd047e6f",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0034",
+      "question_index": 34,
+      "question_sha256": "1f5ccbfbae38d995db46a69cf51fdaac01a4c4f79ef49ebf4269ee1e93411147",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0037",
+      "question_index": 37,
+      "question_sha256": "d84aab870fd29a577674921ff4ce7fc8ae44ba83e434c382420c021450ae5874",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0038",
+      "question_index": 38,
+      "question_sha256": "883fe1be6684b5e95f0b68f21cf73dd275484a5d056104800d3c6644927f4e9d",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 3,
+      "id": "conv-44:q0043",
+      "question_index": 43,
+      "question_sha256": "e238b0c07772101fcb1ae19f32d59f3c490ae9476db1ce20ed7d6ba642b9a4cd",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 3,
+      "id": "conv-44:q0044",
+      "question_index": 44,
+      "question_sha256": "cb8d82ed2b6cbbf8ec1bc1c5418225bc27194fd6b7a66d3c4de636254173ac6f",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0045",
+      "question_index": 45,
+      "question_sha256": "0a802a76441ca1be5ad6c3f066d04e90f3e7e100caabd8d29b8dd57f0a23158b",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0046",
+      "question_index": 46,
+      "question_sha256": "9eefd98886f5bd3a54fcf21433e938646c6bfe49f93f3ceb7ec0cd8a3d8df4c7",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0047",
+      "question_index": 47,
+      "question_sha256": "2fcccb7dd7db244e73fed63cd71b2c31ece4313c35913dd52661871adaccfc34",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 3,
+      "id": "conv-44:q0052",
+      "question_index": 52,
+      "question_sha256": "a60146a286837458d33bebc76d330c02fbd4eda1618bd14d48d591602078ae7f",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 3,
+      "id": "conv-44:q0053",
+      "question_index": 53,
+      "question_sha256": "924fc0b3372348ba9413bd27ef8051656dd0860f76c27b3b1c0df6a791c530d8",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0055",
+      "question_index": 55,
+      "question_sha256": "a6a06fa18038761d963db63d94c29a72a3108bd347a9db0818752852099b5168",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 1,
+      "id": "conv-44:q0056",
+      "question_index": 56,
+      "question_sha256": "0337d0d7b928b33eb221279a25a3af94dd97ed66ca5ce5142cd59b27cf956e58",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0057",
+      "question_index": 57,
+      "question_sha256": "6409d3e8fb24ed0900a749a4e353ccbe300937de49b04bc98b601304f7245c07",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0058",
+      "question_index": 58,
+      "question_sha256": "06b9c8370a051490333d8fb8225df4e0dca34e0a5feebb42f734a3966077e394",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 2,
+      "id": "conv-44:q0059",
+      "question_index": 59,
+      "question_sha256": "3d7da7070151d58af7d25e3ba56914666561c4a12acfb9a607a29b7ad24aea2c",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 1,
+      "id": "conv-44:q0060",
+      "question_index": 60,
+      "question_sha256": "325314f09f246457e83b0ed8f7e5eef5eec7f3d2651d5deca2febe7f0074b1b5",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0062",
+      "question_index": 62,
+      "question_sha256": "ab3784136854c02842e5189063d39b4cb984768aa67c0c3388e24aa805386e57",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0064",
+      "question_index": 64,
+      "question_sha256": "344f8c5588bd15b08d3737c9a43360385d71006da153674aa9026c58d537fdfe",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0071",
+      "question_index": 71,
+      "question_sha256": "e950752ffca5200f49373c9607e2e3819ac1af79dbc6da80f6eca7bc160b14ea",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0072",
+      "question_index": 72,
+      "question_sha256": "349f9683095322e0242b79c82716bd3abe790f6cd508d14501c0248d6b073dd8",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0075",
+      "question_index": 75,
+      "question_sha256": "1efceae84305505d86854af2b8176aa5953ba49b35c9512b8ec9503ee2edea4a",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0076",
+      "question_index": 76,
+      "question_sha256": "36edbfd2b1d5f9499f13b418568fd2d747eff183e51bd835f5c1cc5065614062",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0077",
+      "question_index": 77,
+      "question_sha256": "0bb9f3a33d449cd52d6340f7b7b68eddf318180765e093e23db377a5843e7918",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0078",
+      "question_index": 78,
+      "question_sha256": "a3b73e5ae5d7318fce9a236bbb04a44f6318376236011dc8b7cceb63f0cb6ea7",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0079",
+      "question_index": 79,
+      "question_sha256": "7a2b6700713be1b5c37bb51e76780e7349eea1dd5fdab590b99ba01a867ceca6",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0083",
+      "question_index": 83,
+      "question_sha256": "bcaf65a371bfd9e5dd8c845721f576e730de9145c920520a962ecb9e0f594f0c",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0086",
+      "question_index": 86,
+      "question_sha256": "bee86817ae36ebe0e773cadfd29b8f49fedcc572f0a5069fa4a4fc510b0d08e0",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0088",
+      "question_index": 88,
+      "question_sha256": "485b8e5c64b229c25f05f3ea939d7b623dc41990410391bc8a8809fbb0d7285b",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0091",
+      "question_index": 91,
+      "question_sha256": "577c068d57727511ccb7695bd8acd3ccadb2f3e0ee9a9551656dde57881e5722",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0092",
+      "question_index": 92,
+      "question_sha256": "5f423a27ade69ab98ff97644f8f37616c8c26c348aeca542d943ae1205dfea9f",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0094",
+      "question_index": 94,
+      "question_sha256": "ff8dbdf13cb339fab8219f6a31372ed0c1ed222992391d7ae4742b8b12630cc0",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0095",
+      "question_index": 95,
+      "question_sha256": "69f737a727d994cb50532cbbeec2f3dcc2b114f562444158e8cc87a064f75ffc",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0097",
+      "question_index": 97,
+      "question_sha256": "c360672a8a8e75298801136c540249efbf0dc22754a83f4e9c9b66e75f10686a",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0099",
+      "question_index": 99,
+      "question_sha256": "62cfc006c56f74390303d909a34e65a62aad65f49427bd87b052e23e41794118",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0100",
+      "question_index": 100,
+      "question_sha256": "dd89660a14ae57374a4dfbd58cc5c48fe22025c48851ca7bd139380c3ef017cb",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0104",
+      "question_index": 104,
+      "question_sha256": "37d83ea60c14e2d53dc05c25612a81ade9a4a2a46842fc2e5319ef06cd40bd96",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0105",
+      "question_index": 105,
+      "question_sha256": "1ea2db126c5b2b8b5a42b704e85fc7c0c49b4a01b7009042d9137cebc9ee40ae",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0107",
+      "question_index": 107,
+      "question_sha256": "53118b31441924b0bf0ecb6278662b8df228d49540c14480398d2a83675f3074",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0108",
+      "question_index": 108,
+      "question_sha256": "346d6d4ff1f75700798584fd16482c39139e42364cceeaffbf912ac2dff104a8",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0109",
+      "question_index": 109,
+      "question_sha256": "24464b8a3bedc1df80ffbbfafe31cc3ab6d13b14b2dbc8eb0fc24cbfb54f31d0",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0111",
+      "question_index": 111,
+      "question_sha256": "beb3b34fb093754d255ff0fc2962dd0937904fd3c15ec569d1449febd6044eaa",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0112",
+      "question_index": 112,
+      "question_sha256": "184b068ffd062f4966cc13cb1045d8da2c3d0e2416f463c6c57717a3a1d5eda7",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0114",
+      "question_index": 114,
+      "question_sha256": "5ac39b3117e3f5f499f71ab95a0ae3808d302bc6061e5e44315c086bb8f4a9b0",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0115",
+      "question_index": 115,
+      "question_sha256": "8d4f947336af90e344eedf0713821d5008abfcf98ff971edc5fe0d00f79c1936",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0116",
+      "question_index": 116,
+      "question_sha256": "bf81df14ea83d163bf499fbac0e6bdb5965bedc21fe54de6f206ad4b02cdcdb5",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0118",
+      "question_index": 118,
+      "question_sha256": "f59daf720a7ffbbacbdf1f01dc48e197c126fd0a9d26bcf1d9cf4d37ddbf79b7",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0119",
+      "question_index": 119,
+      "question_sha256": "936a2170f971d0d73c3c2c0b2179be47d3760a81b2e55e8f32f09c62ea0d27eb",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0121",
+      "question_index": 121,
+      "question_sha256": "81cdd4a1615e77247c9e8dcd4879824eec700fd872f6eb5efe825d857e117229",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 4,
+      "id": "conv-44:q0122",
+      "question_index": 122,
+      "question_sha256": "9d08bd36949a6f7d3b92afaea91c30b46a262352006f8acee66a551709a8d09f",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 5,
+      "id": "conv-44:q0131",
+      "question_index": 131,
+      "question_sha256": "28cbf72f8784c2b7082f6d699a33764f9c49fcd8b9899456bad6f262028aceff",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 5,
+      "id": "conv-44:q0148",
+      "question_index": 148,
+      "question_sha256": "42ac42c60ba4c65ff6cc67e3fcd0abff30e459c5822540dc3cdcc5924163573a",
+      "sample_id": "conv-44"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0000",
+      "question_index": 0,
+      "question_sha256": "cf1aae09854032572127d97c480f019d9f6a229972860df8c05660dddb72ef4e",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0001",
+      "question_index": 1,
+      "question_sha256": "9886c00bf37f7f77c779eaca1f46c82a24ba58b2c1bfe75439c4db545830f728",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0006",
+      "question_index": 6,
+      "question_sha256": "c680949034cd8039f4fe88906ca9c7af51ecd8687a9009d1a3f7cf6189344320",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0007",
+      "question_index": 7,
+      "question_sha256": "f414af6fd8d7f6ab5e583ff6c280e787e95e6eace2c3e7014614ee7242a68825",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0010",
+      "question_index": 10,
+      "question_sha256": "5dc640f958eaae2b5c5e171dacafa36fe91bc29ce26f32083a9cc4592017894d",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0012",
+      "question_index": 12,
+      "question_sha256": "b385ac65303987462a32262fcfb13bdfd890d4eb26e6119674e16cd61551cd4a",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0016",
+      "question_index": 16,
+      "question_sha256": "b078c8081657eec36dd39881ec71b48a91b6daf307b9299cbb9c6988a95c97d0",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0017",
+      "question_index": 17,
+      "question_sha256": "f9600368d10e6dbc457e6c62cb252322c05c03acc0c75da6602e5e86870f59fe",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 1,
+      "id": "conv-47:q0018",
+      "question_index": 18,
+      "question_sha256": "74bff7ecf54d3c568179feb177b69cb2dcca24c67cc93b48c95adfe434abc3be",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0019",
+      "question_index": 19,
+      "question_sha256": "0d517fcfefa3d429535a502d201ccb55762e6c6e56052ffc3de6f60d631bbc8a",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0023",
+      "question_index": 23,
+      "question_sha256": "a10ed86caea5d56a98d323e8d23c118f4f68160fce51ec2f801312ecb633905a",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 1,
+      "id": "conv-47:q0024",
+      "question_index": 24,
+      "question_sha256": "1cadac745d7bf4c170b1a275d763d1a6e41ed3aa13f824a86601e167c4b340e7",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0025",
+      "question_index": 25,
+      "question_sha256": "b4baa1ee74296705537a7d9056ef11d1a17ee447b3863bb7420460962b29a5c9",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0028",
+      "question_index": 28,
+      "question_sha256": "ae5588106e739b440f68c30fb501db04b7c9b9f06ce7009e5c7e89e1adf9b1c1",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0030",
+      "question_index": 30,
+      "question_sha256": "9d86d6848f434f655f704ce67d4bad2bff8a1e746969bf68e294c6057f3d0b6e",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0032",
+      "question_index": 32,
+      "question_sha256": "c8bde2d7e7fec16a2836112b7204397d80599a41f44c61df651c1a8182ffad73",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0033",
+      "question_index": 33,
+      "question_sha256": "c1d1d633725fccdf71293f28716493c57c8a70c5c72c83efe28c49e5896ed27c",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 1,
+      "id": "conv-47:q0034",
+      "question_index": 34,
+      "question_sha256": "7fc22ed7b7fa49e2d799df9fa851ce37936e22bd50bdd349b13aa7559a959c7d",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0035",
+      "question_index": 35,
+      "question_sha256": "2cabbc2bcf137c3aa64d0275a37a1e29f5cc28ca957f0bdbea87d6642b1d7ef1",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0036",
+      "question_index": 36,
+      "question_sha256": "c3943690c080a746082ecd29506cc8fccfe23ef4af6d986226264c1264ab8869",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0039",
+      "question_index": 39,
+      "question_sha256": "20a104908c8e0695ea36694dfe0855361672a6b13ae2343cd0a0983e26dddf94",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0041",
+      "question_index": 41,
+      "question_sha256": "2da8d1bd638d93237eaeffd212a606039c2115c0539c8d0620cc4903c9e816fc",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0043",
+      "question_index": 43,
+      "question_sha256": "178cbf9b06985d47135645bed618bc1230ecfed9fcc11cda8cf0497b7cc96eff",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-47:q0044",
+      "question_index": 44,
+      "question_sha256": "7dbaa00a02c18fbc723e76f01543cec07d507124f659abe6883c5d8f2f439f6e",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 1,
+      "id": "conv-47:q0045",
+      "question_index": 45,
+      "question_sha256": "66b17d8fde4a579effb5ad67268a8f7b15c4a1aaae49641dbc286173e2e72aa9",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0047",
+      "question_index": 47,
+      "question_sha256": "40be05556798c553c7e8c9011abe885eebd586b643f26b61c0ddaf23f4a845d7",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 1,
+      "id": "conv-47:q0049",
+      "question_index": 49,
+      "question_sha256": "f88073b572233bb7a0c5182b426cbff898e36a44b1717b16750f3f02a2a73518",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 1,
+      "id": "conv-47:q0051",
+      "question_index": 51,
+      "question_sha256": "8900b9eb0aef420855f43cb57521cb39af8f9eeeb67c6475649f909201af4f60",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0052",
+      "question_index": 52,
+      "question_sha256": "3745f4f6644d1041050676b014795c0b6bc06e8dd3404cf3abce0dfc058fe973",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0055",
+      "question_index": 55,
+      "question_sha256": "d82c406850e2d2c563b73d7e57c4b84e1cd385f1a77cf133549716cc32902da3",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0059",
+      "question_index": 59,
+      "question_sha256": "223857bb0c085a6680b9b137724a0def3234838e82270fb3a7cf6c83d4d6a689",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0061",
+      "question_index": 61,
+      "question_sha256": "ebe38bc723ec29db483d24cbd360d0aa6d9da02fdec54bb8e26e87f1636b1c91",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0064",
+      "question_index": 64,
+      "question_sha256": "76dd61f1528dbdc35905352793efc4a4e04d14f33580c7131425c32b16a1e881",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 2,
+      "id": "conv-47:q0066",
+      "question_index": 66,
+      "question_sha256": "3d59094cdc3f4f327a9b4398645f14d74c16270a677a81a1b7ef530f3b1ca193",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0070",
+      "question_index": 70,
+      "question_sha256": "643e25a735f1b79e6734877e6912fe9945bcc4c7f67a596a71d5fd4d13a52e09",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0075",
+      "question_index": 75,
+      "question_sha256": "429d67b30a5ef0bf0a8c8e07be9f17be3046cebedacf92f3d164d1b79bb6cb1e",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0076",
+      "question_index": 76,
+      "question_sha256": "23dda19041fdbba9fdccf6a71b7ec3cb8d8f2bbfaa28752e3a28e1e95abbf522",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0078",
+      "question_index": 78,
+      "question_sha256": "3478851341eaf8e47bc1ce074c10744676f258ed19eab374245445a9025b9d5c",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0080",
+      "question_index": 80,
+      "question_sha256": "1adeb51eb1ce40f507e7570e4527c913c28042f202932ebc471d7df76dde6e30",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0081",
+      "question_index": 81,
+      "question_sha256": "976da1e42c4ce15dc07b89a0574afba158f99b665c52f688c004042d7a612e74",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0083",
+      "question_index": 83,
+      "question_sha256": "bf3d6db75a96c7639eee70ff0898ff2df19f0cb5e452f21f2bdeb51d2dd5d15a",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0094",
+      "question_index": 94,
+      "question_sha256": "025ecabee20ae9e1f01dedb2b62913f949e4653e3fc882a30993b6fc9b02b8ff",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0095",
+      "question_index": 95,
+      "question_sha256": "d46e2e9eafc98721def790c06dc28191067be62b65f18aed6f527188c04401b9",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0097",
+      "question_index": 97,
+      "question_sha256": "e2bb814989aa77f38676b9d6c91fdac4eb1891d2d24a5f30e884ebd40bd4b222",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0098",
+      "question_index": 98,
+      "question_sha256": "ab292d0737e7fb923cb427cacd97f77766aaf23d700599429a5b13643af48ccc",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0099",
+      "question_index": 99,
+      "question_sha256": "80e4ab6644d6622668d5c0e0710558aa770ba8b77df4113608bb2f7a1937a220",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0100",
+      "question_index": 100,
+      "question_sha256": "e5915f24e0183e26e4fc360166343200dc4c1c4203ad343603274b8b0ba7788b",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0102",
+      "question_index": 102,
+      "question_sha256": "52df8939d757d88a428a0c9a8c8ce78cb593e97cc7cc3f15de348a23d4f1f4ce",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0107",
+      "question_index": 107,
+      "question_sha256": "d37b8eb539028d1d43b660621586b01906687ba381a4f39c195a04082739fc71",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0118",
+      "question_index": 118,
+      "question_sha256": "66804c4c2a4f9ba8ccdc2c6f7c8850871f7349a5a40cefd94517561e67d80cd0",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0120",
+      "question_index": 120,
+      "question_sha256": "37a3e3a5d4471d7ea038cd49ccc549d60d3aff143b21e81adac92f24374a422b",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0121",
+      "question_index": 121,
+      "question_sha256": "3ab8473a58083633b36af4442204319f510fb5c00b0e1c14a0229d12e70207e7",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0122",
+      "question_index": 122,
+      "question_sha256": "e220c9edaa7c960f37e4ecc7ab1d2235c584a01f7bb9fc138e80307d027e6970",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0125",
+      "question_index": 125,
+      "question_sha256": "146d5ab512f891714320b9ade8bbe4e40318b2759f48ec2d72b37de3636920bd",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0126",
+      "question_index": 126,
+      "question_sha256": "cf1691f3a674ba1754386a27a99475967439e92bbbe6cd7b73dd8600c589c745",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0128",
+      "question_index": 128,
+      "question_sha256": "f72d3de7229832a6178407a5bdadfce0e91c11298f7e49a49df6ff2e2b9f9b96",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0129",
+      "question_index": 129,
+      "question_sha256": "4ec7da9f0781b629f38b393e7c1d569bc3cf8132a97c372844b031a957b923ca",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0139",
+      "question_index": 139,
+      "question_sha256": "387d157d3a598a9bb3ea0907ceb72b53d8f4092fda0fe1203626016efbcc67e4",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0140",
+      "question_index": 140,
+      "question_sha256": "575402f915c5867eeadb359072fc781100b57452f4f32659d5d0543a2239874c",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0144",
+      "question_index": 144,
+      "question_sha256": "9f95d232acfafaa95f94a941d0b812a26929175fc84533c0d307db32b049308f",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0145",
+      "question_index": 145,
+      "question_sha256": "49ebfa92090aadc07f843942a56d4432f9a06368b66f25d1c9a22c15ecf172f8",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 4,
+      "id": "conv-47:q0147",
+      "question_index": 147,
+      "question_sha256": "6c6af7be5db0e98e46d1569e1e020b8ac11e16418adda248428d6d0491ee89a2",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 5,
+      "id": "conv-47:q0153",
+      "question_index": 153,
+      "question_sha256": "0ca98236395ba7ad7112e237c510f87e1fdab9b619c931eeb8e4cd4d1df9e913",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 5,
+      "id": "conv-47:q0154",
+      "question_index": 154,
+      "question_sha256": "450e0246cc65dfcca22a05d6d931b78ec41724421c9778f79abbd1e4aa8c57d9",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 5,
+      "id": "conv-47:q0158",
+      "question_index": 158,
+      "question_sha256": "5a9c33110688f329bf75cb6ef0ee67ff85d8c9ee5878edde1669d67ff7e94133",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 5,
+      "id": "conv-47:q0162",
+      "question_index": 162,
+      "question_sha256": "bd30ffe77daee383767f4b0ea98c7747d3103648a959b038e1d912b93461a4a2",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 5,
+      "id": "conv-47:q0174",
+      "question_index": 174,
+      "question_sha256": "7a24ee7cc566c1f1ecc5d6b6247bd938227e489787500b9367ebc6aba5130deb",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 5,
+      "id": "conv-47:q0178",
+      "question_index": 178,
+      "question_sha256": "35df593f092f6ddb76e44e4df58d31599ae624adc9fc70c78f0af04e28223eaf",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 5,
+      "id": "conv-47:q0182",
+      "question_index": 182,
+      "question_sha256": "9d44cd1cf300815aede31773dea3f2e3c8758d75a7100377f1f5ac096460ff48",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 5,
+      "id": "conv-47:q0188",
+      "question_index": 188,
+      "question_sha256": "74d8f2660036b3a35c1c7c80c0cbedb24522f25b17dd72cc6eaf0edb334dc75b",
+      "sample_id": "conv-47"
+    },
+    {
+      "category": 3,
+      "id": "conv-48:q0005",
+      "question_index": 5,
+      "question_sha256": "4d1f8d2d3e6f384f31be92a169d36b87e73cfa435bd1419bb3551480e42b52dc",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 3,
+      "id": "conv-48:q0011",
+      "question_index": 11,
+      "question_sha256": "3365e4694bf74d562ff2be9a8387c482dc96c3f1a4690b83afd38579cfb7c062",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 3,
+      "id": "conv-48:q0018",
+      "question_index": 18,
+      "question_sha256": "33f663796d21faa0f1c4aef658f26d89ab879a12e7f26629bd8efa6eeb75e534",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 2,
+      "id": "conv-48:q0022",
+      "question_index": 22,
+      "question_sha256": "4026ab47daa8c4051394fdc0b16f4ac88107d5fadcfa9ea9ceb0c59ab6553d4c",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 3,
+      "id": "conv-48:q0023",
+      "question_index": 23,
+      "question_sha256": "34c9011566bb68752841d5053d942798f0c9f561639ee3ed4acf6bc636f935dc",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 1,
+      "id": "conv-48:q0024",
+      "question_index": 24,
+      "question_sha256": "b95c94d7791457864499e19c1288310165fd57e59d3765fbe238226c84b16482",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 2,
+      "id": "conv-48:q0027",
+      "question_index": 27,
+      "question_sha256": "50c21f1186569b52a5eb210d2531dd860f56ec41bc4b40f6b76fc286a0beb221",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 3,
+      "id": "conv-48:q0028",
+      "question_index": 28,
+      "question_sha256": "d17095f62de3c7c9adc1f4f9caf4d057b9c270f967db8fa17df5ab7011c82b99",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 2,
+      "id": "conv-48:q0029",
+      "question_index": 29,
+      "question_sha256": "def60e363b32ccca1f20d9659fe136e821935bb1a58aa5ac7c365046eb76a7e0",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 3,
+      "id": "conv-48:q0036",
+      "question_index": 36,
+      "question_sha256": "69fe65d8e10c8b33bded257e3cd4b187f19508c821c9edbf2eb6a10ef61ead12",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 3,
+      "id": "conv-48:q0040",
+      "question_index": 40,
+      "question_sha256": "4ca2c517e87b95fd721f64a68fbe8998e1adf6e3f84189570fb541204b942ef4",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 2,
+      "id": "conv-48:q0043",
+      "question_index": 43,
+      "question_sha256": "bf994a05e5a1e64d70f51a0e42faf8c56bde74637f73d8410cf07f84576de462",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 3,
+      "id": "conv-48:q0048",
+      "question_index": 48,
+      "question_sha256": "3f602dcfc024c77e7056627979c51d07cd6108c1ba896fa5e8f4017f094c63c4",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 2,
+      "id": "conv-48:q0056",
+      "question_index": 56,
+      "question_sha256": "217ed3519da433bcf08b91dce636fb97330d06e03025e643922ee891c2dc27dd",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0064",
+      "question_index": 64,
+      "question_sha256": "ad1bb88868b81971c704942e35b93a447eff1b6a294e83f4fdf7c4ba39f5f766",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 2,
+      "id": "conv-48:q0065",
+      "question_index": 65,
+      "question_sha256": "3a5d6232e5c6ac51f957e94e4cd7970183491b2056c63a8d4580dd390522a8f2",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 3,
+      "id": "conv-48:q0070",
+      "question_index": 70,
+      "question_sha256": "e0e1f5eda0c15e702a4b088f254186d64a34eff0309ff11976cdcfe411c6bf62",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0072",
+      "question_index": 72,
+      "question_sha256": "74035cb76aa5f079c843e86cc0c5b1578c4a9fb276e7db152cee080c383852c2",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 3,
+      "id": "conv-48:q0075",
+      "question_index": 75,
+      "question_sha256": "c9887af79a0fa337e75b9167df93243bdeec9cd98028fd334596d154485c7139",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 2,
+      "id": "conv-48:q0078",
+      "question_index": 78,
+      "question_sha256": "670130a8750dcd880e899fbab5ac7135a8e956377a1ffff6143381cda8af7dc0",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 1,
+      "id": "conv-48:q0079",
+      "question_index": 79,
+      "question_sha256": "8fe13ffe01b8c120d10b2e5af7cdc52fe0611cd808dcd51c77253aca6e5a40d2",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 2,
+      "id": "conv-48:q0081",
+      "question_index": 81,
+      "question_sha256": "27f8a0bc3c6f29a06dab121677d19e312a54e52adeb235f76b284003ea835e30",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 1,
+      "id": "conv-48:q0085",
+      "question_index": 85,
+      "question_sha256": "ca51518f3f19621fe093acb052dedac9fad9f109a5009807f2bea5958c424562",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0089",
+      "question_index": 89,
+      "question_sha256": "71c9fb051abe8f90b2ac6b54a12ea46d28b1dd9e6b6450254dc5927d22387f5c",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0104",
+      "question_index": 104,
+      "question_sha256": "5a77808a2896b1b39ba8196b41d68defdce6781de9e4538cb0d75f6ce9c958c8",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0113",
+      "question_index": 113,
+      "question_sha256": "5a7187305ce094f3adbb9112016840975a89706ed11c468d047d6e0334fb29da",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0122",
+      "question_index": 122,
+      "question_sha256": "b3cf8e53a6537caa97f6f39daadd87327386cf1defc3c0056cbc7b5f7755c316",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0138",
+      "question_index": 138,
+      "question_sha256": "6594915fb70dfb6beb64fcaf25a725989e924671e89626b32d22427da446d9a2",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0151",
+      "question_index": 151,
+      "question_sha256": "3cf9fa9b7ea137621b907d5c2362d9e9a97ead0452e225984162640940f8d2fb",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0158",
+      "question_index": 158,
+      "question_sha256": "4e3da373a9ed0254107426f8f87b90aed161b1b55ab9fab9c41343144962dfcd",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0160",
+      "question_index": 160,
+      "question_sha256": "ce84de225dfb29ca45f8fe9db08374e741ff0c0ed421a6eab68637bccb8d292a",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0167",
+      "question_index": 167,
+      "question_sha256": "e399223bd48fa0027473e286dfcb15c372e32a14d6ddd07e0e03c0689077a873",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0169",
+      "question_index": 169,
+      "question_sha256": "d588afd91894f510600301ec0b41e1c3ec944c34767abf05aadbe8db92f5a8b6",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0171",
+      "question_index": 171,
+      "question_sha256": "55ea079e485d2de72c3675925bd1ade7cfc4bbd641588a5f99c50b701a59f2c4",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0172",
+      "question_index": 172,
+      "question_sha256": "1c1a2db505522f719654429293e342d643217fa9c67c0c0959e5ba24186659f7",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0182",
+      "question_index": 182,
+      "question_sha256": "d4a963147173616dedf47f8652ea324d4a19836713cc665a7c5d18024d4d443b",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0184",
+      "question_index": 184,
+      "question_sha256": "825b87c6d6a6bbfbc9ee014bde9c5e55a279ccdffa51d7afcf74b54e9916e01e",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 4,
+      "id": "conv-48:q0186",
+      "question_index": 186,
+      "question_sha256": "ebc907d0e625e90d1d3fff189c3c16f00cbeccecc76457023177f178f8f31b36",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0191",
+      "question_index": 191,
+      "question_sha256": "564ee862fa2390748b83229966a0d3242752ce37d30161bbe4eed03a81324208",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0192",
+      "question_index": 192,
+      "question_sha256": "7c424766dfb3e1785d2aec4f8ec6911cd2c33723ede3f39c5f74365c1281b79d",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0193",
+      "question_index": 193,
+      "question_sha256": "520c320283837ab79edb6dfd56132e6ea68253c794ef4c3939ade1934a269504",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0195",
+      "question_index": 195,
+      "question_sha256": "10aab90b0b6fb6bc6a424c7db4473092e9d59f1d104749173707dc7c50926a8e",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0196",
+      "question_index": 196,
+      "question_sha256": "5500d752ee0264837b178b7d43ff85cccc85739b985e57ae03a97e3609c0eec7",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0197",
+      "question_index": 197,
+      "question_sha256": "47fb8df68b5089745ebe41566cc85de7ccc1f95e53e0af293db0c848fbf0e068",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0199",
+      "question_index": 199,
+      "question_sha256": "eb457f7079a0b1a8ef48fb5fb1b9e845da4a2eac68619324c502049b6be90acb",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0202",
+      "question_index": 202,
+      "question_sha256": "045af4086d89b925ee2e73a82ea16de1c7ee98eb4b5a3d2022c21d412e455b8a",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0203",
+      "question_index": 203,
+      "question_sha256": "cc2c09ff2c1de3cf289fb060e3c4a1d6ad42107a22bd1775512e59355d64820b",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0205",
+      "question_index": 205,
+      "question_sha256": "5e5ec5997826588b16f73f943b95b8e2627d91566b55f6f5a4c4a071ff28b22f",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0206",
+      "question_index": 206,
+      "question_sha256": "31c994d90319d8e232df25f9b940825fcabf243ff2f6087bc3d4ab4a84915c0f",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0209",
+      "question_index": 209,
+      "question_sha256": "e016aac993d32e3f11970589bca4a03a5b27d0c41c05fdc1164b031b60f3b1c9",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0211",
+      "question_index": 211,
+      "question_sha256": "3520714d390e373f106216d356550b8cac40a5d2a70308eff14f41fe696c6ce5",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0213",
+      "question_index": 213,
+      "question_sha256": "d18e2491353a9974fa7b7c253c0985266a0790c871cdc79c180bcda255517d6d",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0215",
+      "question_index": 215,
+      "question_sha256": "3b3350855fd4026269e2a8d5b18c6d44cba1f7c080c0f152d4dc33a5b90b9043",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0216",
+      "question_index": 216,
+      "question_sha256": "02cdbea52a5c5ecbefa470588a555c8fd5d59cc16ae979b5dc34a6072eddc782",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0217",
+      "question_index": 217,
+      "question_sha256": "24ba9001277ca5932c414c722ad172d8b0d721d7c475c8faf1510487fd10f2dc",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0219",
+      "question_index": 219,
+      "question_sha256": "3b23d1c972aaaf6eec141e3cb91eb46af512da1137ef2e74bb8f89980ed2ac2f",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0220",
+      "question_index": 220,
+      "question_sha256": "2ca44dec7cba7fff2e6e16f46197a0f0338a0e6dc0b774a1df4c7bddd9047f6b",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0222",
+      "question_index": 222,
+      "question_sha256": "eedd3b82b3fb513413f5f59d927d4ef2634aa76cdcc76fdce5e5ea91c6f742c8",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0224",
+      "question_index": 224,
+      "question_sha256": "404f6d73ddfad1fba222ec7380181e1da55ae6c81c59787d923399c1cbf56181",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0227",
+      "question_index": 227,
+      "question_sha256": "608d7d72d17e2976e6507b375bd70cd830855f6bec4a9656cec6a53512faec4a",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0229",
+      "question_index": 229,
+      "question_sha256": "4dbb67984be2b1fbf43b8eddd3d362c273d730528189586c3ad6f518148a2d25",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0230",
+      "question_index": 230,
+      "question_sha256": "69356e02697d13e4b4e8b46f294aa7a0637ab33cbb70ed8742ce73d736cf9121",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0231",
+      "question_index": 231,
+      "question_sha256": "136149cf151594663c1b07a8fb82860cfd62b770279c1ea2b4b4b2a2708ff29e",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0232",
+      "question_index": 232,
+      "question_sha256": "a6262ee7fb4bf5d31f32e9e4b0af7210251602d2a1ca0abfe7479f94463c92de",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0233",
+      "question_index": 233,
+      "question_sha256": "1db79d769ff9529668ef88f41da7c548e55d35d805694c2fea6b443d0d793979",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0234",
+      "question_index": 234,
+      "question_sha256": "1ab60c4f2ab74948c32ad8f839b8c7703d751a33e1f47c105b5c1ddcaf17f6ae",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0235",
+      "question_index": 235,
+      "question_sha256": "3e810b956694a8a0af1309373e8eca81e18f718ce438e4cbe5ee76985f236040",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0236",
+      "question_index": 236,
+      "question_sha256": "de8ae36c8c8f8f78bb4b4810081acdaf3427ccf906c72ee005c1f567fb671796",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0237",
+      "question_index": 237,
+      "question_sha256": "8f2840e49d2a709da43e7bd5f2ff8b78d6fddc56c3b311ab7cc1999094178622",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 5,
+      "id": "conv-48:q0238",
+      "question_index": 238,
+      "question_sha256": "b5d1a7183d442aca61458aeed8aae15b7b3b31b9880873fc14f9ad0c1248d127",
+      "sample_id": "conv-48"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0000",
+      "question_index": 0,
+      "question_sha256": "b15478585d4816a70b941cf966fb44008da38976bcbd1278f779f5df79ca7eb9",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0001",
+      "question_index": 1,
+      "question_sha256": "dd745ea39af2b160b0df1e37559f6135ca26f177b5aa9b5882308e98f8f859b6",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0003",
+      "question_index": 3,
+      "question_sha256": "d315857fbc47268f8a9faa8cbc6c0e693378fa2b78409db6787818b1281739d5",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0005",
+      "question_index": 5,
+      "question_sha256": "3789773c9ad3f8d9d728ea9cd3a87e07fc05e54e5540de8ebee71b84f3d6b9a7",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0006",
+      "question_index": 6,
+      "question_sha256": "348b41d848781f4c877b7b888c05e6681f4c58fcc893764ea5d99b696ccb0423",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0010",
+      "question_index": 10,
+      "question_sha256": "8708d28fa7ef540e8f67c4b23fcb50424e6b493252eba8f9b6bf3bf7e67f415e",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0019",
+      "question_index": 19,
+      "question_sha256": "40aecca9dacc7d482b1d0aae8f5742b6ba00a2580806f82c17a54c3509efe552",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0020",
+      "question_index": 20,
+      "question_sha256": "ad1ac31a105189a06f27d5393d6ee655709769039cf7ab572aecbb70697c3c87",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0026",
+      "question_index": 26,
+      "question_sha256": "9004b156ef7851b78e942e97e0638dc9bf6e55c5804e9a3a22913de21e0437a6",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0027",
+      "question_index": 27,
+      "question_sha256": "35d7c70c1fb46c60443433ca68534ed81702698a87a87dbbbc82298969c1e7bd",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0028",
+      "question_index": 28,
+      "question_sha256": "8896504709b699dc88d05a0dba65d627c9f99a7bb45540907797c4e50f694b45",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0031",
+      "question_index": 31,
+      "question_sha256": "30b5968aa03a309ef9a74a531086593b9d25e5821210a2fe93c8ec0e98f62557",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0033",
+      "question_index": 33,
+      "question_sha256": "d234c5ccbc8291f26fbf3297cc9b4eb7335f436c519972a8ffcc11678f6af216",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0034",
+      "question_index": 34,
+      "question_sha256": "47435923612656c7fb0390e249063b7fd2b1128bef9c8d20ccb8ffffb3037840",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0038",
+      "question_index": 38,
+      "question_sha256": "ed21d8cd3f49e63cab2fff3cf30c6aecd733bd02682f6b4d7df5651b4e16d4e0",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0042",
+      "question_index": 42,
+      "question_sha256": "5de6f64921fdc3e6800f95df91771468722bdbd77f80d4360bb5e3bf4a91ef09",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0043",
+      "question_index": 43,
+      "question_sha256": "e2537a6a493c8129aa21fa6496a6503de2f02d7b9821c379f8d40a6a75f300d9",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 2,
+      "id": "conv-49:q0045",
+      "question_index": 45,
+      "question_sha256": "f68fecbc0ca0f5153a7e8cbf811a5ece4aefab8a620a498626b69616000593f4",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0046",
+      "question_index": 46,
+      "question_sha256": "8284c48306ea82de5495c0d611af7e1fb59c38cd80d473c51f3cf0cd42b3afc2",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 2,
+      "id": "conv-49:q0047",
+      "question_index": 47,
+      "question_sha256": "570c11e46fc7d74c21098035143f43c6de3c78bf8cbb21bc7fb5fa1287d2e2c2",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0048",
+      "question_index": 48,
+      "question_sha256": "73d7e4d970a791cb71adfa58853ff1ecf21c6cdb34fc2c107d27e553d2f3e7bb",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0051",
+      "question_index": 51,
+      "question_sha256": "b4c6fbabfe7ef4b373c508ffd70a824915164a3d93d4879f3fed1119ca18d849",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 2,
+      "id": "conv-49:q0053",
+      "question_index": 53,
+      "question_sha256": "04e7d97b32446bfa0036454a8991145829d2430b6ad9ea93030645f87bf80f4e",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0055",
+      "question_index": 55,
+      "question_sha256": "512762dc308dff4e381a3857f43116bd7e65110f76ecfb0f1e453d93dbefce69",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0056",
+      "question_index": 56,
+      "question_sha256": "085cce612bc7e6879b9455e8589405ac24442fe41aa81718e6c43ab58810583f",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0057",
+      "question_index": 57,
+      "question_sha256": "39834128ee31dd43c78efe6e90a704a6e1765a7cfb33cd4cf1bcccaafb7c17e3",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 2,
+      "id": "conv-49:q0061",
+      "question_index": 61,
+      "question_sha256": "41166297198c946018d96e446384bae6b026cf1bd0c09333cdebc3393b034ca3",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0065",
+      "question_index": 65,
+      "question_sha256": "b0fc27339da22a7bed6e5bfab8c73daacf5feb1c98811ec3d0c33cae72447ba2",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 2,
+      "id": "conv-49:q0066",
+      "question_index": 66,
+      "question_sha256": "ed62fc787c8a6d98609f3b15df7c66a7f10ff8ea396c77a8b637207d46edf2e4",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 3,
+      "id": "conv-49:q0071",
+      "question_index": 71,
+      "question_sha256": "bd446bc716376c0e69672683b0b2bcbb37ba47dded1395578bc0bbfc0fcb93a1",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0072",
+      "question_index": 72,
+      "question_sha256": "b79d29047e51eabb1f3b7ca9505abc8507959a0ad9fdb5074ea0440907f847a9",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 2,
+      "id": "conv-49:q0073",
+      "question_index": 73,
+      "question_sha256": "f81f59fa5c7a9a4e1d08622cec2aee4946a42337f3c7f58d27001e046bcf897f",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 2,
+      "id": "conv-49:q0074",
+      "question_index": 74,
+      "question_sha256": "5c41bbdb0bcceab97889930fbe0bd5993ab7c3926833f4efd11f1d7778b01690",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 2,
+      "id": "conv-49:q0079",
+      "question_index": 79,
+      "question_sha256": "14414adbdc6de48abf9fa450579592c3288f19b084189ed2fea404bc95159054",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-49:q0082",
+      "question_index": 82,
+      "question_sha256": "2105fc140ab2dbdf30f6d5263273ee691cebd81b7423121f4729702d1f4b030e",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 4,
+      "id": "conv-49:q0086",
+      "question_index": 86,
+      "question_sha256": "9afce461f3f348ef88d722558b38d1a74ad9c18ca08e5ff8f973b36841fcfa4f",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 4,
+      "id": "conv-49:q0104",
+      "question_index": 104,
+      "question_sha256": "af5d9c94058fe240aefbd07310b206a8b07e69d32094ed970862f06f2371c788",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 4,
+      "id": "conv-49:q0124",
+      "question_index": 124,
+      "question_sha256": "20aac724eea81e5217e48ff9442ca594895ff1b731f0a4ffd62eb4790c28cced",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 4,
+      "id": "conv-49:q0125",
+      "question_index": 125,
+      "question_sha256": "147913ed1b0fb1baa37de87197cc12806753ab80d6c95f1af0620bc70e87fdc4",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 4,
+      "id": "conv-49:q0146",
+      "question_index": 146,
+      "question_sha256": "f66ce42b393d552e9fa7ad5c32a1cae7a28b8ccf950c100fe84659526c59c0a3",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0156",
+      "question_index": 156,
+      "question_sha256": "09b2f92dd75872e9239d8b897f189a076d603dd47c8939466194426d5690ae83",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0157",
+      "question_index": 157,
+      "question_sha256": "9f9cdea8ffbe4c09a25992189e519b817aec40b95fc6218ed621f85d906df3ca",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0159",
+      "question_index": 159,
+      "question_sha256": "813b6d09972c43b1013317f71289071aedc96f5fcdcdeaa250b6f3de2564e9a2",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0160",
+      "question_index": 160,
+      "question_sha256": "b990e2b86d4ce772362930d682ab4de0b9acdb105196396dc3774fa446ac229d",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0162",
+      "question_index": 162,
+      "question_sha256": "e3c3478e97507f00886e28f38a9ed742f8a557a7020a644df48e4df08a3acc4b",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0164",
+      "question_index": 164,
+      "question_sha256": "00914ba78e0da03b8d691ed48ea3629909fb76c0633bda5b331abbbb2bce6eee",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0165",
+      "question_index": 165,
+      "question_sha256": "3a04a0a8403b40697fdc31c011d6d0dbfc5362bfc5387f92978f7bf9192b8895",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0166",
+      "question_index": 166,
+      "question_sha256": "22b555efeda42b64794e1084a6dd42f86941f6219d06019005c8fcacdb7e2933",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0168",
+      "question_index": 168,
+      "question_sha256": "5e550a2b9b20619ad06a7cfba8f3449101d2dfb124d4febd4d55d23e86d38599",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0169",
+      "question_index": 169,
+      "question_sha256": "e202cbc1dd6d09d456331f7a6206f59078f8c73124a921d70a001618844a026e",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0171",
+      "question_index": 171,
+      "question_sha256": "a8eb3f240906067f7274803552f6d0975a312a077a03d3ad0c63bc8b31cdb1ba",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0172",
+      "question_index": 172,
+      "question_sha256": "20fe31379c84c668d2bfdfb0c61c5fb65961a32e7aa900a0d8e2a0c1cbf2ff9f",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0173",
+      "question_index": 173,
+      "question_sha256": "12c24ca07060c1bb8c1932c3f49433edfdc08b3ff01a07dcc6a8e1559d78f90f",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0174",
+      "question_index": 174,
+      "question_sha256": "8c9e946f01762b351c7c344a8f02e40b5b4019590ec254900c2af56850f9b04d",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0175",
+      "question_index": 175,
+      "question_sha256": "ba9295d212f2561ff54fe0507f27a6c57898ff255c15066b7928cd5245391f7d",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0176",
+      "question_index": 176,
+      "question_sha256": "0296ce91eead4c08e8491e37b37c42afee0276a15405978e6dc56f36bc5241c8",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0177",
+      "question_index": 177,
+      "question_sha256": "51d48f42c740b56449a22ec44d67de57c5548b177efefa1d56cdcdf1a81723e8",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0181",
+      "question_index": 181,
+      "question_sha256": "354bf30e933f16136cb064d778e4415a38e68f5497319a45c8748957658d31ac",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0182",
+      "question_index": 182,
+      "question_sha256": "b491d612eb4023f14afd2d84f35e6920a4b32d0b77e193f3a9b122c91d4342c8",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0183",
+      "question_index": 183,
+      "question_sha256": "0e8e1e91dd8198465ebdef903d31c050e73009ff79e0f3f246f649213d83cb17",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0184",
+      "question_index": 184,
+      "question_sha256": "e1e2f7912e14ef68c5489d127777f29e70f727e724e75d4601f658e24d882118",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0185",
+      "question_index": 185,
+      "question_sha256": "a18d1ebcf4b20df5f618cc086f07d440ff3cdc61d6c802f65e004ebf3288e8b9",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0188",
+      "question_index": 188,
+      "question_sha256": "e0ff07cd5e68ec2584d1955e81a0324dfabfb79e2c57480287b2d0a758824772",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0189",
+      "question_index": 189,
+      "question_sha256": "70f63dfad887a8f92bdf03a0cfb2bc87169588d7af203ff653fdf27944616083",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0190",
+      "question_index": 190,
+      "question_sha256": "a69a38655964d264a05458e717a427aff601e88ce2e56a81a500ac10858525e3",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0191",
+      "question_index": 191,
+      "question_sha256": "7a32dc84c6c2cb8fbc3ab1b20a4b1857dcfdaafd93e78639d3e77b74998ee535",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0192",
+      "question_index": 192,
+      "question_sha256": "819910d78c9faebf81b44f3d7760f1bcbf785bd91bfa3f4e9d3246ef6f133824",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0193",
+      "question_index": 193,
+      "question_sha256": "ddff6f67923f8a234f9be229eb1672bc24615379761ef15ea5a2146da6e60f6f",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0194",
+      "question_index": 194,
+      "question_sha256": "2a59c1dfa38ef66fecd3a44730c24b10c451752010e8166cbc81ff79111e9a42",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 5,
+      "id": "conv-49:q0195",
+      "question_index": 195,
+      "question_sha256": "81b920f44dae44636b299c2f37f498726714e5200626c66d523e9fae25d8c2f0",
+      "sample_id": "conv-49"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0001",
+      "question_index": 1,
+      "question_sha256": "f78bd2c4b37cd906c70dd68b44776ea7a89e5774c0f55354789e76870e249607",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 2,
+      "id": "conv-50:q0002",
+      "question_index": 2,
+      "question_sha256": "20cc2f2713a797cf2632283b2bfa1808ab80dfd36e78320e8488b76d1b4e0291",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0003",
+      "question_index": 3,
+      "question_sha256": "a1f422e46b7c64db7876b30bc056725422cce49d8468b26ed2eb32e40e5fc9b9",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 3,
+      "id": "conv-50:q0004",
+      "question_index": 4,
+      "question_sha256": "435b189d3b43bde18734e6317ce080817f717b05164b79babab98d1359dd6767",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0005",
+      "question_index": 5,
+      "question_sha256": "5c5473f1f5dc919cf0edf8ab5b72160f783f7e109345bf4aaa341f4825e860ec",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0006",
+      "question_index": 6,
+      "question_sha256": "1711fe93fef3e45f1f538193bb9e865f7e54c4a5fb0b1a5fe42eab66b82398b4",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 3,
+      "id": "conv-50:q0007",
+      "question_index": 7,
+      "question_sha256": "1e1d8a071e5ceda2e7efa21e397e02bd3bb2677bed7ea16509b4cc6680db83e3",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 2,
+      "id": "conv-50:q0008",
+      "question_index": 8,
+      "question_sha256": "57627752693619a96fdd142d5b63cf80e4d99a1dcce397afc994b7f727038c2d",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 3,
+      "id": "conv-50:q0013",
+      "question_index": 13,
+      "question_sha256": "d9c37a4bc30bb8a26f958544cee1cf805e3544b88451faca3ce20caddde26e24",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0019",
+      "question_index": 19,
+      "question_sha256": "d97b53718575c59d277ca89ff725319cfa068adb825b8d8020628125c362c591",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 3,
+      "id": "conv-50:q0021",
+      "question_index": 21,
+      "question_sha256": "7427d20f1fafeb51b0c7fec36f941ca1a8a731c241a3fa4976dd3f346a7f48f2",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0022",
+      "question_index": 22,
+      "question_sha256": "5dc74a349ce15874e8256250258ecd1caf51c35268899cb7d3a9e2c19f21b8ef",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0028",
+      "question_index": 28,
+      "question_sha256": "3dad78e0d5018f3fb9674603331c74892028793f9dd38b46fe9e40eec10bdcc7",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0030",
+      "question_index": 30,
+      "question_sha256": "c5eeeca606b59a1b99ba003727a8b8475d9121346db9049d9137a6ca3e5350f6",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 3,
+      "id": "conv-50:q0037",
+      "question_index": 37,
+      "question_sha256": "4ad2e4542f23c23591c5971ca7ccf3dbe0bf37c9406077de090bf6f2238c4737",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 3,
+      "id": "conv-50:q0039",
+      "question_index": 39,
+      "question_sha256": "d8d24fcced6d87a10688586c814f9c4fe377f453a16e738758d4620c291bf318",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0040",
+      "question_index": 40,
+      "question_sha256": "f1b93ca1b38ceff733fdb43d176148025a1fee685debbe5183d4f21a75745f8e",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0041",
+      "question_index": 41,
+      "question_sha256": "a741486c79ee8a9890e6136ba9282068e4d7802e6ff7a6d3923a9fd7157fc8b3",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 3,
+      "id": "conv-50:q0042",
+      "question_index": 42,
+      "question_sha256": "e9daba44d016194866cd945aafeb88896bb83b171a09ec2ccc2fcf528f722cf4",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 2,
+      "id": "conv-50:q0043",
+      "question_index": 43,
+      "question_sha256": "dddfd88f65aa0780e852316396321c40673dc44ffeb3ad0b06b516248131d94e",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0045",
+      "question_index": 45,
+      "question_sha256": "f4c90716b7f308a984ab45645086a913c0637346966b73582671207c0fc8e239",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 2,
+      "id": "conv-50:q0052",
+      "question_index": 52,
+      "question_sha256": "67e60be616ee15cbe5144c4d5b77ad57ecfdbdc10e8ae2358cc09f4b296443ef",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0053",
+      "question_index": 53,
+      "question_sha256": "808003054b5d4e0ba0162ef9e24f8dd226f572c24363b816608e5235de9684e4",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0059",
+      "question_index": 59,
+      "question_sha256": "418eebad7942f8ab06de924432576517812d674f6ca5b6bfc6e325be94f271e7",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0060",
+      "question_index": 60,
+      "question_sha256": "24dba8e2a2873feba8400964775d155ec2c5a8c422880b30d23fcf19d2ee467f",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0064",
+      "question_index": 64,
+      "question_sha256": "31b3d8b30228f1f4221a9678e779a17682a7a238cfc0c07906e99d57d0834e58",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 1,
+      "id": "conv-50:q0066",
+      "question_index": 66,
+      "question_sha256": "e2e75fe07a739768959f9c1fc5f045303bfd5c3fd8ca75ab4d060bfccfe81e2a",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 4,
+      "id": "conv-50:q0088",
+      "question_index": 88,
+      "question_sha256": "3d7af9a7d70d1c46c7ae40cb0d8efd5ba7a58439909964cb1b25ba37381f7b86",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 4,
+      "id": "conv-50:q0101",
+      "question_index": 101,
+      "question_sha256": "88893296e024539eefb6231904544a4c0486899f200b0e0d1e40ae07b17336db",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 4,
+      "id": "conv-50:q0134",
+      "question_index": 134,
+      "question_sha256": "47fa0e7104364d18329d35a99f03e8aa217206ed3ca07606ad542bf130fedeee",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 4,
+      "id": "conv-50:q0152",
+      "question_index": 152,
+      "question_sha256": "8606e175a422075433d3961093b248d90f016e36e3d3f0c89b2fac628becfb17",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 4,
+      "id": "conv-50:q0154",
+      "question_index": 154,
+      "question_sha256": "3855b8b8e31c8542302e80b017cacba48befbd945adf5a5bf7fb0deb952a0485",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0158",
+      "question_index": 158,
+      "question_sha256": "bfffcbf4cdc36a7b13400bf6718ce4840ed74a73974a1199ec1b7561693ad981",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0159",
+      "question_index": 159,
+      "question_sha256": "db090d07b0b0cb2dba82a9d6f5cf03bd4a50d155e791af04ec119b34ab53c04c",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0160",
+      "question_index": 160,
+      "question_sha256": "20e4055f21184093212cc4af8ba66e049cdea604e9248e366fb8e785bb160468",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0161",
+      "question_index": 161,
+      "question_sha256": "5a5c8260de198104291bb531f20ed23c45a9a79e240fb0635194d1ded0062f4c",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0162",
+      "question_index": 162,
+      "question_sha256": "a930d1b054a6b0716aa0a77fc7539be57fbc1ca2821b186aaa75031f980c1e2b",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0163",
+      "question_index": 163,
+      "question_sha256": "b0927b1e2ac26f5dea50485c169498c3492e57360de0df92178075a816b8ca7f",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0164",
+      "question_index": 164,
+      "question_sha256": "a61f88289b75c37ee43b13e7a53e020cecbc7689ef4bad7e339dfc86902977cf",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0166",
+      "question_index": 166,
+      "question_sha256": "e7fa54ea14284f2e7eccc29c0756368574e8492d0b370d2946f9491ea8f71f4c",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0167",
+      "question_index": 167,
+      "question_sha256": "0bdb79f82188d619b74fdbfd8e78be850caa21a4d784a40426c66d5ed254ecd4",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0168",
+      "question_index": 168,
+      "question_sha256": "997e0eafb1aeb798043f1831b8d364ce5b026a02d64eeed5779afe85c08ab293",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0169",
+      "question_index": 169,
+      "question_sha256": "dd46edd83270c21f3edc0846bdb6f39bf09694f4ce7dc843a3b58630f620465e",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0170",
+      "question_index": 170,
+      "question_sha256": "917fe3d7f5488a4b6943e9a0c2cb3476aaa4f011d3e46f16a812b6f6815ed8a9",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0171",
+      "question_index": 171,
+      "question_sha256": "8d07b8d8a369f0fbe6fe2e48a4bdd69d10f2d02083883c64f046e0b26d222e3a",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0173",
+      "question_index": 173,
+      "question_sha256": "bf236745a319744bbc1a7dbb86ec77b0fad3f2100f7949b516101798dddf3792",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0174",
+      "question_index": 174,
+      "question_sha256": "2c58413b17be0d63ab38a03fd37a0185eebb0e32fa95502b6d405fbf66190db8",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0175",
+      "question_index": 175,
+      "question_sha256": "2ed13c774be2c481a937e1773b39e023defb8b418ff2aa4f6b5a359157b2a72e",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0176",
+      "question_index": 176,
+      "question_sha256": "9532753c08de8ce43f100a8d81fb0e140b08e958a1f9b5e996d588d57ec4e03d",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0177",
+      "question_index": 177,
+      "question_sha256": "e60540f9d4c1e90b24beb4ed7eb912622b7badac77e3a378a5e00df28afda514",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0178",
+      "question_index": 178,
+      "question_sha256": "d931ea42f9733f9709f11b794dc5709e9909b0c8d988b061cb7753d6ea8052f4",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0179",
+      "question_index": 179,
+      "question_sha256": "7962ea79a2410ee881d55d01ba18ccf383d6a66326e0e8ca5affc41bb08d178f",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0181",
+      "question_index": 181,
+      "question_sha256": "dcdae838e021d06d6e5a7189bf6999d3812a63ebb7fa749f6d7987816d07a241",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0182",
+      "question_index": 182,
+      "question_sha256": "15e3a9bb688744e5759eec8659b73249b43b62ee7242e6aa11cb1be913e57e37",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0183",
+      "question_index": 183,
+      "question_sha256": "e2ee31f011ac691aee46522bd9deecf2f50ccb84381d04ec33164b87136654de",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0186",
+      "question_index": 186,
+      "question_sha256": "419c1e065a236fafb047374a59d2d6562149acce9acda6cebfffe4d1f2c88ad7",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0187",
+      "question_index": 187,
+      "question_sha256": "9e2c3543fe619e765d611dc989c95ebb62db7929dd5df0f1940530a0c04f23cc",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0189",
+      "question_index": 189,
+      "question_sha256": "4d791148d24d82763cfb46df268463828a40ed36b0dd52e4bdad15e66a723a2c",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0191",
+      "question_index": 191,
+      "question_sha256": "892bcca739c9a11784aa32dc83c8f4ae58aaa2ac0eddf304fad842e425a341cf",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0192",
+      "question_index": 192,
+      "question_sha256": "2d3af56b85c5c4c8302f825a09aab648a7effc2c09bcd65a6f8fb3b01f3441ed",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0193",
+      "question_index": 193,
+      "question_sha256": "0f9b7fb3097924cdd5544739056dc13a2330cf2660a239373fb8a5ce20e9bc3a",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0194",
+      "question_index": 194,
+      "question_sha256": "7c008a4b9f5109e22005334a8620e95a1881202fca169729c848026fcb36707d",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0195",
+      "question_index": 195,
+      "question_sha256": "76d574f9e94355dc6d3efd142808d3973853e93ca536f87649b3db86cf1bcc30",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0196",
+      "question_index": 196,
+      "question_sha256": "e182f7b36feab6752d0228cac0267ce88dd52786731894b233a0650bfb62a4ec",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0197",
+      "question_index": 197,
+      "question_sha256": "e5da6edaae287be978e4e714f90e5a0c80e64556a5862c52b650fbf44dba19e1",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0198",
+      "question_index": 198,
+      "question_sha256": "1e580bf3dda90b4b41fcc84c35cbaa7176ec9b8f5b391a366e2c6a81d9f8c8cc",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0199",
+      "question_index": 199,
+      "question_sha256": "094e3f6ec3f096b504b284adfc1ae98b0f25fcf0005de94c24e903f09461668c",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0200",
+      "question_index": 200,
+      "question_sha256": "26e5a8a0373f2a08c285cc4e0c58b5bcbd125538e86d2d74688d8fc6ba3afcfb",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0202",
+      "question_index": 202,
+      "question_sha256": "be76c642e7679035bb607992101aa863ede7f1091379f5f6d1e075fe0a15dbb6",
+      "sample_id": "conv-50"
+    },
+    {
+      "category": 5,
+      "id": "conv-50:q0203",
+      "question_index": 203,
+      "question_sha256": "3db3762fe69c658456d6a00679d5798c11e9893fc15e92a47c6d04e27e70f2fb",
+      "sample_id": "conv-50"
+    }
+  ],
+  "role": "primary_paper_evaluation",
+  "selection": "Include all 340 previously frozen kill/cross-model/repeatability questions; water-fill category and conversation quotas; deterministic maximum-flow cell allocation; SHA-256 ordering within cells; no RNG, answers, evidence, predictions, or metrics used.",
+  "selection_outcome_blind": true,
+  "source_file_sha256": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4",
+  "source_path": "data/locomo/locomo10.json",
+  "target_size": 700
+}

@@ -1,0 +1,64 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Python environments, caches, and build products
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+
+# Editors and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+
+# Temporary files and local databases
+tmp/
+temp/
+*.tmp
+*.log
+*.sqlite
+*.sqlite3
+*.sqlite-*
+
+# Downloaded benchmark data. Keep only the frozen final-paper manifests.
+data/**
+!data/manifests/
+!data/manifests/locomo_primary700.json
+!data/manifests/memoryagentbench_final150.json
+!data/manifests/memoryagentbench_final150_ids.txt
+
+# Third-party repository checkouts are fetched from configs/upstreams.yaml.
+external/upstream/
+
+# Generated experiment products. Keep the two frozen executable paper plans.
+outputs/**
+!outputs/plans/
+!outputs/plans/locomo_mindset_ablations700_v1.json
+!outputs/plans/locomo_cross_backbone700_glm_gemma_v1.json
+
+# Local generated artifacts and internal working notes
+artifacts/
+docs/
+
+# Manuscript, figures, tables, and Overleaf artifacts remain local.
+paper/

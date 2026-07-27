@@ -1,0 +1,83 @@
+{
+  "providers": {
+    "cerebras": {
+      "endpoint": "https://api.cerebras.ai/v1/chat/completions",
+      "key_env": "CEREBRAS_API_KEYS",
+      "timeout_seconds": 120,
+      "api_style": "openai_chat"
+    },
+    "groq": {
+      "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+      "key_env": "GROQ_API_KEYS",
+      "timeout_seconds": 120,
+      "api_style": "openai_chat"
+    },
+    "gemini": {
+      "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+      "key_env": "GEMINI_API_KEYS",
+      "timeout_seconds": 120,
+      "api_style": "gemini_generate_content"
+    }
+  },
+  "models": {
+    "gpt_oss_120b": {
+      "provider": "cerebras",
+      "model_id": "gpt-oss-120b",
+      "hard_token_budget": 40000000,
+      "daily_token_budget_per_key": 1000000,
+      "daily_reset_timezone": "UTC",
+      "request_options": {
+        "reasoning_effort": "low"
+      }
+    },
+    "qwen_27b": {
+      "provider": "groq",
+      "model_id": "qwen/qwen3.6-27b",
+      "hard_token_budget": 4000000,
+      "daily_token_budget_per_key": 500000,
+      "daily_reset_timezone": "UTC",
+      "request_options": {
+        "reasoning_effort": "none",
+        "reasoning_format": "hidden"
+      }
+    },
+    "llama_scout_17b": {
+      "provider": "groq",
+      "model_id": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "hard_token_budget": 4000000,
+      "daily_token_budget_per_key": 500000,
+      "daily_reset_timezone": "UTC"
+    },
+    "glm_47": {
+      "provider": "cerebras",
+      "model_id": "zai-glm-4.7",
+      "hard_token_budget": 50000000,
+      "requests_per_minute_per_key": 500,
+      "daily_reset_timezone": "UTC",
+      "request_options": {
+        "reasoning_effort": "none"
+      }
+    },
+    "gemma_4_31b": {
+      "provider": "cerebras",
+      "model_id": "gemma-4-31b",
+      "hard_token_budget": 50000000,
+      "requests_per_minute_per_key": 500,
+      "daily_reset_timezone": "UTC"
+    },    "gemini_judge": {
+      "provider": "gemini",
+      "model_id": "gemini-3.1-flash-lite",
+      "hard_token_budget": 10000000,
+      "daily_request_budget_per_key": 500,
+      "requests_per_minute_per_key": 15,
+      "daily_reset_timezone": "America/Los_Angeles",
+      "request_options": {
+        "thinkingConfig": {"thinkingLevel": "minimal"}
+      }
+    }
+  },
+  "cache_path": "outputs/caches/api.sqlite",
+  "ledger_path": "outputs/caches/token_ledger.sqlite"
+}
+
+

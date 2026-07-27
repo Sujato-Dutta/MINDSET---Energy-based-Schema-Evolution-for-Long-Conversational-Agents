@@ -1,0 +1,43 @@
+{
+  "protocol": "six_method_retrieval_gate_v2",
+  "status": "ready_for_local_execution",
+  "dataset": "locomo",
+  "manifest": "data/manifests/locomo_kill120.json",
+  "target_question_count": 120,
+  "model": "gpt_oss_120b",
+  "repetition_id": "six-method-kill120-v2",
+  "methods": [
+    "long_context",
+    "vector_rag",
+    "hybrid_rag",
+    "nemori",
+    "lightmem",
+    "mindset"
+  ],
+  "required_ablations_after_gate": [
+    "nearest_schema_merge",
+    "no_contextual_term",
+    "no_temporal_term",
+    "no_hysteresis",
+    "no_fragmentation_penalty",
+    "no_provenance_expansion"
+  ],
+  "retrieval_gate": {
+    "comparison_baselines": ["hybrid_rag", "lightmem"],
+    "metric": "mean_evidence_recall_at_k",
+    "pass_if_at_least_baseline": true,
+    "maximum_recall_deficit_with_efficiency_exception": 0.02,
+    "maximum_packet_byte_ratio_for_efficiency_exception": 0.80
+  },
+  "answer_check_after_gate": {
+    "enabled": true,
+    "question_count": 40,
+    "manifest": "data/manifests/locomo_energy_answer40.json",
+    "methods": ["hybrid_rag", "lightmem", "mindset"],
+    "model": "gpt_oss_120b",
+    "repetition_id": "six-method-answer40-v2",
+    "requires_explicit_gate_pass": true,
+    "promotion_metric": "native_f1",
+    "minimum_absolute_delta": 0.0
+  }
+}
