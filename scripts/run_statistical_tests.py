@@ -29,6 +29,9 @@ OUT.mkdir(parents=True, exist_ok=True)
 SEED = 20260720
 BOOTSTRAPS = 20_000
 PERMUTATIONS = 50_000
+LOCOMO_RANKING_METRICS = frozenset(
+    {"recall@8", "precision@8", "mrr", "ndcg@8"}
+)
 
 LOCOMO_MAIN = {
     "MINDSET": "locomo_mindset_full_gpt_oss_120b_20260717T051244Z",
@@ -78,6 +81,11 @@ def load_locomo(run_name: str) -> dict[str, dict[str, Any]]:
     for identifier, row in answer.items():
         pred = retrieval[identifier]
         ranked = pred.get("ranked_retrieval", {})
+        has_gold_evidence = any(
+            part.strip()
+            for group in pred.get("gold_evidence_ids", [])
+            for part in str(group).split(";")
+        )
         output[identifier] = {
             **row,
             "recall@8": float(ranked.get("recall@8", np.nan)),
@@ -85,6 +93,7 @@ def load_locomo(run_name: str) -> dict[str, dict[str, Any]]:
             "mrr": float(ranked.get("mrr", np.nan)),
             "ndcg@8": float(ranked.get("ndcg@8", np.nan)),
             "evidence_recall": float(pred.get("evidence_recall", np.nan)),
+            "has_gold_evidence": has_gold_evidence,
             "cluster": identifier.split(":", 1)[0],
         }
     return output
@@ -193,6 +202,22 @@ def stats_for_pair(
     }
 
 
+def paired_ids_for_metric(
+    reference_rows: dict[str, dict[str, Any]],
+    comparison_rows: dict[str, dict[str, Any]],
+    metric: str,
+) -> list[str]:
+    shared = sorted(set(reference_rows) & set(comparison_rows))
+    if metric in LOCOMO_RANKING_METRICS:
+        shared = [
+            identifier
+            for identifier in shared
+            if reference_rows[identifier].get("has_gold_evidence", False)
+            and comparison_rows[identifier].get("has_gold_evidence", False)
+        ]
+    return shared
+
+
 def compare_family(
     data: dict[str, dict[str, dict[str, Any]]],
     reference: str,
@@ -207,7 +232,7 @@ def compare_family(
         for method, rows in data.items():
             if method == reference:
                 continue
-            shared = sorted(set(data[reference]) & set(rows))
+            shared = paired_ids_for_metric(data[reference], rows, metric)
             first = np.array([data[reference][identifier][metric] for identifier in shared], dtype=float)
             second = np.array([rows[identifier][metric] for identifier in shared], dtype=float)
             groups = [data[reference][identifier]["cluster"] for identifier in shared] if cluster else None
@@ -273,6 +298,7 @@ def main() -> None:
         "bootstrap_replicates": BOOTSTRAPS,
         "permutation_replicates_question_level": PERMUTATIONS,
         "loComo_primary_inference": "conversation-clustered paired bootstrap and two-sided exact sign-flip permutation over all 2^10 assignments; ten conversation clusters",
+        "loComo_ranking_sample": "696 questions with nonempty gold evidence; answer F1 and evidence recall use all 700 questions",
         "mab_primary_inference": "paired question-level bootstrap and sign-flip permutation",
         "multiple_testing": "Holm correction within each metric family",
         "main_locomo": main_results,
@@ -285,7 +311,7 @@ def main() -> None:
     markdown: list[str] = [
         "# Statistical Tests for MINDSET Experiments",
         "",
-        "All tests use paired per-question scores from frozen run artifacts. For LoCoMo, the primary bootstrap resamples the ten conversation clusters and the two-sided exact sign-flip test enumerates all 2^10 cluster assignments. MAB uses paired question-level resampling. Positive deltas mean MINDSET/full MINDSET scores higher. P-values are Holm-adjusted within each metric family.",
+        "All tests use paired per-question scores from frozen run artifacts. LoCoMo ranking metrics use the 696 questions with nonempty gold evidence; answer F1 and evidence recall use all 700. The primary bootstrap resamples the ten conversation clusters and the two-sided exact sign-flip test enumerates all 2^10 cluster assignments. MAB uses paired question-level resampling. Positive deltas mean MINDSET/full MINDSET scores higher. P-values are Holm-adjusted within each metric family.",
         "",
     ]
     markdown += markdown_family("Main LoCoMo: MINDSET vs baseline", main_results)

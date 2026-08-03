@@ -7,6 +7,7 @@ from mindset.statistics.tests import (
     paired_bootstrap,
     paired_wilcoxon,
 )
+from scripts.run_statistical_tests import paired_ids_for_metric
 
 
 def test_paired_bootstrap_known_delta() -> None:
@@ -36,3 +37,19 @@ def test_exact_sign_flip_has_conventional_two_sided_minimum() -> None:
 
 def test_exact_sign_flip_is_one_for_one_cluster() -> None:
     assert exact_sign_flip_pvalue([1.0]) == 1.0
+
+
+def test_ranked_metrics_exclude_questions_without_gold_evidence() -> None:
+    first = {
+        "annotated": {"has_gold_evidence": True},
+        "unannotated": {"has_gold_evidence": False},
+    }
+    second = {
+        "annotated": {"has_gold_evidence": True},
+        "unannotated": {"has_gold_evidence": False},
+    }
+    assert paired_ids_for_metric(first, second, "recall@8") == ["annotated"]
+    assert paired_ids_for_metric(first, second, "answer_f1") == [
+        "annotated",
+        "unannotated",
+    ]
