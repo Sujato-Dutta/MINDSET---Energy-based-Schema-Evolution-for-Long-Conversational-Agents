@@ -43,6 +43,7 @@ temp/
 # Downloaded benchmark data. Keep only the frozen final-paper manifests.
 data/**
 !data/manifests/
+!data/manifests/dev_set.json
 !data/manifests/locomo_primary700.json
 !data/manifests/memoryagentbench_final150.json
 !data/manifests/memoryagentbench_final150_ids.txt

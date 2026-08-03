@@ -33,8 +33,6 @@ All retrieval-based methods use the same bounded-evidence adapter: at most 20 ca
 - On MAB-150, MINDSET leads the completed methods with **0.0240 native ICL exact match** and **0.1400 native recommendation Recall@5**.
 - On the full LoCoMo-700 cross-backbone study, MINDSET ranks first with GLM-4.7 at **0.4080 Answer F1**. With Gemma-4-31B it scores **0.3306**, only 0.0002 behind LightMem, while retaining the best Recall@8, Precision@8, MRR, and nDCG@8.
 
-Nemori's MAB-150 result is reported as unavailable rather than estimated: the complete run was not obtained under the frozen provider/context schedule. All other reported values come from completed run artifacts.
-
 ## Implementation
 
 MINDSET uses:
