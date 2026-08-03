@@ -8,18 +8,22 @@ deterministic and operate only on saved prediction/metric artifacts.
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 from typing import Any
 
 import numpy as np
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
+
+from mindset.statistics.tests import exact_sign_flip_pvalue
 
 try:
     from scipy.stats import wilcoxon
 except Exception:  # pragma: no cover - scipy is present in the project environment
     wilcoxon = None
 
-
-ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "outputs" / "statistics"
 OUT.mkdir(parents=True, exist_ok=True)
 SEED = 20260720
@@ -144,6 +148,7 @@ def stats_for_pair(
         group_values = differences
 
     point = float(differences.mean())
+    exact_permutation_p: float | None = None
     if group_sums is None:
         boot_indices = rng.integers(0, n, size=(BOOTSTRAPS, n))
         boot = differences[boot_indices].mean(axis=1)
@@ -155,16 +160,19 @@ def stats_for_pair(
         boot_indices = rng.integers(0, g, size=(BOOTSTRAPS, g))
         boot = group_sums[boot_indices].sum(axis=1) / group_counts[boot_indices].sum(axis=1)
         if g <= 12:
-            all_signs = np.unpackbits(
-                np.arange(2**g, dtype=np.uint16)[:, None].view(np.uint8), axis=1
-            )[:, -g:]
-            signs = 1 - 2 * all_signs.astype(float)
-            perm = (signs * group_sums[None, :]).sum(axis=1) / group_counts.sum()
+            perm = None
+            exact_permutation_p = exact_sign_flip_pvalue(group_sums)
         else:
             perm_signs = rng.integers(0, 2, size=(PERMUTATIONS, g), dtype=np.int8)
             perm = ((1 - 2 * perm_signs) * group_sums[None, :]).sum(axis=1) / group_counts.sum()
     ci_low, ci_high = np.quantile(boot, [0.025, 0.975])
-    p_permutation = float((np.count_nonzero(np.abs(perm) >= abs(point)) + 1) / (len(perm) + 1))
+    if exact_permutation_p is not None:
+        p_permutation = exact_permutation_p
+    else:
+        assert perm is not None
+        p_permutation = float(
+            (np.count_nonzero(np.abs(perm) >= abs(point)) + 1) / (len(perm) + 1)
+        )
     nonzero = differences != 0
     if wilcoxon is None or not nonzero.any():
         p_wilcoxon = 1.0
@@ -264,7 +272,7 @@ def main() -> None:
         "seed": SEED,
         "bootstrap_replicates": BOOTSTRAPS,
         "permutation_replicates_question_level": PERMUTATIONS,
-        "loComo_primary_inference": "conversation-clustered paired bootstrap and sign-flip permutation; ten conversation clusters",
+        "loComo_primary_inference": "conversation-clustered paired bootstrap and two-sided exact sign-flip permutation over all 2^10 assignments; ten conversation clusters",
         "mab_primary_inference": "paired question-level bootstrap and sign-flip permutation",
         "multiple_testing": "Holm correction within each metric family",
         "main_locomo": main_results,
@@ -277,7 +285,7 @@ def main() -> None:
     markdown: list[str] = [
         "# Statistical Tests for MINDSET Experiments",
         "",
-        "All tests use paired per-question scores from frozen run artifacts. For LoCoMo, the primary bootstrap and sign-flip permutation resample the ten conversation clusters to account for within-conversation dependence. MAB uses paired question-level resampling. Positive deltas mean MINDSET/full MINDSET scores higher. P-values are two-sided and Holm-adjusted within each metric family.",
+        "All tests use paired per-question scores from frozen run artifacts. For LoCoMo, the primary bootstrap resamples the ten conversation clusters and the two-sided exact sign-flip test enumerates all 2^10 cluster assignments. MAB uses paired question-level resampling. Positive deltas mean MINDSET/full MINDSET scores higher. P-values are Holm-adjusted within each metric family.",
         "",
     ]
     markdown += markdown_family("Main LoCoMo: MINDSET vs baseline", main_results)

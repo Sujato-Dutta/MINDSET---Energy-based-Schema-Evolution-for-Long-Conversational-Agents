@@ -70,6 +70,24 @@ def holm_correction(p_values: Sequence[float]) -> list[float]:
     return adjusted.tolist()
 
 
+def exact_sign_flip_pvalue(contributions: Sequence[float]) -> float:
+    """Return a two-sided exact sign-flip p-value over paired contributions."""
+    values = np.asarray(contributions, dtype=float)
+    if values.ndim != 1 or len(values) == 0:
+        raise ValueError("Contributions must be a non-empty one-dimensional sequence")
+    if len(values) > 20:
+        raise ValueError("Exact sign-flip enumeration is limited to 20 contributions")
+
+    masks = np.arange(2 ** len(values), dtype=np.uint64)[:, None]
+    bit_positions = np.arange(len(values), dtype=np.uint64)[None, :]
+    signs = 1.0 - 2.0 * ((masks >> bit_positions) & 1)
+    permuted = signs @ values
+    observed = abs(float(values.sum()))
+    tolerance = np.finfo(float).eps * max(1.0, observed) * 16
+    extreme = np.count_nonzero(np.abs(permuted) >= observed - tolerance)
+    return float(extreme / len(permuted))
+
+
 def _paired_arrays(a: Sequence, b: Sequence, dtype=float) -> tuple[np.ndarray, np.ndarray]:
     first, second = np.asarray(a, dtype=dtype), np.asarray(b, dtype=dtype)
     if (

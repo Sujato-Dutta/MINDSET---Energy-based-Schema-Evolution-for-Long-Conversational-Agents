@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from mindset.statistics.tests import (
+    exact_sign_flip_pvalue,
     exact_mcnemar,
     holm_correction,
     paired_bootstrap,
@@ -27,3 +28,11 @@ def test_holm_correction_preserves_original_order() -> None:
 
 def test_wilcoxon_identical_vectors() -> None:
     assert paired_wilcoxon([1, 2], [1, 2])["p_value"] == 1.0
+
+
+def test_exact_sign_flip_has_conventional_two_sided_minimum() -> None:
+    assert exact_sign_flip_pvalue([1.0] * 10) == 2 / 2**10
+
+
+def test_exact_sign_flip_is_one_for_one_cluster() -> None:
+    assert exact_sign_flip_pvalue([1.0]) == 1.0
