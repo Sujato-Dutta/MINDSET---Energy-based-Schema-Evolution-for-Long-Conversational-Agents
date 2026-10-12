@@ -1,0 +1,310 @@
+{
+  "controller_cells": [
+    {
+      "controller": "rule",
+      "dataset": "locomo",
+      "method": "mindset",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "learned",
+      "dataset": "locomo",
+      "method": "mindset",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "nearest",
+      "dataset": "locomo",
+      "method": "mindset",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "rule",
+      "dataset": "longmemeval",
+      "method": "mindset",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "learned",
+      "dataset": "longmemeval",
+      "method": "mindset",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "nearest",
+      "dataset": "longmemeval",
+      "method": "mindset",
+      "model": "qwen35_9b"
+    }
+  ],
+  "generator_cells": [
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "mindset",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "lightmem",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "zep",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "nemori",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "vector_rag",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "long_context",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "mindset",
+      "model": "llama31_8b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "lightmem",
+      "model": "llama31_8b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "zep",
+      "model": "llama31_8b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "vector_rag",
+      "model": "llama31_8b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "mindset",
+      "model": "qwen35_4b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "lightmem",
+      "model": "qwen35_4b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "zep",
+      "model": "qwen35_4b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "vector_rag",
+      "model": "qwen35_4b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "mindset",
+      "model": "llama32_3b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "lightmem",
+      "model": "llama32_3b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "zep",
+      "model": "llama32_3b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "locomo",
+      "method": "vector_rag",
+      "model": "llama32_3b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "mindset",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "lightmem",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "zep",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "nemori",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "vector_rag",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "long_context",
+      "model": "qwen35_9b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "mindset",
+      "model": "llama31_8b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "lightmem",
+      "model": "llama31_8b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "zep",
+      "model": "llama31_8b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "vector_rag",
+      "model": "llama31_8b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "mindset",
+      "model": "qwen35_4b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "lightmem",
+      "model": "qwen35_4b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "zep",
+      "model": "qwen35_4b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "vector_rag",
+      "model": "qwen35_4b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "mindset",
+      "model": "llama32_3b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "lightmem",
+      "model": "llama32_3b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "zep",
+      "model": "llama32_3b"
+    },
+    {
+      "controller": "energy",
+      "dataset": "longmemeval",
+      "method": "vector_rag",
+      "model": "llama32_3b"
+    }
+  ],
+  "memory_builds": [
+    {
+      "dataset": "locomo",
+      "method": "mindset"
+    },
+    {
+      "dataset": "locomo",
+      "method": "lightmem"
+    },
+    {
+      "dataset": "locomo",
+      "method": "zep"
+    },
+    {
+      "dataset": "locomo",
+      "method": "nemori"
+    },
+    {
+      "dataset": "locomo",
+      "method": "vector_rag"
+    },
+    {
+      "dataset": "locomo",
+      "method": "long_context"
+    },
+    {
+      "dataset": "longmemeval",
+      "method": "mindset"
+    },
+    {
+      "dataset": "longmemeval",
+      "method": "lightmem"
+    },
+    {
+      "dataset": "longmemeval",
+      "method": "zep"
+    },
+    {
+      "dataset": "longmemeval",
+      "method": "nemori"
+    },
+    {
+      "dataset": "longmemeval",
+      "method": "vector_rag"
+    },
+    {
+      "dataset": "longmemeval",
+      "method": "long_context"
+    }
+  ],
+  "protocol": "acl-conventional-compact-v2",
+  "status": "planned_no_results"
+}

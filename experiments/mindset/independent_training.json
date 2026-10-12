@@ -1,0 +1,2741 @@
+{
+  "label_source": "synthetic_ground_truth",
+  "records": [
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-repeat-000-e0",
+      "source_cluster_id": "synthetic-train-repeat-000",
+      "source_history_sha256": "8f35435338bf17a4c341ef6172f11f78fcb8083ee5024f469d37eb019136a19a"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9986692667007446,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9986692667007446,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-000-e1",
+      "source_cluster_id": "synthetic-train-repeat-000",
+      "source_history_sha256": "8f35435338bf17a4c341ef6172f11f78fcb8083ee5024f469d37eb019136a19a"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9989501237869263,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9989501237869263,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-000-e2",
+      "source_cluster_id": "synthetic-train-repeat-000",
+      "source_history_sha256": "8f35435338bf17a4c341ef6172f11f78fcb8083ee5024f469d37eb019136a19a"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-repeat-001-e0",
+      "source_cluster_id": "synthetic-train-repeat-001",
+      "source_history_sha256": "d0e01e04dd5f41b5fe9b4dff02a157ace8ec9a0df2ba3304d04ee9c3358ee861"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9985439777374268,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9985439777374268,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-001-e1",
+      "source_cluster_id": "synthetic-train-repeat-001",
+      "source_history_sha256": "d0e01e04dd5f41b5fe9b4dff02a157ace8ec9a0df2ba3304d04ee9c3358ee861"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.998923122882843,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.998923122882843,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-001-e2",
+      "source_cluster_id": "synthetic-train-repeat-001",
+      "source_history_sha256": "d0e01e04dd5f41b5fe9b4dff02a157ace8ec9a0df2ba3304d04ee9c3358ee861"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-repeat-002-e0",
+      "source_cluster_id": "synthetic-train-repeat-002",
+      "source_history_sha256": "78dff3c72dfe90e4833330588d98f03e44eb6624393d181e5ba1f13835fdd719"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9985347390174866,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9985347390174866,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-002-e1",
+      "source_cluster_id": "synthetic-train-repeat-002",
+      "source_history_sha256": "78dff3c72dfe90e4833330588d98f03e44eb6624393d181e5ba1f13835fdd719"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9989814758300781,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9989814758300781,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-002-e2",
+      "source_cluster_id": "synthetic-train-repeat-002",
+      "source_history_sha256": "78dff3c72dfe90e4833330588d98f03e44eb6624393d181e5ba1f13835fdd719"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-repeat-003-e0",
+      "source_cluster_id": "synthetic-train-repeat-003",
+      "source_history_sha256": "38b187e2494b48fe1bebeace81035424960d1e9cc3e9f69a0bacc1544550d280"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9987800121307373,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9987800121307373,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-003-e1",
+      "source_cluster_id": "synthetic-train-repeat-003",
+      "source_history_sha256": "38b187e2494b48fe1bebeace81035424960d1e9cc3e9f69a0bacc1544550d280"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9990087747573853,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9990087747573853,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-003-e2",
+      "source_cluster_id": "synthetic-train-repeat-003",
+      "source_history_sha256": "38b187e2494b48fe1bebeace81035424960d1e9cc3e9f69a0bacc1544550d280"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-repeat-004-e0",
+      "source_cluster_id": "synthetic-train-repeat-004",
+      "source_history_sha256": "890266eac93ddbce067a2ef17df710d770a0e55854dca7805e3b41e6567d1fbe"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9987622499465942,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9987622499465942,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-004-e1",
+      "source_cluster_id": "synthetic-train-repeat-004",
+      "source_history_sha256": "890266eac93ddbce067a2ef17df710d770a0e55854dca7805e3b41e6567d1fbe"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9989413619041443,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9989413619041443,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-004-e2",
+      "source_cluster_id": "synthetic-train-repeat-004",
+      "source_history_sha256": "890266eac93ddbce067a2ef17df710d770a0e55854dca7805e3b41e6567d1fbe"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-repeat-005-e0",
+      "source_cluster_id": "synthetic-train-repeat-005",
+      "source_history_sha256": "6220d23d76b14f16331f58352a5a175f6bbb8ac815b5e9c6d22d4c9034f97f3d"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9987667798995972,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9987667798995972,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-005-e1",
+      "source_cluster_id": "synthetic-train-repeat-005",
+      "source_history_sha256": "6220d23d76b14f16331f58352a5a175f6bbb8ac815b5e9c6d22d4c9034f97f3d"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9990349411964417,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9990349411964417,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-005-e2",
+      "source_cluster_id": "synthetic-train-repeat-005",
+      "source_history_sha256": "6220d23d76b14f16331f58352a5a175f6bbb8ac815b5e9c6d22d4c9034f97f3d"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-repeat-006-e0",
+      "source_cluster_id": "synthetic-train-repeat-006",
+      "source_history_sha256": "019142e071a0461416c0f17850269d0f956cba0d42f54e3d597bc288c8b765be"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9985786080360413,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9985786080360413,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-006-e1",
+      "source_cluster_id": "synthetic-train-repeat-006",
+      "source_history_sha256": "019142e071a0461416c0f17850269d0f956cba0d42f54e3d597bc288c8b765be"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9989959001541138,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9989959001541138,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-006-e2",
+      "source_cluster_id": "synthetic-train-repeat-006",
+      "source_history_sha256": "019142e071a0461416c0f17850269d0f956cba0d42f54e3d597bc288c8b765be"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-repeat-007-e0",
+      "source_cluster_id": "synthetic-train-repeat-007",
+      "source_history_sha256": "e1c0ab1a9cc004a4b1451096a7dfd95d82f7a354f8934b483d8e3a9ad4b8dbc9"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9985519647598267,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9985519647598267,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-007-e1",
+      "source_cluster_id": "synthetic-train-repeat-007",
+      "source_history_sha256": "e1c0ab1a9cc004a4b1451096a7dfd95d82f7a354f8934b483d8e3a9ad4b8dbc9"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9989935755729675,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9989935755729675,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-repeat-007-e2",
+      "source_cluster_id": "synthetic-train-repeat-007",
+      "source_history_sha256": "e1c0ab1a9cc004a4b1451096a7dfd95d82f7a354f8934b483d8e3a9ad4b8dbc9"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-update-000-e0",
+      "source_cluster_id": "synthetic-train-update-000",
+      "source_history_sha256": "09904bb3dfebd30b438f52f139fdd5a6b08590313a7fff96d5b4bcad1783d696"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.7482088804244995,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7482088804244995,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 1.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-000-e1",
+      "source_cluster_id": "synthetic-train-update-000",
+      "source_history_sha256": "09904bb3dfebd30b438f52f139fdd5a6b08590313a7fff96d5b4bcad1783d696"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9277657270431519,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9277657270431519,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-000-e2",
+      "source_cluster_id": "synthetic-train-update-000",
+      "source_history_sha256": "09904bb3dfebd30b438f52f139fdd5a6b08590313a7fff96d5b4bcad1783d696"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-update-001-e0",
+      "source_cluster_id": "synthetic-train-update-001",
+      "source_history_sha256": "93b1fa310da125c70106bb56247e08c1476d01000909526a77109978514d3bb2"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.7505792379379272,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7505792379379272,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 1.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-001-e1",
+      "source_cluster_id": "synthetic-train-update-001",
+      "source_history_sha256": "93b1fa310da125c70106bb56247e08c1476d01000909526a77109978514d3bb2"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.925545334815979,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.925545334815979,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-001-e2",
+      "source_cluster_id": "synthetic-train-update-001",
+      "source_history_sha256": "93b1fa310da125c70106bb56247e08c1476d01000909526a77109978514d3bb2"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-update-002-e0",
+      "source_cluster_id": "synthetic-train-update-002",
+      "source_history_sha256": "7526cb8b3ce355d13c8ddf129643b2faa50dc7a01abdc22ccd1562f3bc6a772d"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.7635860443115234,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7635860443115234,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 1.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-002-e1",
+      "source_cluster_id": "synthetic-train-update-002",
+      "source_history_sha256": "7526cb8b3ce355d13c8ddf129643b2faa50dc7a01abdc22ccd1562f3bc6a772d"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9444593191146851,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9444593191146851,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-002-e2",
+      "source_cluster_id": "synthetic-train-update-002",
+      "source_history_sha256": "7526cb8b3ce355d13c8ddf129643b2faa50dc7a01abdc22ccd1562f3bc6a772d"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-update-003-e0",
+      "source_cluster_id": "synthetic-train-update-003",
+      "source_history_sha256": "646fb813222c46e8a6b806f890e687079db5f6ec0984fc2d7b76df320d557e9f"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.7405937910079956,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7405937910079956,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 1.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-003-e1",
+      "source_cluster_id": "synthetic-train-update-003",
+      "source_history_sha256": "646fb813222c46e8a6b806f890e687079db5f6ec0984fc2d7b76df320d557e9f"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.941818356513977,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.941818356513977,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-003-e2",
+      "source_cluster_id": "synthetic-train-update-003",
+      "source_history_sha256": "646fb813222c46e8a6b806f890e687079db5f6ec0984fc2d7b76df320d557e9f"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-update-004-e0",
+      "source_cluster_id": "synthetic-train-update-004",
+      "source_history_sha256": "f0a4bd5c93592a1958f10ba78f5814049f3693822e2a168270eed056ba23e4d9"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.746764600276947,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.746764600276947,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 1.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-004-e1",
+      "source_cluster_id": "synthetic-train-update-004",
+      "source_history_sha256": "f0a4bd5c93592a1958f10ba78f5814049f3693822e2a168270eed056ba23e4d9"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9412927627563477,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9412927627563477,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-004-e2",
+      "source_cluster_id": "synthetic-train-update-004",
+      "source_history_sha256": "f0a4bd5c93592a1958f10ba78f5814049f3693822e2a168270eed056ba23e4d9"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-update-005-e0",
+      "source_cluster_id": "synthetic-train-update-005",
+      "source_history_sha256": "8c79ac88818a6c1303ed2609b5f88ca43c3551263127e7be773cd7048861ccb6"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.725631058216095,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.725631058216095,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 1.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-005-e1",
+      "source_cluster_id": "synthetic-train-update-005",
+      "source_history_sha256": "8c79ac88818a6c1303ed2609b5f88ca43c3551263127e7be773cd7048861ccb6"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9381085634231567,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9381085634231567,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-005-e2",
+      "source_cluster_id": "synthetic-train-update-005",
+      "source_history_sha256": "8c79ac88818a6c1303ed2609b5f88ca43c3551263127e7be773cd7048861ccb6"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-update-006-e0",
+      "source_cluster_id": "synthetic-train-update-006",
+      "source_history_sha256": "118dca391356d24a7f8759537421de8af1b51005f8594e8e71a6acc1bdc2d4b1"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.7504725456237793,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7504725456237793,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 1.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-006-e1",
+      "source_cluster_id": "synthetic-train-update-006",
+      "source_history_sha256": "118dca391356d24a7f8759537421de8af1b51005f8594e8e71a6acc1bdc2d4b1"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9401857852935791,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9401857852935791,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-006-e2",
+      "source_cluster_id": "synthetic-train-update-006",
+      "source_history_sha256": "118dca391356d24a7f8759537421de8af1b51005f8594e8e71a6acc1bdc2d4b1"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-update-007-e0",
+      "source_cluster_id": "synthetic-train-update-007",
+      "source_history_sha256": "907f77cce32997427010c526b9a44223d718ccc514dea6f4b3f8d2b7e3fca04e"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.7473912239074707,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7473912239074707,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 1.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-007-e1",
+      "source_cluster_id": "synthetic-train-update-007",
+      "source_history_sha256": "907f77cce32997427010c526b9a44223d718ccc514dea6f4b3f8d2b7e3fca04e"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9218096733093262,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9218096733093262,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-update-007-e2",
+      "source_cluster_id": "synthetic-train-update-007",
+      "source_history_sha256": "907f77cce32997427010c526b9a44223d718ccc514dea6f4b3f8d2b7e3fca04e"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-coexist-000-e0",
+      "source_cluster_id": "synthetic-train-coexist-000",
+      "source_history_sha256": "04f87d4dda57887e589d0b0434253132631d5bccf37ba0e88bf5c2bd8b982204"
+    },
+    {
+      "action": "split",
+      "features": {
+        "compatibility": 0.8552963137626648,
+        "context_match": 0.0,
+        "contextual_potential": 1.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.8552963137626648,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-000-e1",
+      "source_cluster_id": "synthetic-train-coexist-000",
+      "source_history_sha256": "04f87d4dda57887e589d0b0434253132631d5bccf37ba0e88bf5c2bd8b982204"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9981216192245483,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9981216192245483,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-000-e2",
+      "source_cluster_id": "synthetic-train-coexist-000",
+      "source_history_sha256": "04f87d4dda57887e589d0b0434253132631d5bccf37ba0e88bf5c2bd8b982204"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-coexist-001-e0",
+      "source_cluster_id": "synthetic-train-coexist-001",
+      "source_history_sha256": "c907e2666df771cf076513723235d1b31e3dd084ab613bd838e2e52f7c31b2b2"
+    },
+    {
+      "action": "split",
+      "features": {
+        "compatibility": 0.8565471768379211,
+        "context_match": 0.0,
+        "contextual_potential": 1.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.8565471768379211,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-001-e1",
+      "source_cluster_id": "synthetic-train-coexist-001",
+      "source_history_sha256": "c907e2666df771cf076513723235d1b31e3dd084ab613bd838e2e52f7c31b2b2"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9980101585388184,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9980101585388184,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-001-e2",
+      "source_cluster_id": "synthetic-train-coexist-001",
+      "source_history_sha256": "c907e2666df771cf076513723235d1b31e3dd084ab613bd838e2e52f7c31b2b2"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-coexist-002-e0",
+      "source_cluster_id": "synthetic-train-coexist-002",
+      "source_history_sha256": "902243eda7eb44b51ce5b9bc7a9b41e616f4280158f550a6b178f9c6c6b26851"
+    },
+    {
+      "action": "split",
+      "features": {
+        "compatibility": 0.8587002754211426,
+        "context_match": 0.0,
+        "contextual_potential": 1.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.8587002754211426,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-002-e1",
+      "source_cluster_id": "synthetic-train-coexist-002",
+      "source_history_sha256": "902243eda7eb44b51ce5b9bc7a9b41e616f4280158f550a6b178f9c6c6b26851"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9981149435043335,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9981149435043335,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-002-e2",
+      "source_cluster_id": "synthetic-train-coexist-002",
+      "source_history_sha256": "902243eda7eb44b51ce5b9bc7a9b41e616f4280158f550a6b178f9c6c6b26851"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-coexist-003-e0",
+      "source_cluster_id": "synthetic-train-coexist-003",
+      "source_history_sha256": "bab5326a718540d6de013d98096ec9bf65d0625a462baea4451909eedf2fed2e"
+    },
+    {
+      "action": "split",
+      "features": {
+        "compatibility": 0.8498138189315796,
+        "context_match": 0.0,
+        "contextual_potential": 1.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.8498138189315796,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-003-e1",
+      "source_cluster_id": "synthetic-train-coexist-003",
+      "source_history_sha256": "bab5326a718540d6de013d98096ec9bf65d0625a462baea4451909eedf2fed2e"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9982120990753174,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9982120990753174,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-003-e2",
+      "source_cluster_id": "synthetic-train-coexist-003",
+      "source_history_sha256": "bab5326a718540d6de013d98096ec9bf65d0625a462baea4451909eedf2fed2e"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-coexist-004-e0",
+      "source_cluster_id": "synthetic-train-coexist-004",
+      "source_history_sha256": "b8447ff5e13414ae5b6f3f834aeb1c197c3dfc15a642a39da0a556910e22f301"
+    },
+    {
+      "action": "split",
+      "features": {
+        "compatibility": 0.8476520776748657,
+        "context_match": 0.0,
+        "contextual_potential": 1.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.8476520776748657,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-004-e1",
+      "source_cluster_id": "synthetic-train-coexist-004",
+      "source_history_sha256": "b8447ff5e13414ae5b6f3f834aeb1c197c3dfc15a642a39da0a556910e22f301"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9981570243835449,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9981570243835449,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-004-e2",
+      "source_cluster_id": "synthetic-train-coexist-004",
+      "source_history_sha256": "b8447ff5e13414ae5b6f3f834aeb1c197c3dfc15a642a39da0a556910e22f301"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-coexist-005-e0",
+      "source_cluster_id": "synthetic-train-coexist-005",
+      "source_history_sha256": "2c1367f5016c93cbf6d06430ab35cc64c0caf23dd8e71f193c67c5c80192b26c"
+    },
+    {
+      "action": "split",
+      "features": {
+        "compatibility": 0.842820405960083,
+        "context_match": 0.0,
+        "contextual_potential": 1.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.842820405960083,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-005-e1",
+      "source_cluster_id": "synthetic-train-coexist-005",
+      "source_history_sha256": "2c1367f5016c93cbf6d06430ab35cc64c0caf23dd8e71f193c67c5c80192b26c"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9983404278755188,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9983404278755188,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-005-e2",
+      "source_cluster_id": "synthetic-train-coexist-005",
+      "source_history_sha256": "2c1367f5016c93cbf6d06430ab35cc64c0caf23dd8e71f193c67c5c80192b26c"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-coexist-006-e0",
+      "source_cluster_id": "synthetic-train-coexist-006",
+      "source_history_sha256": "b384a06c66c283d2b3b1485ee84ada3f90fb61d4ed0784899e9591c9cd057ec8"
+    },
+    {
+      "action": "split",
+      "features": {
+        "compatibility": 0.8450154662132263,
+        "context_match": 0.0,
+        "contextual_potential": 1.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.8450154662132263,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-006-e1",
+      "source_cluster_id": "synthetic-train-coexist-006",
+      "source_history_sha256": "b384a06c66c283d2b3b1485ee84ada3f90fb61d4ed0784899e9591c9cd057ec8"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9983296394348145,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9983296394348145,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-006-e2",
+      "source_cluster_id": "synthetic-train-coexist-006",
+      "source_history_sha256": "b384a06c66c283d2b3b1485ee84ada3f90fb61d4ed0784899e9591c9cd057ec8"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-coexist-007-e0",
+      "source_cluster_id": "synthetic-train-coexist-007",
+      "source_history_sha256": "1569d62aa7b1c62b8f8469280ab05ce08884e187eb98dc258186423a69945181"
+    },
+    {
+      "action": "split",
+      "features": {
+        "compatibility": 0.8490237593650818,
+        "context_match": 0.0,
+        "contextual_potential": 1.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.8490237593650818,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-007-e1",
+      "source_cluster_id": "synthetic-train-coexist-007",
+      "source_history_sha256": "1569d62aa7b1c62b8f8469280ab05ce08884e187eb98dc258186423a69945181"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9983261823654175,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9983261823654175,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-coexist-007-e2",
+      "source_cluster_id": "synthetic-train-coexist-007",
+      "source_history_sha256": "1569d62aa7b1c62b8f8469280ab05ce08884e187eb98dc258186423a69945181"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-noise-000-e0",
+      "source_cluster_id": "synthetic-train-noise-000",
+      "source_history_sha256": "659272b791b2feaa562adcf90626dfa270f516f48c306721f8e888232ad847db"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.8057653903961182,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8057653903961182,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-000-e1",
+      "source_cluster_id": "synthetic-train-noise-000",
+      "source_history_sha256": "659272b791b2feaa562adcf90626dfa270f516f48c306721f8e888232ad847db"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9983669519424438,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9983669519424438,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-000-e2",
+      "source_cluster_id": "synthetic-train-noise-000",
+      "source_history_sha256": "659272b791b2feaa562adcf90626dfa270f516f48c306721f8e888232ad847db"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-noise-001-e0",
+      "source_cluster_id": "synthetic-train-noise-001",
+      "source_history_sha256": "27bd696897423755d5ef0e9ee6b262d6ee74d3843fc438355a16f24909bf1d55"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.8131744861602783,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8131744861602783,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-001-e1",
+      "source_cluster_id": "synthetic-train-noise-001",
+      "source_history_sha256": "27bd696897423755d5ef0e9ee6b262d6ee74d3843fc438355a16f24909bf1d55"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9983476400375366,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9983476400375366,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-001-e2",
+      "source_cluster_id": "synthetic-train-noise-001",
+      "source_history_sha256": "27bd696897423755d5ef0e9ee6b262d6ee74d3843fc438355a16f24909bf1d55"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-noise-002-e0",
+      "source_cluster_id": "synthetic-train-noise-002",
+      "source_history_sha256": "f594c0dcf6ac18a9e1b8fee337bf1b5d8e8e7a2fb6b29d3ad5d39d1ac352057a"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.8505834341049194,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8505834341049194,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-002-e1",
+      "source_cluster_id": "synthetic-train-noise-002",
+      "source_history_sha256": "f594c0dcf6ac18a9e1b8fee337bf1b5d8e8e7a2fb6b29d3ad5d39d1ac352057a"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9983711242675781,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9983711242675781,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-002-e2",
+      "source_cluster_id": "synthetic-train-noise-002",
+      "source_history_sha256": "f594c0dcf6ac18a9e1b8fee337bf1b5d8e8e7a2fb6b29d3ad5d39d1ac352057a"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-noise-003-e0",
+      "source_cluster_id": "synthetic-train-noise-003",
+      "source_history_sha256": "19c829c623fad8e84e77fc6acd09e5d37df66cdd2f50e0237624deb346d178ce"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.804641842842102,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.804641842842102,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-003-e1",
+      "source_cluster_id": "synthetic-train-noise-003",
+      "source_history_sha256": "19c829c623fad8e84e77fc6acd09e5d37df66cdd2f50e0237624deb346d178ce"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9985063672065735,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9985063672065735,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-003-e2",
+      "source_cluster_id": "synthetic-train-noise-003",
+      "source_history_sha256": "19c829c623fad8e84e77fc6acd09e5d37df66cdd2f50e0237624deb346d178ce"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-noise-004-e0",
+      "source_cluster_id": "synthetic-train-noise-004",
+      "source_history_sha256": "dcd83a640c25dab4057ee1bda8a1823fa12306f0e8017875f862968ecfa16bfe"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.8381091952323914,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8381091952323914,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-004-e1",
+      "source_cluster_id": "synthetic-train-noise-004",
+      "source_history_sha256": "dcd83a640c25dab4057ee1bda8a1823fa12306f0e8017875f862968ecfa16bfe"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9985175132751465,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9985175132751465,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-004-e2",
+      "source_cluster_id": "synthetic-train-noise-004",
+      "source_history_sha256": "dcd83a640c25dab4057ee1bda8a1823fa12306f0e8017875f862968ecfa16bfe"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-noise-005-e0",
+      "source_cluster_id": "synthetic-train-noise-005",
+      "source_history_sha256": "20091fbc0816d7f66ae36bebe02540cb9f8e0d8e53c9da7dd6258f4c1446e5d1"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.7945424914360046,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7945424914360046,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-005-e1",
+      "source_cluster_id": "synthetic-train-noise-005",
+      "source_history_sha256": "20091fbc0816d7f66ae36bebe02540cb9f8e0d8e53c9da7dd6258f4c1446e5d1"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9982538223266602,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9982538223266602,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-005-e2",
+      "source_cluster_id": "synthetic-train-noise-005",
+      "source_history_sha256": "20091fbc0816d7f66ae36bebe02540cb9f8e0d8e53c9da7dd6258f4c1446e5d1"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-noise-006-e0",
+      "source_cluster_id": "synthetic-train-noise-006",
+      "source_history_sha256": "5a790f70c2da9adba271cbbeff6c85da2b2304cfcb701e8668fd1aa16276ee7e"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.8008397817611694,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8008397817611694,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-006-e1",
+      "source_cluster_id": "synthetic-train-noise-006",
+      "source_history_sha256": "5a790f70c2da9adba271cbbeff6c85da2b2304cfcb701e8668fd1aa16276ee7e"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9982961416244507,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9982961416244507,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-006-e2",
+      "source_cluster_id": "synthetic-train-noise-006",
+      "source_history_sha256": "5a790f70c2da9adba271cbbeff6c85da2b2304cfcb701e8668fd1aa16276ee7e"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-noise-007-e0",
+      "source_cluster_id": "synthetic-train-noise-007",
+      "source_history_sha256": "e3efbae66fbab6d4451d8250491d43fe1e1b668822d81e6ca9aaf8315f423b32"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.8077731728553772,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8077731728553772,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-007-e1",
+      "source_cluster_id": "synthetic-train-noise-007",
+      "source_history_sha256": "e3efbae66fbab6d4451d8250491d43fe1e1b668822d81e6ca9aaf8315f423b32"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9986352920532227,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9986352920532227,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-noise-007-e2",
+      "source_cluster_id": "synthetic-train-noise-007",
+      "source_history_sha256": "e3efbae66fbab6d4451d8250491d43fe1e1b668822d81e6ca9aaf8315f423b32"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-confirmation-000-e0",
+      "source_cluster_id": "synthetic-train-confirmation-000",
+      "source_history_sha256": "faf392d15a014fe4ce25d5b2139aa9990daef4b02c582f7ac3ede2beb4124e33"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.7993484735488892,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7993484735488892,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-000-e1",
+      "source_cluster_id": "synthetic-train-confirmation-000",
+      "source_history_sha256": "faf392d15a014fe4ce25d5b2139aa9990daef4b02c582f7ac3ede2beb4124e33"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.7986279129981995,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7986279129981995,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 1.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-000-e2",
+      "source_cluster_id": "synthetic-train-confirmation-000",
+      "source_history_sha256": "faf392d15a014fe4ce25d5b2139aa9990daef4b02c582f7ac3ede2beb4124e33"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-confirmation-001-e0",
+      "source_cluster_id": "synthetic-train-confirmation-001",
+      "source_history_sha256": "12c20acff67ec7d2380dafa296a3c03f5b6db8c0ece7e69b01968a2e45c37b02"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.8313846588134766,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8313846588134766,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-001-e1",
+      "source_cluster_id": "synthetic-train-confirmation-001",
+      "source_history_sha256": "12c20acff67ec7d2380dafa296a3c03f5b6db8c0ece7e69b01968a2e45c37b02"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.8317328691482544,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8317328691482544,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 1.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-001-e2",
+      "source_cluster_id": "synthetic-train-confirmation-001",
+      "source_history_sha256": "12c20acff67ec7d2380dafa296a3c03f5b6db8c0ece7e69b01968a2e45c37b02"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-confirmation-002-e0",
+      "source_cluster_id": "synthetic-train-confirmation-002",
+      "source_history_sha256": "aa5ce4f26a5c36c158d0e3f980110e7f10626a2d0433c18cbc5ef9e3354eff82"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.8002387285232544,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8002387285232544,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-002-e1",
+      "source_cluster_id": "synthetic-train-confirmation-002",
+      "source_history_sha256": "aa5ce4f26a5c36c158d0e3f980110e7f10626a2d0433c18cbc5ef9e3354eff82"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.7988824248313904,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7988824248313904,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 1.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-002-e2",
+      "source_cluster_id": "synthetic-train-confirmation-002",
+      "source_history_sha256": "aa5ce4f26a5c36c158d0e3f980110e7f10626a2d0433c18cbc5ef9e3354eff82"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-confirmation-003-e0",
+      "source_cluster_id": "synthetic-train-confirmation-003",
+      "source_history_sha256": "92699f33a99f6aac08551f472d839448c948dc2be3c097aa35929b1ade5a902b"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.7913662791252136,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7913662791252136,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-003-e1",
+      "source_cluster_id": "synthetic-train-confirmation-003",
+      "source_history_sha256": "92699f33a99f6aac08551f472d839448c948dc2be3c097aa35929b1ade5a902b"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.7894737124443054,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7894737124443054,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 1.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-003-e2",
+      "source_cluster_id": "synthetic-train-confirmation-003",
+      "source_history_sha256": "92699f33a99f6aac08551f472d839448c948dc2be3c097aa35929b1ade5a902b"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-confirmation-004-e0",
+      "source_cluster_id": "synthetic-train-confirmation-004",
+      "source_history_sha256": "470c1a084f776685927270f54770b88edce65aab33154f0c72966f6e9cf705de"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.8208734393119812,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8208734393119812,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-004-e1",
+      "source_cluster_id": "synthetic-train-confirmation-004",
+      "source_history_sha256": "470c1a084f776685927270f54770b88edce65aab33154f0c72966f6e9cf705de"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.8215701580047607,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8215701580047607,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 1.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-004-e2",
+      "source_cluster_id": "synthetic-train-confirmation-004",
+      "source_history_sha256": "470c1a084f776685927270f54770b88edce65aab33154f0c72966f6e9cf705de"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-confirmation-005-e0",
+      "source_cluster_id": "synthetic-train-confirmation-005",
+      "source_history_sha256": "1a9228cc3dd75ab395e621f3f380ac64ba1faabacc1ca131f2ae3da0ab55a6f2"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.7680699825286865,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7680699825286865,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-005-e1",
+      "source_cluster_id": "synthetic-train-confirmation-005",
+      "source_history_sha256": "1a9228cc3dd75ab395e621f3f380ac64ba1faabacc1ca131f2ae3da0ab55a6f2"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.7693443894386292,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7693443894386292,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 1.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-005-e2",
+      "source_cluster_id": "synthetic-train-confirmation-005",
+      "source_history_sha256": "1a9228cc3dd75ab395e621f3f380ac64ba1faabacc1ca131f2ae3da0ab55a6f2"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-confirmation-006-e0",
+      "source_cluster_id": "synthetic-train-confirmation-006",
+      "source_history_sha256": "fba32d8e011de486411e38c3f0faf008889713244fc3de351db8414a6a7356e7"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.8232828378677368,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8232828378677368,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-006-e1",
+      "source_cluster_id": "synthetic-train-confirmation-006",
+      "source_history_sha256": "fba32d8e011de486411e38c3f0faf008889713244fc3de351db8414a6a7356e7"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.8237960338592529,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.8237960338592529,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 1.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-006-e2",
+      "source_cluster_id": "synthetic-train-confirmation-006",
+      "source_history_sha256": "fba32d8e011de486411e38c3f0faf008889713244fc3de351db8414a6a7356e7"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-confirmation-007-e0",
+      "source_cluster_id": "synthetic-train-confirmation-007",
+      "source_history_sha256": "2eba2fb74021eadf903cc3a5aa00745c27ea56650976eac0451c616b880fdcf6"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.7850942015647888,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7850942015647888,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-007-e1",
+      "source_cluster_id": "synthetic-train-confirmation-007",
+      "source_history_sha256": "2eba2fb74021eadf903cc3a5aa00745c27ea56650976eac0451c616b880fdcf6"
+    },
+    {
+      "action": "supersede",
+      "features": {
+        "compatibility": 0.7861272096633911,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 1.0,
+        "dense_similarity": 0.7861272096633911,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 1.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 1.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-confirmation-007-e2",
+      "source_cluster_id": "synthetic-train-confirmation-007",
+      "source_history_sha256": "2eba2fb74021eadf903cc3a5aa00745c27ea56650976eac0451c616b880fdcf6"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-new_topic-000-e0",
+      "source_cluster_id": "synthetic-train-new_topic-000",
+      "source_history_sha256": "bdc01c081f9d686b29df9895a341c021bd45b890de7f8860682886530b266ba2"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.30841264128685,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.30841264128685,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-000-e1",
+      "source_cluster_id": "synthetic-train-new_topic-000",
+      "source_history_sha256": "bdc01c081f9d686b29df9895a341c021bd45b890de7f8860682886530b266ba2"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9991098642349243,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9991098642349243,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-000-e2",
+      "source_cluster_id": "synthetic-train-new_topic-000",
+      "source_history_sha256": "bdc01c081f9d686b29df9895a341c021bd45b890de7f8860682886530b266ba2"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-new_topic-001-e0",
+      "source_cluster_id": "synthetic-train-new_topic-001",
+      "source_history_sha256": "9c5b546829b6caa9047eff8d7ab7ddf8253ade154be3e0dd6fde3670b0258c34"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.30911922454833984,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.30911922454833984,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-001-e1",
+      "source_cluster_id": "synthetic-train-new_topic-001",
+      "source_history_sha256": "9c5b546829b6caa9047eff8d7ab7ddf8253ade154be3e0dd6fde3670b0258c34"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9992164373397827,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9992164373397827,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-001-e2",
+      "source_cluster_id": "synthetic-train-new_topic-001",
+      "source_history_sha256": "9c5b546829b6caa9047eff8d7ab7ddf8253ade154be3e0dd6fde3670b0258c34"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-new_topic-002-e0",
+      "source_cluster_id": "synthetic-train-new_topic-002",
+      "source_history_sha256": "ad538b266433e353567beaa4808e3e164986ff3ade360b3fa4d229ab4fd131e6"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.31876784563064575,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.31876784563064575,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-002-e1",
+      "source_cluster_id": "synthetic-train-new_topic-002",
+      "source_history_sha256": "ad538b266433e353567beaa4808e3e164986ff3ade360b3fa4d229ab4fd131e6"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9993258714675903,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9993258714675903,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-002-e2",
+      "source_cluster_id": "synthetic-train-new_topic-002",
+      "source_history_sha256": "ad538b266433e353567beaa4808e3e164986ff3ade360b3fa4d229ab4fd131e6"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-new_topic-003-e0",
+      "source_cluster_id": "synthetic-train-new_topic-003",
+      "source_history_sha256": "fe6a0b43f13c2659d5362c84047c282c259885a0230cba4206e13e5d4c89d43b"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.3228849172592163,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.3228849172592163,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-003-e1",
+      "source_cluster_id": "synthetic-train-new_topic-003",
+      "source_history_sha256": "fe6a0b43f13c2659d5362c84047c282c259885a0230cba4206e13e5d4c89d43b"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9991233348846436,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9991233348846436,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-003-e2",
+      "source_cluster_id": "synthetic-train-new_topic-003",
+      "source_history_sha256": "fe6a0b43f13c2659d5362c84047c282c259885a0230cba4206e13e5d4c89d43b"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-new_topic-004-e0",
+      "source_cluster_id": "synthetic-train-new_topic-004",
+      "source_history_sha256": "f7a7d064b633d191f100a120a9fb1a33e163bc4001b4c9dc96d78a4359a0f688"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.28872451186180115,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.28872451186180115,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-004-e1",
+      "source_cluster_id": "synthetic-train-new_topic-004",
+      "source_history_sha256": "f7a7d064b633d191f100a120a9fb1a33e163bc4001b4c9dc96d78a4359a0f688"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9991043210029602,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9991043210029602,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-004-e2",
+      "source_cluster_id": "synthetic-train-new_topic-004",
+      "source_history_sha256": "f7a7d064b633d191f100a120a9fb1a33e163bc4001b4c9dc96d78a4359a0f688"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-new_topic-005-e0",
+      "source_cluster_id": "synthetic-train-new_topic-005",
+      "source_history_sha256": "27a0c63713fbdc7313014f02d3c693b16eda19add5fcb040003d38b1fb6e4a43"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.25507059693336487,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.25507059693336487,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-005-e1",
+      "source_cluster_id": "synthetic-train-new_topic-005",
+      "source_history_sha256": "27a0c63713fbdc7313014f02d3c693b16eda19add5fcb040003d38b1fb6e4a43"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.999142050743103,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.999142050743103,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-005-e2",
+      "source_cluster_id": "synthetic-train-new_topic-005",
+      "source_history_sha256": "27a0c63713fbdc7313014f02d3c693b16eda19add5fcb040003d38b1fb6e4a43"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-new_topic-006-e0",
+      "source_cluster_id": "synthetic-train-new_topic-006",
+      "source_history_sha256": "7b57f6227412bf413e29760e8f8c8b18caaf05ed7f2f6592b2a7d06a17e56e7f"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.25645869970321655,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.25645869970321655,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-006-e1",
+      "source_cluster_id": "synthetic-train-new_topic-006",
+      "source_history_sha256": "7b57f6227412bf413e29760e8f8c8b18caaf05ed7f2f6592b2a7d06a17e56e7f"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9991716742515564,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9991716742515564,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-006-e2",
+      "source_cluster_id": "synthetic-train-new_topic-006",
+      "source_history_sha256": "7b57f6227412bf413e29760e8f8c8b18caaf05ed7f2f6592b2a7d06a17e56e7f"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.0,
+        "context_match": 0.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.0,
+        "entity_overlap": 0.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 0.0,
+        "temporal_potential": 0.0,
+        "topic_match": 0.0
+      },
+      "id": "synthetic-train-new_topic-007-e0",
+      "source_cluster_id": "synthetic-train-new_topic-007",
+      "source_history_sha256": "42b1287705bb12b943b13284a1285c9af5f3cc3ed03e3d052751c60828493c74"
+    },
+    {
+      "action": "new",
+      "features": {
+        "compatibility": 0.28693556785583496,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.28693556785583496,
+        "entity_overlap": 0.3333333333333333,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-007-e1",
+      "source_cluster_id": "synthetic-train-new_topic-007",
+      "source_history_sha256": "42b1287705bb12b943b13284a1285c9af5f3cc3ed03e3d052751c60828493c74"
+    },
+    {
+      "action": "reinforce",
+      "features": {
+        "compatibility": 0.9991048574447632,
+        "context_match": 1.0,
+        "contextual_potential": 0.0,
+        "contradiction_probability": 0.0,
+        "dense_similarity": 0.9991048574447632,
+        "entity_overlap": 1.0,
+        "explicit_change": 0.0,
+        "recurrence": 0.0,
+        "role_overlap": 1.0,
+        "temporal_potential": 0.0,
+        "topic_match": 1.0
+      },
+      "id": "synthetic-train-new_topic-007-e2",
+      "source_cluster_id": "synthetic-train-new_topic-007",
+      "source_history_sha256": "42b1287705bb12b943b13284a1285c9af5f3cc3ed03e3d052751c60828493c74"
+    }
+  ]
+}
