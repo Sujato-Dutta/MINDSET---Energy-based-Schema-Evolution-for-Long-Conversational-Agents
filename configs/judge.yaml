@@ -1,0 +1,16 @@
+providers:
+  gemini:
+    endpoint: "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+    key_env: GEMINI_API_KEYS
+    timeout_seconds: 120
+    api_style: gemini_generate_content
+models:
+  gemini_judge:
+    provider: gemini
+    model_id: gemini-3.1-flash-lite
+    hard_token_budget: 50000000
+    requests_per_minute_per_key: 10
+    request_options: {}
+cache_path: outputs/acl/judge_cache.sqlite
+ledger_path: outputs/acl/judge_ledger.sqlite
+

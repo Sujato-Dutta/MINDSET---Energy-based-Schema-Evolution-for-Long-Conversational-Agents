@@ -1,0 +1,5 @@
+# Install with normal pip on Linux GPU nodes; freeze the resolved versions per run.
+-r requirements.txt
+vllm
+nvidia-ml-py
+

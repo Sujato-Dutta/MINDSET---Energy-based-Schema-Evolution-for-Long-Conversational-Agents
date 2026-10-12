@@ -6,6 +6,7 @@
 *.key
 credentials*.json
 secrets*.json
+docs/
 
 # Python environments, caches, and build products
 .venv/
@@ -21,6 +22,7 @@ coverage.xml
 htmlcov/
 build/
 dist/
+hpc/
 
 # Editors and operating-system metadata
 .vscode/
@@ -40,26 +42,30 @@ temp/
 *.sqlite3
 *.sqlite-*
 
-# Downloaded benchmark data. Keep only the frozen final-paper manifests.
+# Downloaded benchmark data. Publish only the full ACL ID manifests.
 data/**
 !data/manifests/
-!data/manifests/dev_set.json
-!data/manifests/locomo_primary700.json
-!data/manifests/memoryagentbench_final150.json
-!data/manifests/memoryagentbench_final150_ids.txt
+!data/manifests/locomo_full.json
+!data/manifests/locomo_standard1540.json
+!data/development/
+!data/development/compact_v2.json
+!data/development/mindset_v2.json
+!data/manifests/longmemeval_s500.json
+!data/manifests/longmemeval_s500_instance_ids.json
+!data/manifests/longmemeval_session_integrity.json
+!data/manifests/mindset_v2_development100.json
 
-# Third-party repository checkouts are fetched from configs/upstreams.yaml.
+# Keep third-party working checkouts out of the public source tree.
 external/upstream/
 
-# Generated experiment products. Keep the two frozen executable paper plans.
+# Generated experiment products never enter the new study automatically.
 outputs/**
-!outputs/plans/
-!outputs/plans/locomo_mindset_ablations700_v1.json
-!outputs/plans/locomo_cross_backbone700_glm_gemma_v1.json
 
 # Local generated artifacts and internal working notes
 artifacts/
-docs/
+legacy/
+.cache/
 
 # Manuscript, figures, tables, and Overleaf artifacts remain local.
 paper/
+AGENTS.md

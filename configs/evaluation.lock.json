@@ -1,0 +1,17 @@
+{
+  "locomo": {
+    "categories": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "commit": "8449d574df6bae1bdf3314a1564da65e2f37e046",
+    "comparability": "published_prompt_and_category_protocol; not identical published model setup",
+    "judge_model_substitution": "gemini-3.1-flash-lite",
+    "prompt": "ACCURACY_PROMPT",
+    "repository": "zjunlp/LightMem",
+    "sha256": "753889df01f381980b1d96a4aab480b5ff8b0919e0e0ac7092bbf828bdfe1dc6",
+    "url": "https://raw.githubusercontent.com/zjunlp/LightMem/8449d574df6bae1bdf3314a1564da65e2f37e046/experiments/locomo/llm_judge.py"
+  }
+}
