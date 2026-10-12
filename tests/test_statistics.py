@@ -7,7 +7,7 @@ from mindset.statistics.tests import (
     paired_bootstrap,
     paired_wilcoxon,
 )
-from scripts.run_statistical_tests import paired_ids_for_metric
+from mindset.acl.analysis import paired_ids_for_metric
 
 
 def test_paired_bootstrap_known_delta() -> None:
