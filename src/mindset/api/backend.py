@@ -485,6 +485,7 @@ class APIBackend:
                 model_id=model_id,
                 key_alias=key_alias,
                 request_id=payload.get("responseId"),
+                provider_model_version=payload.get("modelVersion"),
                 usage=TokenUsage(
                     input_tokens=int(usage.get("promptTokenCount", 0) or 0),
                     output_tokens=int(usage.get("candidatesTokenCount", 0) or 0),

@@ -33,6 +33,13 @@ class BM25Index:
             token: math.log(1.0 + (count - frequency + 0.5) / (frequency + 0.5))
             for token, frequency in document_frequency.items()
         }
+        self.postings = {}
+        for index, counts in enumerate(self.term_counts):
+            for token, frequency in counts.items():
+                self.postings.setdefault(token, []).append((index, frequency))
+        self.denominator_base = self.k1 * (
+            1.0 - self.b + self.b * self.lengths / max(self.average_length, 1.0)
+        )
 
     def scores(self, query: str) -> np.ndarray:
         if not self.tokens:
@@ -42,13 +49,8 @@ class BM25Index:
             idf = self.idf.get(token)
             if idf is None:
                 continue
-            for index, counts in enumerate(self.term_counts):
-                frequency = counts.get(token, 0)
-                if not frequency:
-                    continue
-                denominator = frequency + self.k1 * (
-                    1.0 - self.b + self.b * self.lengths[index] / max(self.average_length, 1.0)
-                )
+            for index, frequency in self.postings.get(token, ()):
+                denominator = frequency + self.denominator_base[index]
                 result[index] += idf * frequency * (self.k1 + 1.0) / denominator
         return result
 

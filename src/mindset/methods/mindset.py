@@ -157,8 +157,10 @@ class MindsetMemory:
         encoder: object | None = None,
         local_reranker: object | None = None,
         precomputed_embeddings: Mapping[str, np.ndarray] | None = None,
+        transition_controller: object | None = None,
     ) -> None:
         self.config = config or MindsetConfig()
+        self.transition_controller = transition_controller
         self.encoder = encoder
         self.local_reranker = local_reranker
         self.precomputed_embeddings = dict(precomputed_embeddings or {})
@@ -177,6 +179,7 @@ class MindsetMemory:
         if not events:
             return
         duplicates = [event.event_id for event in events if event.event_id in self.episodes]
+        duplicates.extend(i for i,n in Counter(e.event_id for e in events).items() if n>1)
         if duplicates:
             raise ValueError(f"Episodes are immutable; duplicate IDs: {duplicates}")
         started = perf_counter()
@@ -321,6 +324,8 @@ class MindsetMemory:
         return [pool[int(index)] for index in indices]
 
     def _choose_transition(self, signals, energies) -> tuple[ActionName, bool]:
+        if self.transition_controller is not None:
+            return self.transition_controller(signals, self.config)
         if self.config.ablation == "nearest_schema_merge":
             return "reinforce", False
         if (
@@ -436,6 +441,13 @@ class MindsetMemory:
         self._bm25 = BM25Index(
             [_render_episode(self.episodes[identifier]) for identifier in self._episode_order]
         )
+        # Immutable within a build: avoid rebuilding these maps for every query.
+        self._index_by_id = {
+            identifier: index for index, identifier in enumerate(self._episode_order)
+        }
+        self._schema_provenance = {
+            schema.schema_id: schema.all_provenance() for schema in self.schemas.values()
+        }
 
     def retrieve(self, query: str, top_k: int = 10) -> list[MemoryHit]:
         if self.config.retrieval_mode == "legacy":
@@ -474,9 +486,7 @@ class MindsetMemory:
         schema_rows: list[tuple[EnergySchema, float]] = []
         schema_scores_by_episode: dict[int, float] = {}
         schema_ids_by_episode: dict[int, list[str]] = {}
-        index_by_id = {
-            identifier: index for index, identifier in enumerate(self._episode_order)
-        }
+        index_by_id = self._index_by_id
         if self.config.ablation != "no_provenance_expansion":
             for schema in self.schemas.values():
                 medoid = self.episodes[schema.medoid_episode_id]
@@ -497,7 +507,7 @@ class MindsetMemory:
                 schema_rows.append((schema, float(score)))
             schema_rows.sort(key=lambda item: (-item[1], item[0].schema_id))
             for schema, score in schema_rows:
-                for identifier in schema.all_provenance():
+                for identifier in self._schema_provenance[schema.schema_id]:
                     index = index_by_id[identifier]
                     if score > schema_scores_by_episode.get(index, -1.0):
                         schema_scores_by_episode[index] = score

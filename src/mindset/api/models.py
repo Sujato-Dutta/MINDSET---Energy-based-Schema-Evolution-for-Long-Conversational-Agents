@@ -95,6 +95,7 @@ class CompletionResult(BaseModel):
     text: str
     provider: str
     model_id: str
+    provider_model_version: str | None = None
     key_alias: str
     request_id: str | None = None
     usage: TokenUsage = Field(default_factory=TokenUsage)
