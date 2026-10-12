@@ -1,126 +1,168 @@
-# MINDSET: Energy-based Schema Evolution for Long Conversational Agents
+# MINDSET
 
-MINDSET is a training-free memory controller for long-running conversational agents. It keeps dialogue as immutable, provenance-bearing episodes and organizes those episodes into versioned schemas through four explicit transitions: **reinforce**, **supersede**, **split**, and **new schema**. Transition selection minimizes a deterministic energy over representation distortion, contradiction, historical damage, fragmentation, and internal inconsistency. Memory construction and retrieval run locally; a frozen language model is used only to answer from the selected evidence.
+MINDSET is a CPU-local memory controller over immutable conversation episodes and provenance-preserving, versioned schemas.
 
-## Final paper protocol
+The current implementation replaces the earlier collection of weighted feature
+mixtures with unit-normalized energy terms and **two independently calibrated
+decision scalars**: a schema-complexity penalty and a supersession-only switching
+cost. Neither is selected using benchmark answers. See [method and tuning
+guide](docs/mindset.md) for the exact objective, assumptions and limitations.
 
-The final study contains **850 questions across two datasets**:
+The public Python entry point is `from mindset.methods import MindsetMemory`;
+its default configuration loads and verifies the calibrated settings. The direct
+older class in methods/mindset.py remains only for historical replay/profiling,
+not the active protocol. Use `PYTHONPATH=src` for direct library imports when
+using the ordinary-pip repository installation.
 
-- **LoCoMo-700:** the frozen 700-question manifest at `data/manifests/locomo_primary700.json`.
-- **MemoryAgentBench-150 (MAB):** the frozen 150-instance manifest at `data/manifests/memoryagentbench_final150.json`, comprising 125 in-context-learning and 25 recommendation instances.
+## Study
 
-The six final methods are:
+The active protocol evaluates LoCoMo categories 1–4 (1,540 questions from all ten
+conversations) and all 500 LongMemEval-S questions. The original 1,986-question
+LoCoMo source audit is retained; the 446 adversarial questions are excluded from
+this declared primary slice, not silently treated as ordinary answer targets.
 
-1. **MINDSET (Ours)**
-2. **Vector RAG**
-3. **Long Context Memory**
-4. **Nemori**
-5. **MemoryBank**
-6. **LightMem**
+The six methods are MINDSET, **LightMem (ACL 2026)**, Zep (2025 paper reproduction),
+Nemori, Vector RAG and Long Context. LightMem's existing implementation is
+unchanged. It is not the similarly named ICLR method.
 
-### Answer backbones
+LongMemEval contains 13 histories with repeated native session IDs. The adapter
+preserves all 246,750 raw message occurrences, adds deterministic suffixes only
+to colliding episode IDs, and keeps gold/retrieval session IDs unchanged.
+The new occurrence-safe manifest and session-integrity audit are published;
+the previous manifest and failed diagnostic are retained, not overwritten.
 
-- **Primary model:** Cerebras `gpt-oss-120b`, used for all six methods on LoCoMo-700 and MAB-150.
-- **Cross-backbone models:** Cerebras `zai-glm-4.7` and `gemma-4-31b`, each evaluated with all six methods on the complete LoCoMo-700 manifest.
+| Experiment | Generators | Methods |
+|---|---|---|
+| Primary | Qwen3.5-9B | All six |
+| Family transfer | Llama-3.1-8B-Instruct | MINDSET, LightMem, Zep, Vector RAG |
+| Scale | Qwen3.5-4B, Llama-3.2-3B-Instruct | Same four-method panel |
+| Controller comparison | Qwen3.5-9B | Energy, rules, independent logistic classifier, nearest merge |
 
-No answer backbone is fine-tuned. Generation is deterministic (`temperature=0`), and GLM reasoning is disabled for the cross-backbone protocol.
+The transfer panel is prespecified, not an assertion that these are the strongest
+measured baselines. Generative memory construction uses fixed Qwen3.5-9B.
+Freeze evidence once per method/dataset/controller and reuse it across answer
+models. Gemini is judge-only. No hosted generation fallback is used.
 
-All retrieval-based methods use the same bounded-evidence adapter: at most 20 candidate memories, 768-token passages with 96-token overlap, at most eight selected passages, an 8,000-token evidence cap, and at most three passages per source memory. Long Context is the structural exception because chronological history is its defining input; it truncates deterministically at 20,000 UTF-8 bytes.
+LoCoMo's primary conventional metric is its original category-specific native
+F1. LongMemEval uses the official answer-checking prompt, with the judge-model
+substitution disclosed. Supplementary LoCoMo semantic judging uses an explicitly
+identified external published prompt; it is **not** the ACL LightMem evaluation
+protocol or an identical literature/leaderboard setup.
 
-## Headline results
+## Installation
 
-- With GPT-OSS-120B on LoCoMo-700, MINDSET achieves **0.4280 Answer F1**, **0.6280 Recall@8**, **0.5572 MRR**, and **0.5453 nDCG@8**.
-- On MAB-150, MINDSET leads the completed methods with **0.0240 native ICL exact match** and **0.1400 native recommendation Recall@5**.
-- On the full LoCoMo-700 cross-backbone study, MINDSET ranks first with GLM-4.7 at **0.4080 Answer F1**. With Gemma-4-31B it scores **0.3306**, only 0.0002 behind LightMem, while retaining the best Recall@8, Precision@8, MRR, and nDCG@8.
+Use ordinary pip, Python 3.10 or newer, and an isolated environment:
 
-## Implementation
-
-MINDSET uses:
-
-- `sentence-transformers/all-MiniLM-L6-v2` for local episode and passage embeddings;
-- `cross-encoder/ms-marco-MiniLM-L6-v2` for local reranking;
-- immutable raw episodes with timestamps and source identifiers;
-- active and historical schemas with medoids, centroids, validity bounds, exceptions, and predecessor/successor links;
-- direct dense/BM25 retrieval, schema-mediated provenance expansion, and version-aware routing.
-
-No provider call is made during MINDSET ingestion or retrieval. The numerical transition settings are frozen engineering hyperparameters selected by hand tuning on a held-out development set with no overlap with the paper test manifests. The implementation in `src/mindset/memory/energy.py` and `src/mindset/methods/mindset.py` is the executable source of truth.
-
-## Repository layout
-
-```text
-src/mindset/        Core memory methods, providers, datasets, and evaluation
-scripts/            Experiment, scoring, audit, and analysis entry points
-configs/            Provider/model and method configuration
-data/manifests/     Frozen paper sample IDs and ordering
-tests/              Unit and protocol tests
-outputs/            Generated run artifacts (ignored except frozen run plans)
-```
-
-## Setup
-
-Python 3.11 is the frozen environment used for the reported experiments.
-
-```powershell
+```bash
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+source .venv/bin/activate
+# Windows: .venv/Scripts/Activate.ps1
 pip install -r requirements.txt
-Copy-Item .env.example .env
+python -m pytest -q
+python scripts/acl.py --help
 ```
 
-Populate `CEREBRAS_API_KEYS` in `.env` with one or more comma-separated keys. Numbered variants such as `CEREBRAS_API_KEY_1` are also supported. The final paper generation runs require Cerebras credentials; Groq and Gemini variables remain optional for non-paper or legacy utilities. Credentials are read only from the environment and are not written to run artifacts.
+Install `requirements-gpu.txt` separately on Linux for local checkpoint serving.
+Do not use another project's environment or interfere with its allocated jobs.
+DGX CPU preparation uses `hpc/dgx_cpu.slurm` with no GPU request.
 
-## Data
+## Development and validation
 
-Raw benchmark files are intentionally excluded from Git because of size and upstream licensing. Place them at:
+Independent synthetic development has 144 histories / 432 transitions, split
+48/48/48 by history into training, validation and holdout. Exact IDs, labels and
+hashes are published in `data/development/mindset_v2.json`.
+A 3-by-3 validation search selected complexity 0.10 and switching cost 0.20.
+This is calibration, not training of the encoder or test-set hand tuning.
+Canonical synthetic success does not establish natural-dialogue generalization;
+rules and the learned comparator also solve these easy holdout probes.
+
+```bash
+python scripts/acl.py calibrate --output outputs/acl/NEW_CALIBRATION
+python scripts/acl.py validate-mindset --output outputs/acl/NEW_DIAGNOSTIC
+python scripts/acl.py profile-controller --output outputs/acl/NEW_PROFILE --repetitions 3
+```
+
+Use fresh directories for timing and calibration outputs. The diagnostic samples
+all LoCoMo conversation clusters and LongMemEval categories using score-independent
+IDs, logs native-unit retrieval metrics, and makes no answer/judge/GPU calls.
+It is not the full paper evaluation. Zep needs its local construction model;
+Long Context has no native top-k ranking.
+
+The active config remains **development_not_paper_frozen**. Final answer
+generation is intentionally blocked until the validated protocol is frozen.
+Old runs and the completed DGX v1 preparation are preserved and are not results
+of the current controller.
+
+## Bounded development before full runs
+
+All experiment computation now runs on DGX through Slurm, including CPU
+retrieval, calibration and tests. Do not run experiments on the laptop or DGX
+login node. See [execution policy](AGENTS.md) and [HPC instructions](hpc/README.md).
+
+Keep full paper runs blocked while MINDSET remains a development candidate.
+The resumable CPU-only experiment uses a frozen 100-question cohort: 50 LoCoMo
+questions across all ten conversations and 50 LongMemEval questions across all
+six categories. Transition parameters stay at their independently calibrated
+values; retrieval arms do not fit another feature-weight grid on these questions.
+This is known-benchmark development, not an untouched confirmatory evaluation.
+
+```bash
+sbatch --nodelist=dgxa hpc/dgx_iteration.slurm
+```
+
+See [development protocol and novelty limitations](docs/development_iteration.md).
+Outputs are under `outputs/acl/mindset_v2_development100_r01/`; repeated runs
+resume exact completed cells. No full-run promotion, API calls or GPU jobs occur
+in this stage. The ACL-2026 LightMem implementation is unchanged.
+
+The diagnosis-driven [joint-energy prototype](docs/joint_energy_development.md)
+has a separate calibration and job-specific outputs. Its DGX-only bounded test
+uses `hpc/dgx_joint_iteration.slurm`; actual-answer end-to-end latency uses the
+separate full-A100 `hpc/dgx_joint_answers.slurm`. LightMem is now requested at
+eight hits, with its source unchanged and unequal internal candidate budgets
+disclosed. All four requested latency columns are logged; CPU-only runs leave
+end-to-end P50/P95 unmeasured. Neither prototype authorizes full paper runs.
+
+## Paper pipeline
+
+```bash
+python scripts/acl.py freeze
+python scripts/acl.py plan --output experiments/NEW_PLAN.json
+python scripts/acl.py prepare --dataset locomo --method mindset --output outputs/acl/memory/locomo/mindset
+# After explicitly freezing the final protocol and starting the local model:
+python scripts/acl.py answer --prepared outputs/acl/memory/locomo/mindset --model qwen35_9b --output outputs/acl/runs/locomo/mindset/qwen35_9b
+python scripts/acl.py judge --run outputs/acl/runs/locomo/mindset/qwen35_9b
+python scripts/acl.py summarize --runs RUN1 RUN2 --output outputs/acl/reports
+python scripts/acl.py statistics --runs RUN1 RUN2 --output outputs/acl/statistics
+python scripts/acl.py efficiency --dataset locomo --output outputs/acl/NEW_EFFICIENCY --repetitions 3
+```
+
+All six methods require the same source histories and common evidence/context
+budgets. Checkpoint commits, dataset/manifests, configuration, prompts, source,
+calibration and generated evidence are hashed. Resume rejects mismatches.
+Full efficiency uses fresh subprocesses, no score-cache reuse, repeated identical
+hardware, and separate construction/answer/judge usage.
+
+Read [protocol](docs/acl_protocol.md), [baseline fidelity](docs/baseline_fidelity.md),
+[tuning guide](docs/mindset.md) and [remaining readiness work](docs/readiness.md).
+No novelty, SOTA, QA gain or runtime improvement follows merely from this setup.
+
+## Layout
 
 ```text
-data/locomo/locomo10.json
-data/memory_agent_bench/Test_Time_Learning-00000-of-00001.parquet
-data/memory_agent_bench/entity2id.json
+configs/             Protocol, checkpoint locks and judge configuration
+data/manifests/      Exact benchmark IDs and source hashes
+data/development/    Independent development histories and transition labels
+src/mindset/         Memory, retrieval and evaluation implementation
+src/mindset/acl/     Reproducible preparation, calibration, analysis and validation
+scripts/acl.py       Experiment entry point
+experiments/mindset/ Calibrated parameters and independent learned comparator
+hpc/                 CPU and future GPU/Slurm scripts
+tests/               Unit, mathematical, leakage and pipeline tests
+legacy/              Preserved earlier workflow, excluded from publication
+outputs/acl/         Generated outputs, excluded from Git
 ```
 
-The exact paper sample IDs and order are versioned in `data/manifests/`. Dataset paths can also be supplied through the environment variables documented in `.env.example`.
-
-## Validation and reproduction
-
-Run the local test suite before launching provider-backed experiments:
-
-```powershell
-.\.venv\Scripts\python.exe scripts\test_evaluators.py
-.\.venv\Scripts\python.exe -m pytest -q
-```
-
-Example primary LoCoMo execution:
-
-```powershell
-.\.venv\Scripts\python.exe scripts\run_locomo_experiment.py `
-  --method mindset `
-  --model gpt_oss_120b `
-  --manifest data/manifests/locomo_primary700.json
-```
-
-Run the six frozen LoCoMo-700 MINDSET ablations with:
-
-```powershell
-.\.venv\Scripts\python.exe scripts\run_locomo_mindset_ablations.py `
-  --plan outputs/plans/locomo_mindset_ablations700_v1.json `
-  --state outputs/orchestration/reproduction_ablations700.json
-```
-
-Run all twelve full LoCoMo-700 GLM/Gemma cells with:
-
-```powershell
-.\.venv\Scripts\python.exe scripts\run_locomo_cross_backbones.py `
-  --plan outputs/plans/locomo_cross_backbone700_glm_gemma_v1.json `
-  --state outputs/orchestration/reproduction_cross700.json
-```
-
-These commands make paid provider calls. Run configurations, predictions, metrics, telemetry, and snapshots are written beneath `outputs/`.
-
-## Baseline fidelity
-
-- **MemoryBank** follows its dialogue memory, summary, personality, and forgetting architecture, using the shared GPT-OSS backbone for generated summaries.
-- **LightMem** is a paper-guided CPU-local reproduction. Unreleased selector/consolidation artifacts are replaced by the pinned pretrained cross-encoder and deterministic medoid-graph consolidation.
-- **Nemori** is a pinned CPU-local reproduction of semantic boundary alignment and predict-calibrate memory, with documented extractive/local substitutions.
-
-Results apply to the repository implementations described in the paper; they should not be presented as unqualified reruns of unavailable upstream training artifacts.
+Private credentials, local caches, manuscripts and historical outputs are not
+publication assets. Prepare an anonymous release separately; nothing is deleted
+by this workflow.
