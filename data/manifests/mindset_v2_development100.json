@@ -1,0 +1,965 @@
+{
+  "calibration_sha256": "d750dacbd74a63ccf8fc39762f2f7fcbb4f46b27c1c849cf1c7003f8d9ef4e0d",
+  "count": 100,
+  "excluded_previous_pilot_ids": {
+    "locomo": [
+      "conv-26:q0002",
+      "conv-26:q0003",
+      "conv-30:q0002",
+      "conv-30:q0003",
+      "conv-41:q0002",
+      "conv-41:q0008",
+      "conv-42:q0000",
+      "conv-42:q0001",
+      "conv-43:q0000",
+      "conv-43:q0003",
+      "conv-44:q0002",
+      "conv-44:q0019",
+      "conv-47:q0000",
+      "conv-47:q0002",
+      "conv-48:q0001",
+      "conv-48:q0005",
+      "conv-49:q0000",
+      "conv-49:q0005",
+      "conv-50:q0001",
+      "conv-50:q0004"
+    ],
+    "longmemeval": [
+      "001be529",
+      "00ca467f",
+      "01493427",
+      "06878be2",
+      "08f4fc43",
+      "0e5e2d1a"
+    ]
+  },
+  "parameter_selection": "independent synthetic transition histories; never this cohort's scores",
+  "prior_benchmark_exposure": true,
+  "qa_gate": "No automatic full runs; retrieval probes cannot establish answer superiority or oral acceptance",
+  "records": [
+    {
+      "category": "temporal",
+      "cluster": "conv-49",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "295334ed6f503b8aa258785d5dd5c5a37835751be79c01e44e8c24fd6a3d100a",
+      "id": "conv-49:q0070",
+      "question_sha256": "206011a939030bcede92d9862f3d81c5a3727743ea65b07db1fa401ede7de9bd"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-47",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "82cd721c921fbdc5c92c92ef7c0f22192b94e11888137a90fd4a3098cbae88b1",
+      "id": "conv-47:q0066",
+      "question_sha256": "805cde82df8fb958edff8de16d2deac8d0424511c8b3f4d49d5de14ca98aef05"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-26",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "e01564e996eb6c02b5a5b59c249e1940348192f1cb29e02afbcbe9b3eb94a340",
+      "id": "conv-26:q0062",
+      "question_sha256": "8e27a691c69571f62872d73b174beab1ea6b43e961fa0cce11ad3d8d37efdf6d"
+    },
+    {
+      "category": "single_hop",
+      "cluster": "conv-30",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "e94742a318afe7bd7654c05473de0329a2288fa687c0012e6f0a6d1d18a7bc9e",
+      "id": "conv-30:q0076",
+      "question_sha256": "f9e947a7c37b81e326dc68efef74c16392d993e7e822c6cbfb81b72f2e943699"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-44",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "aa9904f49adcea13760ef477aed1f3e5c5544d1cbd25c630e64f89daee5d7946",
+      "id": "conv-44:q0050",
+      "question_sha256": "cb9c8e95bf6a0304ca866e23cdb2bcf02767b004233dafae837c173485df9153"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-43",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "22678a5f6fbba5c644040acb33d50cdf2c082f3c6cc72993710dfb3bbbc96ca1",
+      "id": "conv-43:q0056",
+      "question_sha256": "c794b87359e706abd61be6f309edb7facb7af9e34117eac6c09b59e641371747"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-41",
+      "dataset": "locomo",
+      "gold_evidence_count": 4,
+      "history_sha256": "365be87cf1154402ae3d2381440ef390176c2b2363a876162a09317a11172d72",
+      "id": "conv-41:q0011",
+      "question_sha256": "24dd78a6b6b197f5cab708ac61a7798e5eab996526c0cd5ca6ddf2b88e4eca15"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-42",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "b04c433992eb06d96590ed6cbc1b06783ed79855be73724fe3d0c353569c5a35",
+      "id": "conv-42:q0019",
+      "question_sha256": "04c20531f17535bf469c00c6da27a1d7294405f991f5961975ab773b7857684e"
+    },
+    {
+      "category": "open_domain",
+      "cluster": "conv-50",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "3c3bc592ad2d1c9dab5f93629d4eadfe0380ba1bf3038af19de11b431454a630",
+      "id": "conv-50:q0021",
+      "question_sha256": "7d23884fbcf58d292074ef3d5eac82df64856b534da94d3417420db0f3226c90"
+    },
+    {
+      "category": "single_hop",
+      "cluster": "conv-48",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "94c2610a9b15d7a51159b77824f5e6deae0f1724a98563035de118539210a7e1",
+      "id": "conv-48:q0099",
+      "question_sha256": "c1358fe735e61cce99551620c66aa06203fe0670b7c1a4d8aabb1eb217e2edd0"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-49",
+      "dataset": "locomo",
+      "gold_evidence_count": 4,
+      "history_sha256": "295334ed6f503b8aa258785d5dd5c5a37835751be79c01e44e8c24fd6a3d100a",
+      "id": "conv-49:q0048",
+      "question_sha256": "5eccb6f064f38e5bac56f014702b58bef2e7151b80090c0073a29ea57edcbd66"
+    },
+    {
+      "category": "open_domain",
+      "cluster": "conv-47",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "82cd721c921fbdc5c92c92ef7c0f22192b94e11888137a90fd4a3098cbae88b1",
+      "id": "conv-47:q0035",
+      "question_sha256": "921f002dda0038fb20cc28f4b8b0ad31b7446c785cd108059d18045e3871a6a0"
+    },
+    {
+      "category": "open_domain",
+      "cluster": "conv-26",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "e01564e996eb6c02b5a5b59c249e1940348192f1cb29e02afbcbe9b3eb94a340",
+      "id": "conv-26:q0027",
+      "question_sha256": "e2c42b78284a5975411ef8460b2feefb5a0bad5d86762e1ea787069c41f57574"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-30",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "e94742a318afe7bd7654c05473de0329a2288fa687c0012e6f0a6d1d18a7bc9e",
+      "id": "conv-30:q0025",
+      "question_sha256": "da3129ddeab996fd9bacf356f3dc1adac3cdef22cf7035a2527be67f13ea8279"
+    },
+    {
+      "category": "single_hop",
+      "cluster": "conv-44",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "aa9904f49adcea13760ef477aed1f3e5c5544d1cbd25c630e64f89daee5d7946",
+      "id": "conv-44:q0108",
+      "question_sha256": "833e873a920d2dea615b283c0c5e0692917c6240305e8eda9fd2af220aa8fda6"
+    },
+    {
+      "category": "single_hop",
+      "cluster": "conv-43",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "22678a5f6fbba5c644040acb33d50cdf2c082f3c6cc72993710dfb3bbbc96ca1",
+      "id": "conv-43:q0165",
+      "question_sha256": "edccef640857268dc0effb121049623b780285aeeec689bf40c2a08b3a724d76"
+    },
+    {
+      "category": "open_domain",
+      "cluster": "conv-41",
+      "dataset": "locomo",
+      "gold_evidence_count": 4,
+      "history_sha256": "365be87cf1154402ae3d2381440ef390176c2b2363a876162a09317a11172d72",
+      "id": "conv-41:q0050",
+      "question_sha256": "328b9c309a250a22c1f95cdb2cbe559c07bf9c3203d7ced71de87c270df814dd"
+    },
+    {
+      "category": "open_domain",
+      "cluster": "conv-42",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "b04c433992eb06d96590ed6cbc1b06783ed79855be73724fe3d0c353569c5a35",
+      "id": "conv-42:q0004",
+      "question_sha256": "90cd146d9aa1a635211c6841ee8064b79aec400cf2c7296b543d5d9634766916"
+    },
+    {
+      "category": "single_hop",
+      "cluster": "conv-50",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "3c3bc592ad2d1c9dab5f93629d4eadfe0380ba1bf3038af19de11b431454a630",
+      "id": "conv-50:q0136",
+      "question_sha256": "cc514b69f7d4859d4d4e29847a7f557890b30705fceb1651fa9810b7b68f6255"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-48",
+      "dataset": "locomo",
+      "gold_evidence_count": 3,
+      "history_sha256": "94c2610a9b15d7a51159b77824f5e6deae0f1724a98563035de118539210a7e1",
+      "id": "conv-48:q0085",
+      "question_sha256": "1f07134df52319d7a27e8ba30e409a96429996dd834fea7c90bf709a9e4f5704"
+    },
+    {
+      "category": "single_hop",
+      "cluster": "conv-49",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "295334ed6f503b8aa258785d5dd5c5a37835751be79c01e44e8c24fd6a3d100a",
+      "id": "conv-49:q0137",
+      "question_sha256": "30c351831614b3f9d6117b8fc2cb29418aaa1a003fa231b07b1e5d566d9f6421"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-47",
+      "dataset": "locomo",
+      "gold_evidence_count": 3,
+      "history_sha256": "82cd721c921fbdc5c92c92ef7c0f22192b94e11888137a90fd4a3098cbae88b1",
+      "id": "conv-47:q0024",
+      "question_sha256": "c7b5a39c9382c8a8656e08e70ba6d09830a54571c29b6f60a74b8e2f997e2518"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-26",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "e01564e996eb6c02b5a5b59c249e1940348192f1cb29e02afbcbe9b3eb94a340",
+      "id": "conv-26:q0055",
+      "question_sha256": "2c9167bb276b8d7977fa81823490b40cc94a73580096691ff46a01b23e853130"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-30",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "e94742a318afe7bd7654c05473de0329a2288fa687c0012e6f0a6d1d18a7bc9e",
+      "id": "conv-30:q0038",
+      "question_sha256": "ef6045fc71ba70d9b00807893064642d7733c2687c5cb49a50d9d245edbc0dfb"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-44",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "aa9904f49adcea13760ef477aed1f3e5c5544d1cbd25c630e64f89daee5d7946",
+      "id": "conv-44:q0008",
+      "question_sha256": "4c8a2851074bbe3d5f6b3348eb5a0e086038fa3018d001d4f4598256785bc83e"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-43",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "22678a5f6fbba5c644040acb33d50cdf2c082f3c6cc72993710dfb3bbbc96ca1",
+      "id": "conv-43:q0057",
+      "question_sha256": "e210fc813a14d340c87aa2428e4a3c2a7df958837a04fd39a78784d843eae8d5"
+    },
+    {
+      "category": "single_hop",
+      "cluster": "conv-41",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "365be87cf1154402ae3d2381440ef390176c2b2363a876162a09317a11172d72",
+      "id": "conv-41:q0098",
+      "question_sha256": "fa9635496b5b397abf171656dd543498ad66f7ca532fc0ab5b7986d62348e663"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-42",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "b04c433992eb06d96590ed6cbc1b06783ed79855be73724fe3d0c353569c5a35",
+      "id": "conv-42:q0006",
+      "question_sha256": "f5ef53e07522691ccc6d279fedad15f86ee0f08676bcc368d186c6d78699e6fe"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-50",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "3c3bc592ad2d1c9dab5f93629d4eadfe0380ba1bf3038af19de11b431454a630",
+      "id": "conv-50:q0031",
+      "question_sha256": "08feef9fd1222c117835883bdfd94402fc07d406b6a1171341957c09c10fea1a"
+    },
+    {
+      "category": "open_domain",
+      "cluster": "conv-48",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "94c2610a9b15d7a51159b77824f5e6deae0f1724a98563035de118539210a7e1",
+      "id": "conv-48:q0048",
+      "question_sha256": "ee0ee2d413b4bd1e0ba1d69bcc0f9a45e8af3c8aae7fcab3a542a9d3d1fd5754"
+    },
+    {
+      "category": "open_domain",
+      "cluster": "conv-49",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "295334ed6f503b8aa258785d5dd5c5a37835751be79c01e44e8c24fd6a3d100a",
+      "id": "conv-49:q0071",
+      "question_sha256": "9c4ee3146e9c47ddade3202da97477dfcc9b3396a701cfdcbbd1c41285904a6b"
+    },
+    {
+      "category": "single_hop",
+      "cluster": "conv-47",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "82cd721c921fbdc5c92c92ef7c0f22192b94e11888137a90fd4a3098cbae88b1",
+      "id": "conv-47:q0100",
+      "question_sha256": "cc384c8cce58723b69458ebef779aa9900a3e1c634fe62895fcb0d3d4d954d07"
+    },
+    {
+      "category": "single_hop",
+      "cluster": "conv-26",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "e01564e996eb6c02b5a5b59c249e1940348192f1cb29e02afbcbe9b3eb94a340",
+      "id": "conv-26:q0123",
+      "question_sha256": "efac0c8a82d0884ca801b996d169bc0bd63c504062a8c02dba9b5faceb0298ff"
+    },
+    {
+      "category": "single_hop",
+      "cluster": "conv-30",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "e94742a318afe7bd7654c05473de0329a2288fa687c0012e6f0a6d1d18a7bc9e",
+      "id": "conv-30:q0068",
+      "question_sha256": "3694b4c4fcab5c30500182545b35b64e87210a9344f5cc10e44d14614782aecc"
+    },
+    {
+      "category": "open_domain",
+      "cluster": "conv-44",
+      "dataset": "locomo",
+      "gold_evidence_count": 3,
+      "history_sha256": "aa9904f49adcea13760ef477aed1f3e5c5544d1cbd25c630e64f89daee5d7946",
+      "id": "conv-44:q0033",
+      "question_sha256": "9b954edc51692eea9f8f5afe4177e43b418a79bdb0a89ee340be0a04d9887f1f"
+    },
+    {
+      "category": "open_domain",
+      "cluster": "conv-43",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "22678a5f6fbba5c644040acb33d50cdf2c082f3c6cc72993710dfb3bbbc96ca1",
+      "id": "conv-43:q0051",
+      "question_sha256": "067a574ddddec595aaf46a492662bb2ca1c850b0881aeb855414aed7c372976f"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-41",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "365be87cf1154402ae3d2381440ef390176c2b2363a876162a09317a11172d72",
+      "id": "conv-41:q0022",
+      "question_sha256": "4819d32c058c4c3fda6690bbefab4172827c4518ae212e19b3c848bfb18219f8"
+    },
+    {
+      "category": "single_hop",
+      "cluster": "conv-42",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "b04c433992eb06d96590ed6cbc1b06783ed79855be73724fe3d0c353569c5a35",
+      "id": "conv-42:q0118",
+      "question_sha256": "7c7ac2bb8333cb18e93f7a55dd6e71adac0388c095a2e8b20464e5dbd3b78678"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-50",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "3c3bc592ad2d1c9dab5f93629d4eadfe0380ba1bf3038af19de11b431454a630",
+      "id": "conv-50:q0045",
+      "question_sha256": "9d4eb320a74fc9cdcf64b0b53bd23df4b7d2da5fb84aab836858c2f85969fdb1"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-48",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "94c2610a9b15d7a51159b77824f5e6deae0f1724a98563035de118539210a7e1",
+      "id": "conv-48:q0029",
+      "question_sha256": "aa00be86ab6b9aa61d355022145127804dbeecae85472107f77f47020892a208"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-49",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "295334ed6f503b8aa258785d5dd5c5a37835751be79c01e44e8c24fd6a3d100a",
+      "id": "conv-49:q0061",
+      "question_sha256": "acaba577d77e74f5d7703b61642f7005bf327c7e464330b910cc81e02ed576d4"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-47",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "82cd721c921fbdc5c92c92ef7c0f22192b94e11888137a90fd4a3098cbae88b1",
+      "id": "conv-47:q0021",
+      "question_sha256": "7f398918628cc42109643788bf7bba26d1e632ba1f9c6d461625de4b1f1710cb"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-26",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "e01564e996eb6c02b5a5b59c249e1940348192f1cb29e02afbcbe9b3eb94a340",
+      "id": "conv-26:q0080",
+      "question_sha256": "10ef56f85839c8ff6fbe6c2a38893ccb20b5af2db362d12f434a99cc3930851d"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-30",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "e94742a318afe7bd7654c05473de0329a2288fa687c0012e6f0a6d1d18a7bc9e",
+      "id": "conv-30:q0009",
+      "question_sha256": "6d975ae548126b5e3fa453acaf29dd67f9942171e5d67f77c6e8a24744006276"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-44",
+      "dataset": "locomo",
+      "gold_evidence_count": 8,
+      "history_sha256": "aa9904f49adcea13760ef477aed1f3e5c5544d1cbd25c630e64f89daee5d7946",
+      "id": "conv-44:q0003",
+      "question_sha256": "5da378c5189f4abb679a6df1d7d5191d251d9b2fd75618d9eea014699fbfe172"
+    },
+    {
+      "category": "temporal",
+      "cluster": "conv-43",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "22678a5f6fbba5c644040acb33d50cdf2c082f3c6cc72993710dfb3bbbc96ca1",
+      "id": "conv-43:q0033",
+      "question_sha256": "cc832c754b7e4a2fb3aa04e836ae958bf1dfd12e4f2b71f310b843d42892688b"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-41",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "365be87cf1154402ae3d2381440ef390176c2b2363a876162a09317a11172d72",
+      "id": "conv-41:q0003",
+      "question_sha256": "bd50469217905775d22da65a1baf1d3337c3b87ad81675a2ad73b3a11ff7e4fa"
+    },
+    {
+      "category": "multi_hop",
+      "cluster": "conv-42",
+      "dataset": "locomo",
+      "gold_evidence_count": 2,
+      "history_sha256": "b04c433992eb06d96590ed6cbc1b06783ed79855be73724fe3d0c353569c5a35",
+      "id": "conv-42:q0010",
+      "question_sha256": "a96e4a254912c58287225e10e20acc4a0d4b3bcc7ffc01ea6c1aeff7bfbd5b37"
+    },
+    {
+      "category": "open_domain",
+      "cluster": "conv-50",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "3c3bc592ad2d1c9dab5f93629d4eadfe0380ba1bf3038af19de11b431454a630",
+      "id": "conv-50:q0013",
+      "question_sha256": "9bcab825f8249b6eb71b1196fbdbdd10cb90ee202bbfdac96fb174ce86d39671"
+    },
+    {
+      "category": "single_hop",
+      "cluster": "conv-48",
+      "dataset": "locomo",
+      "gold_evidence_count": 1,
+      "history_sha256": "94c2610a9b15d7a51159b77824f5e6deae0f1724a98563035de118539210a7e1",
+      "id": "conv-48:q0164",
+      "question_sha256": "c0aca29ed3436d6856392a917669b34855540c723da68100a8c11edc84fe77ca"
+    },
+    {
+      "category": "temporal-reasoning",
+      "cluster": "gpt4_7ddcf75f",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "0beaa2f6b78867a3d58d7b29d484ab2c2d96a75c1d449da88e833d1bf36bc8ce",
+      "id": "gpt4_7ddcf75f",
+      "question_sha256": "e0badb8b7a6411ddd0bbc2ee115d66c81e74ac1746cc6b501d4807976922c0d7"
+    },
+    {
+      "category": "single-session-user",
+      "cluster": "95bcc1c8",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "58efaa730f3a9da00d5ab4eb48c9a51c5cbe09d5e6ff688a91460397f2d11178",
+      "id": "95bcc1c8",
+      "question_sha256": "fc9b701586d2909815451409e5d296d04a571d4d153bab3a0be8e45b415318c3"
+    },
+    {
+      "category": "single-session-preference",
+      "cluster": "d24813b1",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "45cb18dc2f4068b1c634dc8bcbf7bad451f760d531fb163ba4abadc15a98265e",
+      "id": "d24813b1",
+      "question_sha256": "46b720e08ccf6d2ccbe09c3fdea268d7e17082c3828fed6c87b126f1be22a509"
+    },
+    {
+      "category": "multi-session",
+      "cluster": "3a704032",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 3,
+      "history_sha256": "dfdf6f1e87cb8abd154c9ac8a878efdca203bcb9a0a01aa559360d582dd239ab",
+      "id": "3a704032",
+      "question_sha256": "8d6a5ec0d64df1abfdea3ce3011ea1e8918ac3bdcbad29cb3fc728e0144422ea"
+    },
+    {
+      "category": "single-session-assistant",
+      "cluster": "51b23612",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "ef130c07bf9cb06d0019e4b6eaae3f2e91b3f213d4a40b9b43fc2b282cc7bd18",
+      "id": "51b23612",
+      "question_sha256": "183fcf158e7437640c9d1e82f48c615d813651235c120bba64aa940b87980e19"
+    },
+    {
+      "category": "knowledge-update",
+      "cluster": "7e974930",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "7307e40c763bc331acbcb8aaba3615dbc80b97321f1902b08d7c4ab1d6c86428",
+      "id": "7e974930",
+      "question_sha256": "1fc20294056b1bb8beda8bd7ec7a38ff493ef612d80fa82a6a6c2e6aafddb6dd"
+    },
+    {
+      "category": "temporal-reasoning",
+      "cluster": "2ebe6c92",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "7c52d57979b45d24f35267a94095ac7a328d850bee40cd4bf0910fe11516e9f8",
+      "id": "2ebe6c92",
+      "question_sha256": "b732cf7cd97e6bb9a6f99540e1062a3ffeb654a391d452281c333bc00a8d2e6d"
+    },
+    {
+      "category": "single-session-user",
+      "cluster": "86b68151",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "eef9818c234af5de4b58d4c4cc7a3bac1d6c9609a4b2092d4447b1bae3d539f2",
+      "id": "86b68151",
+      "question_sha256": "9754bc10deda94517331e0f6f59f2025682317178c23c4953778f418a2f7527c"
+    },
+    {
+      "category": "single-session-preference",
+      "cluster": "32260d93",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "75b8002807e38ab20703ccfa4884f54c21b8195494a08340adc65ddd90e6c273",
+      "id": "32260d93",
+      "question_sha256": "13572c409e34baa3646636f9170b195c72235323166324e9a93be0fefd282ee5"
+    },
+    {
+      "category": "multi-session",
+      "cluster": "55241a1f",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "4c9e81e3ca866ee39e0cb235450b5573cd722f31505822dff801f40fb5ec4f15",
+      "id": "55241a1f",
+      "question_sha256": "057774f29ae406390e100efc5a9a53bc874624f72f0ac44e77211e8b742daeb4"
+    },
+    {
+      "category": "single-session-assistant",
+      "cluster": "1de5cff2",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "87457955f7f014724794789fc136dae00aec49f910764e0cf1377d6de409493a",
+      "id": "1de5cff2",
+      "question_sha256": "448204feebba4257a5790f01cacab4679529c42204acd020da48f0b3a616d94e"
+    },
+    {
+      "category": "knowledge-update",
+      "cluster": "dfde3500",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "069499da4ebc78500450014f247015b08e7b3763c5fcd63b0aea7fcc28422cea",
+      "id": "dfde3500",
+      "question_sha256": "a108baaf74cbd52cc79eb5d9411a760c5bd9a2b9e88325d6c275029d1d429ec5"
+    },
+    {
+      "category": "temporal-reasoning",
+      "cluster": "gpt4_fa19884d",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "9ec763d80022f90430c3043a5d440ddc58fbd6377b9231c68880ffb5e03e17c5",
+      "id": "gpt4_fa19884d",
+      "question_sha256": "27b83f849176a973136272279a295a13a0dd68c58c8b48290d439062919ae54c"
+    },
+    {
+      "category": "single-session-user",
+      "cluster": "f4f1d8a4",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "d510a45beb33fe10a8cefa9f94963d52ae726b7e4572842356e9f3555ace9f7e",
+      "id": "f4f1d8a4",
+      "question_sha256": "fd90e086eaab1f56fc0590b7290511c666fdb6a250e4db6c59771b7027433770"
+    },
+    {
+      "category": "single-session-preference",
+      "cluster": "8a2466db",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "f94dc0937bc4c22b289f32c9f59860258c45e30e361064b3a52ffd070e2725bc",
+      "id": "8a2466db",
+      "question_sha256": "802292564fbc46d58f98660412899f6bc1e5293b880308a5187257ff3a1075bf"
+    },
+    {
+      "category": "multi-session",
+      "cluster": "e831120c",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "1016735929c829e45f0538d9f34e3e6088e4e5383dde34a7b2ceb2a4cbf00299",
+      "id": "e831120c",
+      "question_sha256": "9d8ad0620c6bad63548969ad50fba06369e59fcae718530c4e933cdb9315a116"
+    },
+    {
+      "category": "single-session-assistant",
+      "cluster": "c8f1aeed",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "5e952e11e3da0230ee303ec74c1040fa602422d5084a3d5cb9732ba289302650",
+      "id": "c8f1aeed",
+      "question_sha256": "5756deefd331bb7a97b55698820278d326d4ffe46ee9ecde0824e2e622ea1908"
+    },
+    {
+      "category": "knowledge-update",
+      "cluster": "2133c1b5_abs",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "f22dc30a5cd0450891565115fc30662bda505ef1d1dc2b3e6795cfc1abe6d05d",
+      "id": "2133c1b5_abs",
+      "question_sha256": "192c89c52492f1bff9a39a8347780a3336cb3a9de7d30d9056be62e32829d50e"
+    },
+    {
+      "category": "temporal-reasoning",
+      "cluster": "gpt4_9a159967",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 3,
+      "history_sha256": "87470c7136d7f20089dfa0d5dbd6d2e7143390c47a4be98e94f8dc9bac1bbce3",
+      "id": "gpt4_9a159967",
+      "question_sha256": "e5fc407caed11aec17e32f7bf9cea9e91ad04a2fea25e21899076598872cf66d"
+    },
+    {
+      "category": "single-session-user",
+      "cluster": "66f24dbb",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "c9279162f61b18c52d595fa0ddb4e66f89898abd8246fdb14c2344572c72ce4d",
+      "id": "66f24dbb",
+      "question_sha256": "79b844e646498044145c248e42010f8cdd83d42f9ee92002dbdf1623b0df6b23"
+    },
+    {
+      "category": "single-session-preference",
+      "cluster": "1d4e3b97",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "371bea594496f02b7471219be8a788058e358c941ff01acd6d671886cd16dd32",
+      "id": "1d4e3b97",
+      "question_sha256": "2512064a4bb109efed028976e13c68a77fe1ae09359f233856973406a2152173"
+    },
+    {
+      "category": "multi-session",
+      "cluster": "9aaed6a3",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "4c2b08b5ce56fd102a5ecf3374d8fe3bf08fa0c94340285b33e8e8e0165f35b4",
+      "id": "9aaed6a3",
+      "question_sha256": "3bd8caa5fe14ca3544b520e7934a0a0939efed5d91b2d47bc2d375ece9111915"
+    },
+    {
+      "category": "single-session-assistant",
+      "cluster": "778164c6",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "c427e30f2778d8c23b2ce5ef93480bdb704270f259c750bff8555452dc0372bb",
+      "id": "778164c6",
+      "question_sha256": "fc700d2750201f6082f709e00fd57bafe33d26778e2cd48222adcbd85f5285c9"
+    },
+    {
+      "category": "knowledge-update",
+      "cluster": "c6853660",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "e35d10b62365efd75f6f7751360682313ddec71bf5708e8d2534b7e00d3823d9",
+      "id": "c6853660",
+      "question_sha256": "0b7a5b905a5a67e27efe1f6063bf1f930f900a5c6ffa1aaa020bfbed5b9df857"
+    },
+    {
+      "category": "temporal-reasoning",
+      "cluster": "0bc8ad92",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 3,
+      "history_sha256": "7587190bf701889422727a5bb95a2954cbc4adbfecab4e1260752588f81a13df",
+      "id": "0bc8ad92",
+      "question_sha256": "8dfc3af9511d9f276714e49c142fe1c9d81bf6a0741db56cfc583ec7562b5996"
+    },
+    {
+      "category": "single-session-user",
+      "cluster": "853b0a1d",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "f179e3eea7e683da0620c273fcbe7f3067e33f81f80c65275846a79b569f39e2",
+      "id": "853b0a1d",
+      "question_sha256": "8a03cfffc8a59acdcac9b0b9d00deae0ae0ea2eae0c51da05f93d64cc463feae"
+    },
+    {
+      "category": "single-session-preference",
+      "cluster": "1da05512",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "ca18adb8c26f1872a5d0d19d4a6b0be4177322cc165fb95dc05d5db2f5740a6d",
+      "id": "1da05512",
+      "question_sha256": "1ca519fc2e9f7f0de7924e9a8480e9e1cd697b92c52844a9f1ebcd77b2451c72"
+    },
+    {
+      "category": "multi-session",
+      "cluster": "ba358f49",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "bf0f7e078095962174154f3ca92e462ff466f735e929adc7226ca4de5ace1f38",
+      "id": "ba358f49",
+      "question_sha256": "bee411abd203fd3c5cdcd0fad6801177bea68cb80d4c7485d78088eb581cf5e0"
+    },
+    {
+      "category": "single-session-assistant",
+      "cluster": "dc439ea3",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "d8768d52c6dc8168028bb080f04e4fdba7a8e2a8d09cc4cc7905685ae420d8ea",
+      "id": "dc439ea3",
+      "question_sha256": "fd9975b88e720625d02cb548dabc53b65ca35c052832b9b2190f612404f8ac72"
+    },
+    {
+      "category": "knowledge-update",
+      "cluster": "031748ae",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "ae43c632857792299820af902fbe9646da821cda85b9ab19d3f992404374db38",
+      "id": "031748ae",
+      "question_sha256": "ea3d865c28e6090fc0c037b0def2a64fcdf8187f8fc166b6a332d334f4cc70b2"
+    },
+    {
+      "category": "temporal-reasoning",
+      "cluster": "gpt4_7abb270c",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 6,
+      "history_sha256": "9ac3e6ba884ef0fbd07a9d2198ef304d9e780043b5cce2f6bda17a860b557d63",
+      "id": "gpt4_7abb270c",
+      "question_sha256": "d4e86b5ff2384017a6da751bcef795b8356c5baa157e98ae3eb826b6e1675d08"
+    },
+    {
+      "category": "single-session-user",
+      "cluster": "bc8a6e93_abs",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "dfbfa6b0aa4a0d9e3cb4b91d17911d9d4c8fafe55cfae08fd516142c78e519aa",
+      "id": "bc8a6e93_abs",
+      "question_sha256": "b05090b6f3d9bc7164dec3db273f3412183c8c09a3e704304b1d606171be1195"
+    },
+    {
+      "category": "single-session-preference",
+      "cluster": "95228167",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "23d0f84d27a8359fd6694cb04c3e7aa74f5ea588f4d07151d80585c122afe670",
+      "id": "95228167",
+      "question_sha256": "0b25a5aa122cc1a65693681c75227e408beedbf36b9ae5d9ff6ea022a4410b70"
+    },
+    {
+      "category": "multi-session",
+      "cluster": "gpt4_5501fe77",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 3,
+      "history_sha256": "30dc7d4aa582e470d5a3b262aa7843c706df696afea63f1fc4f765ecf3b2f897",
+      "id": "gpt4_5501fe77",
+      "question_sha256": "6c3f160e72ab55b5af786a337c040619115a4f1e6c7d8ec705fd093ecc2c39d1"
+    },
+    {
+      "category": "single-session-assistant",
+      "cluster": "352ab8bd",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "4f918ba1aa125f4a5ad0a597e8c8986d653d76be5b30b7a88fe21af10e76361f",
+      "id": "352ab8bd",
+      "question_sha256": "6b8278bb2b29fc8d9064b2b15af231d04a5c232ce69d2180bd95b94c1666997f"
+    },
+    {
+      "category": "knowledge-update",
+      "cluster": "45dc21b6",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "9af6743120e7119b0c4ccc558dd84d622ec1ba91423dfb2af35d32e87bf4b421",
+      "id": "45dc21b6",
+      "question_sha256": "97effce8693db18424e12ff2496863f088533c20ede7a4046b2ab946cca859c0"
+    },
+    {
+      "category": "temporal-reasoning",
+      "cluster": "gpt4_1e4a8aeb",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "e3d9f279be095cf7508a3226385a090900f411993c7ac784a17a15620c910204",
+      "id": "gpt4_1e4a8aeb",
+      "question_sha256": "3828a571f039db182ca552787976261638ff4d4b836f4c9c66dbc6d40e652a6a"
+    },
+    {
+      "category": "single-session-user",
+      "cluster": "25e5aa4f",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "ea269f255699149e8d7102c8d46d6d8d3319fd536ae4a5b15e8603bc3cbe1c00",
+      "id": "25e5aa4f",
+      "question_sha256": "56a694dfd9b2c54b975449dd234e1c72b77865f7629017263f424299fd0e033c"
+    },
+    {
+      "category": "single-session-preference",
+      "cluster": "505af2f5",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "7bcffde90c3d623f0e108504208af2c0c1e4bed2bcd56afbc310af84bf245a68",
+      "id": "505af2f5",
+      "question_sha256": "8ebd0b4ca7c452296451318820326800e76eab9546103b64eef1475917f8ad59"
+    },
+    {
+      "category": "multi-session",
+      "cluster": "2ce6a0f2",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 4,
+      "history_sha256": "0d8a07bd8ddddb62f1403de4f9d5bd603a4fc9d5f850ab61bd951f47455cf78c",
+      "id": "2ce6a0f2",
+      "question_sha256": "f847d8ce22cb30d1ab814e4264b659021a5b8288d61adb15a561f12ecf500ba9"
+    },
+    {
+      "category": "single-session-assistant",
+      "cluster": "eaca4986",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "6b19e3d10d604f8694e9f5cab4fd08fde79da1da9d243722a0fd0008d86c471b",
+      "id": "eaca4986",
+      "question_sha256": "a4787755f7de4fc989c3b1004147e5498c9e7de38db58888d190a3c08b6260ec"
+    },
+    {
+      "category": "knowledge-update",
+      "cluster": "08e075c7",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "406f3748079100f566126075b931a3958a5f4d2b53a5ce1e6b2d80f2b3a15653",
+      "id": "08e075c7",
+      "question_sha256": "8d567a3853ea04a3f4615b98da15102df3c42282f7c8ea2c5806ec517421aec9"
+    },
+    {
+      "category": "temporal-reasoning",
+      "cluster": "gpt4_6ed717ea",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "d97fef2c86e6b1c8508d022e5cf1b504cf9f92d3170044e858dd2c0ca718a5a2",
+      "id": "gpt4_6ed717ea",
+      "question_sha256": "255ff3033a628dc0944f1855ca486fa934743567d2b629e6da4c55e20559b1da"
+    },
+    {
+      "category": "single-session-user",
+      "cluster": "bc8a6e93",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "0e98f1737d5d120edb68375105b59dadfe2527a3b4f1e33af49ebe2c944caeff",
+      "id": "bc8a6e93",
+      "question_sha256": "941fa4769d19ab9e59366255dd0a6d26b51c6d33eb52cb659ccabe026f7f377c"
+    },
+    {
+      "category": "single-session-preference",
+      "cluster": "35a27287",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "cd42b91b82ac97ef39a6df896612fedc647e82c4802ae5d793354de7fa2e14ef",
+      "id": "35a27287",
+      "question_sha256": "c7c9e97aa2e58fbc032df128a7bfd4ae5af09099021bc96835561b10be23c405"
+    },
+    {
+      "category": "multi-session",
+      "cluster": "7405e8b1",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "1f57938e7455baae5a5e595774dba544b7df944b6147bd2eebe49452cd62c1b8",
+      "id": "7405e8b1",
+      "question_sha256": "b271bf32b738c87f574aa2ea5fba8faad40e551ee70d45587f9bf348ce88b690"
+    },
+    {
+      "category": "single-session-assistant",
+      "cluster": "65240037",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "8a9015a80e73f4879b4fcfdb0bc9c9864606d50707c187ce2bcd28d5b2c63e92",
+      "id": "65240037",
+      "question_sha256": "551b3b705d3d40f2d30d12647cede72c3bf245d108185812586cc680d8fd17dd"
+    },
+    {
+      "category": "knowledge-update",
+      "cluster": "42ec0761",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "871ed8b7d9c51ab29d8c0465918b753a41f2be1a7a8a3185d758ced6edf98eb0",
+      "id": "42ec0761",
+      "question_sha256": "15d2d2611c30da0f18773e1d3904955f6cd8f1a263f2c87a379deca43554d578"
+    },
+    {
+      "category": "temporal-reasoning",
+      "cluster": "gpt4_68e94288",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 2,
+      "history_sha256": "8b853ae96ab4b63bda36c02b4300264edd5c7d71a2b1a000fde28f1f026012e7",
+      "id": "gpt4_68e94288",
+      "question_sha256": "cbcbae383fc6c68e834d1a1bae2ac79363f17be73d89de1f403897aa74cb6a03"
+    },
+    {
+      "category": "single-session-user",
+      "cluster": "caf9ead2",
+      "dataset": "longmemeval",
+      "gold_evidence_count": 1,
+      "history_sha256": "d011b1f6e2b5331fb229b2244f921ce398bc68e88b5e37ae92bb575d2030f228",
+      "id": "caf9ead2",
+      "question_sha256": "0b57eb3470acafca64ddf6f0323482349292fb1d189b0451f0c3d2474232a457"
+    }
+  ],
+  "role": "development_diagnostic_not_confirmatory_test",
+  "schema_version": "mindset-v2-development100-v1",
+  "seed": 0,
+  "selection": "50 per benchmark; seeded ID hashes; balanced LoCoMo clusters and LME categories",
+  "sources": {
+    "locomo": {
+      "manifest_path": "data/manifests/locomo_standard1540.json",
+      "manifest_sha256": "bb033bee1ef8f1d3eebab71f48c2620e2266a439bb37df86a8706a2f9d78545d",
+      "source_path": "data/locomo/locomo10.json",
+      "source_sha256": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4"
+    },
+    "longmemeval": {
+      "manifest_path": "data/manifests/longmemeval_s500_instance_ids.json",
+      "manifest_sha256": "42b99e29ec89875d89300b17ef8ebc4dddce9aef573d40cb891be905b0c45cfe",
+      "source_path": "data/longmemeval/longmemeval_s_cleaned.json",
+      "source_sha256": "d6f21ea9d60a0d56f34a05b609c79c88a451d2ae03597821ea3d5a9678c3a442"
+    }
+  },
+  "variants": [
+    "current",
+    "flat_hybrid48",
+    "balanced_provenance",
+    "provenance_logvolume"
+  ]
+}

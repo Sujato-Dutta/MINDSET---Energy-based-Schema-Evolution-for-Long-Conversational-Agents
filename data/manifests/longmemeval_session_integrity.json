@@ -1,0 +1,99 @@
+{
+  "duplicate_session_histories": [
+    {
+      "episodes": 616,
+      "question_id": "58bf7951",
+      "repeated_native_sessions": {
+        "07b7a667_1": 2
+      }
+    },
+    {
+      "episodes": 510,
+      "question_id": "1e043500",
+      "repeated_native_sessions": {
+        "d5d1f9c4": 2
+      }
+    },
+    {
+      "episodes": 514,
+      "question_id": "001be529",
+      "repeated_native_sessions": {
+        "sharegpt_SYbLHTK_0": 2
+      }
+    },
+    {
+      "episodes": 512,
+      "question_id": "d23cf73b",
+      "repeated_native_sessions": {
+        "334ab2f1": 2
+      }
+    },
+    {
+      "episodes": 493,
+      "question_id": "caf03d32",
+      "repeated_native_sessions": {
+        "sharegpt_YCfhENU_0": 2
+      }
+    },
+    {
+      "episodes": 489,
+      "question_id": "91b15a6e",
+      "repeated_native_sessions": {
+        "sharegpt_fgnzLtE_0": 2
+      }
+    },
+    {
+      "episodes": 551,
+      "question_id": "078150f1",
+      "repeated_native_sessions": {
+        "sharegpt_z7Ogy29_0": 2
+      }
+    },
+    {
+      "episodes": 469,
+      "question_id": "gpt4_4929293b",
+      "repeated_native_sessions": {
+        "sharegpt_81riySf_0": 2
+      }
+    },
+    {
+      "episodes": 482,
+      "question_id": "gpt4_76048e76",
+      "repeated_native_sessions": {
+        "8fcaf3a9_2": 2
+      }
+    },
+    {
+      "episodes": 482,
+      "question_id": "gpt4_c27434e8_abs",
+      "repeated_native_sessions": {
+        "8c64ce26_3": 2
+      }
+    },
+    {
+      "episodes": 436,
+      "question_id": "18bc8abd",
+      "repeated_native_sessions": {
+        "sharegpt_vyHqfrX_0": 2
+      }
+    },
+    {
+      "episodes": 478,
+      "question_id": "c7dc5443",
+      "repeated_native_sessions": {
+        "6b8e8bb3_1": 2
+      }
+    },
+    {
+      "episodes": 506,
+      "question_id": "1d4da289",
+      "repeated_native_sessions": {
+        "sharegpt_qktLFWS_21": 2
+      }
+    }
+  ],
+  "episodes": 246750,
+  "policy": "Preserve all occurrences; suffix duplicate episode IDs only; native gold session IDs unchanged",
+  "questions": 500,
+  "source_sha256": "d6f21ea9d60a0d56f34a05b609c79c88a451d2ae03597821ea3d5a9678c3a442"
+}
