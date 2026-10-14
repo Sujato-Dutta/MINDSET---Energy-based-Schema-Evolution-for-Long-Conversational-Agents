@@ -17,6 +17,8 @@ class Completion:
     latency_seconds: float
     request_id: str | None
     cache_hit: bool = False
+    finish_reason: str | None = None
+    incomplete: bool = False
 
 class LocalClient:
     """No remote fallback. Calls an explicitly configured local vLLM server."""
@@ -25,6 +27,7 @@ class LocalClient:
         self.url = base_url.rstrip("/") + "/chat/completions"
         self.model = model; self.timeout = timeout; self.options = options or {}
         self.revision=revision
+        self.allow_incomplete=False  # Diagnostic-only opt-in; paper path stays fail-closed.
         self.cache=None
         if cache_path:
             Path(cache_path).parent.mkdir(parents=True,exist_ok=True)
@@ -39,6 +42,8 @@ class LocalClient:
             cached=self.cache.execute("SELECT payload FROM local_completions WHERE key=?",(key,)).fetchone()
             if cached:
                 payload=json.loads(cached[0]); payload["cache_hit"]=True; payload["latency_seconds"]=0
+                if payload.get('incomplete',False) and not self.allow_incomplete:
+                    raise ValueError('Empty or truncated cached answer; no prediction committed')
                 return Completion(**payload)
         started = time.perf_counter()
         # Limited transient retries, without silently accepting malformed/empty output.
@@ -54,11 +59,15 @@ class LocalClient:
                     raise
                 time.sleep(min(10, 2 ** attempt))
         text = data["choices"][0]["message"].get("content", "")
-        if not text or data["choices"][0].get("finish_reason") == "length":
+        if text is None: text=""  # Valid API response with no answer-channel content.
+        if not isinstance(text,str): raise ValueError('Malformed nontext answer content')
+        finish=data['choices'][0].get('finish_reason')
+        incomplete=not bool(text.strip()) or finish=='length'
+        if incomplete and not self.allow_incomplete:
             raise ValueError("Empty or truncated answer; no prediction committed")
         usage = data["usage"]
         result=Completion(text.strip(), usage["prompt_tokens"], usage["completion_tokens"],
-                          time.perf_counter() - started, data.get("id"))
+                          time.perf_counter() - started, data.get("id"),finish_reason=finish,incomplete=incomplete)
         if self.cache:
             from dataclasses import asdict
             self.cache.execute("INSERT OR IGNORE INTO local_completions VALUES (?,?)",
@@ -83,6 +92,20 @@ def messages(question: str, evidence: str, question_date: str = "") -> list[dict
 
 def prompt_tokens(tokenizer, prompt_messages: list[dict], *, thinking: bool | None = None) -> int:
     kwargs = {"enable_thinking": thinking} if thinking is not None else {}
-    return len(tokenizer.apply_chat_template(prompt_messages, tokenize=True,
-                                             add_generation_prompt=True, **kwargs))
+    encoded=tokenizer.apply_chat_template(prompt_messages, tokenize=True,
+                                         add_generation_prompt=True, **kwargs)
+    # Modern multimodal-compatible tokenizer wrappers can return BatchEncoding
+    # even without return_dict=True. len(mapping) counts keys, not tokens.
+    from collections.abc import Mapping
+    from numbers import Integral
+    if isinstance(encoded,Mapping):
+        if 'input_ids' not in encoded: raise ValueError('Chat tokenizer returned no input_ids')
+        encoded=encoded['input_ids']
+    if hasattr(encoded,'tolist'): encoded=encoded.tolist()
+    if not isinstance(encoded,(list,tuple)): raise ValueError('Unsupported chat tokenization result')
+    if encoded and isinstance(encoded[0],(list,tuple)):
+        if len(encoded)!=1: raise ValueError('Expected one prompt, not a batch')
+        encoded=encoded[0]
+    if any(not isinstance(token,Integral) for token in encoded): raise ValueError('Noninteger chat token IDs')
+    return len(encoded)
 
