@@ -13,9 +13,13 @@ if __name__ == '__main__':
     p = argparse.ArgumentParser(description=__doc__); p.add_argument('--output', required=True)
     p.add_argument('--calibration', required=True)
     p.add_argument('--manifest', default=str(ROOT / 'data/manifests/mindset_v2_development100.json'))
+    p.add_argument('--knowledge-update', action='store_true')
     a = p.parse_args()
     if os.name == 'nt' or not os.environ.get('SLURM_JOB_ID'): p.error('DGX Slurm only')
-    cfg, cohort, _ = protocol(a.manifest, a.calibration); out = Path(a.output)
+    if a.knowledge_update:
+        from mindset.acl.knowledge_update import protocol as chosen_protocol
+    else: chosen_protocol = protocol
+    cfg, cohort, _ = chosen_protocol(a.manifest, a.calibration); out = Path(a.output)
     if out.exists() and any(out.iterdir()): raise ValueError('Use fresh input export')
     out.mkdir(parents=True)
     sources = queries = 0
