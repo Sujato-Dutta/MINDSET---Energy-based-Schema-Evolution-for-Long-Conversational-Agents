@@ -98,7 +98,8 @@ def prior_answers(source,identity):
                        'predictions_sha256':digest_file(source/'predictions.jsonl')}
 
 
-def run_panel(prepared,output,arms,contrasts,scope,parent):
+def run_panel(prepared,output,arms,contrasts,scope,parent,*,
+              source_adapter='original_frozen_text_only',plan_transform=None):
     if os.name=='nt' or not os.environ.get('SLURM_JOB_ID'): raise RuntimeError('DGX Slurm only')
     prepared=Path(prepared); out=Path(output); parent=Path(parent)
     manifest=ROOT/'data/manifests/mindset_v2_development100.json'
@@ -109,7 +110,7 @@ def run_panel(prepared,output,arms,contrasts,scope,parent):
     if status['status']!='complete_development' or status['completed_cells']!=100*len(arms): raise ValueError('Incomplete source panel')
     for k,path in (('manifest_sha256',manifest),('calibration_sha256',calibration),('checkpoint_lock_sha256',ROOT/'configs/checkpoints.lock.json')):
         if audit[k]!=digest_file(path): raise ValueError('Preparation identity differs: '+k)
-    if audit['source_adapter']!='original_frozen_text_only' or tuple(audit['methods'])!=tuple(arms): raise ValueError('Wrong methods/source adapter')
+    if audit['source_adapter']!=source_adapter or tuple(audit['methods'])!=tuple(arms): raise ValueError('Wrong methods/source adapter')
     retrieval=unique_rows(prepared/'retrieval.jsonl')
     cases={(d,c.id):c for d,cluster,group in groups_for(cohort,cfg) for c in group}
     planned=[]
@@ -117,6 +118,8 @@ def run_panel(prepared,output,arms,contrasts,scope,parent):
         planned+=request_plan([r for r in retrieval.values() if r['dataset']==d],{k:c for k,c in cases.items() if k[0]==d},
                               methods=arms,reader='locomo_short_phrase' if d=='locomo' else 'current')
     if len(planned)!=100*len(arms): raise ValueError('Wrong plan size')
+    if plan_transform is not None:
+        planned=plan_transform(planned,retrieval,cases)
     planned.sort(key=lambda r:(r['dataset'],r['question_id'],arms.index(r['method'])))
     checkpoint=read_json(ROOT/'configs/checkpoints.lock.json')[cfg['primary_generator']]
     identity={'manifest_sha256':digest_file(manifest),'calibration_sha256':digest_file(calibration),
@@ -129,6 +132,8 @@ def run_panel(prepared,output,arms,contrasts,scope,parent):
         'reader_module_sha256':digest_file(ROOT/'src/mindset/acl/locomo_protocol_diagnostic.py'),
         'scope':scope,'methods':arms,'contrasts':contrasts,'plan_sha256':stable_hash(planned),
         'prepared_sha256':digest_file(prepared/'retrieval.jsonl'),'prepared_audit_sha256':digest_file(prepared/'audit.json'),
+        'source_adapter':source_adapter,
+        'plan_transform_sha256':digest_file(__import__('inspect').getfile(plan_transform)) if plan_transform else None,
         'serving':'pinned Qwen3.5-9B BF16 prefetch offload, 20GB MIG, 16k cap, thinking off',
         'cache_scope':'exact full request reuse, not latency or repeatability','full_runs_authorized':False}
     previous,parent_identity=prior_answers(parent,identity); identity['parent']=parent_identity
